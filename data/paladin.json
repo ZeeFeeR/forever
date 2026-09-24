@@ -1,0 +1,2258 @@
+{
+  "schemaVersion": 1,
+  "product": "wow_classic_beta",
+  "build": "1.60.1.69977",
+  "generatedAt": "2026-09-24T07:21:01.662Z",
+  "source": "Wago DB2 / WoW Forever beta client data",
+  "class": {
+    "id": "paladin",
+    "classId": 2,
+    "name": {
+      "enUS": "Paladin",
+      "ruRU": "Паладин"
+    }
+  },
+  "traitTreeId": 1100,
+  "rules": {
+    "maxLevel": 60,
+    "firstPointLevel": 10,
+    "maxPoints": 51,
+    "pointsPerRow": 5
+  },
+  "trees": [
+    {
+      "id": "holy",
+      "order": 0,
+      "name": {
+        "enUS": "Holy",
+        "ruRU": "Свет"
+      },
+      "talents": [
+        {
+          "nodeId": 105328,
+          "spellId": 1310902,
+          "definitionId": 134823,
+          "key": "improved-holy-strike",
+          "iconFileDataId": 626003,
+          "iconName": "classicon_paladin",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Holy Strike",
+            "ruRU": "Улучшенный священный удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Holy Strike ability by 1 sec.",
+                "ruRU": "Сокращает время восстановления \"Священного удара\" на 1 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Holy Strike ability by 2 sec.",
+                "ruRU": "Сокращает время восстановления \"Священного удара\" на 2 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105639,
+          "spellId": 20262,
+          "definitionId": 135164,
+          "key": "divine-strength",
+          "iconFileDataId": 132154,
+          "iconName": "ability_golemthunderclap",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Divine Strength",
+            "ruRU": "Божественная сила"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Strength by 2%.",
+                "ruRU": "Повышает силу на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Strength by 4%.",
+                "ruRU": "Повышает силу на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Strength by 6%.",
+                "ruRU": "Повышает силу на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Strength by 8%.",
+                "ruRU": "Повышает силу на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Strength by 10%.",
+                "ruRU": "Повышает силу на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105332,
+          "spellId": 20257,
+          "definitionId": 134827,
+          "key": "divine-intellect",
+          "iconFileDataId": 136090,
+          "iconName": "spell_nature_sleep",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Divine Intellect",
+            "ruRU": "Божественный интеллект"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your total Intellect by 2%.",
+                "ruRU": "Увеличение интеллекта на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your total Intellect by 4%.",
+                "ruRU": "Увеличение интеллекта на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your total Intellect by 6%.",
+                "ruRU": "Увеличение интеллекта на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your total Intellect by 8%.",
+                "ruRU": "Увеличение интеллекта на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your total Intellect by 10%.",
+                "ruRU": "Увеличение интеллекта на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105333,
+          "spellId": 20237,
+          "definitionId": 134828,
+          "key": "healing-light",
+          "iconFileDataId": 135920,
+          "iconName": "spell_holy_holybolt",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Healing Light",
+            "ruRU": "Исцеляющий Свет"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the amount healed by your Holy Light, Flash of Light, and Holy Shock spells by 4%.",
+                "ruRU": "\"Свет небес\", \"Вспышка Света\" и \"Шок небес\" восстанавливают на 4% больше здоровья."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the amount healed by your Holy Light, Flash of Light, and Holy Shock spells by 8%.",
+                "ruRU": "\"Свет небес\", \"Вспышка Света\" и \"Шок небес\" восстанавливают на 8% больше здоровья."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the amount healed by your Holy Light, Flash of Light, and Holy Shock spells by 12%.",
+                "ruRU": "\"Свет небес\", \"Вспышка Света\" и \"Шок небес\" восстанавливают на 12% больше здоровья."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105335,
+          "spellId": 20205,
+          "definitionId": 134830,
+          "key": "spiritual-focus",
+          "iconFileDataId": 135736,
+          "iconName": "spell_arcane_blink",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Spiritual Focus",
+            "ruRU": "Духовное концентрация"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Flash of Light, Holy Light, and Light's Vigil spells a 35% chance to not lose casting time when you take damage.",
+                "ruRU": "Позволяет с вероятностью 35% избежать задержки при применении \"Вспышки Света\", \"Света небес\" и \"Дозора Света\", когда вы получаете урон."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Flash of Light, Holy Light, and Light's Vigil spells a 70% chance to not lose casting time when you take damage.",
+                "ruRU": "Позволяет с вероятностью 70% избежать задержки при применении \"Вспышки Света\", \"Света небес\" и \"Дозора Света\", когда вы получаете урон."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105334,
+          "spellId": 20224,
+          "definitionId": 134829,
+          "key": "improved-seals",
+          "iconFileDataId": 132325,
+          "iconName": "ability_thunderbolt",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Seals",
+            "ruRU": "Улучшенные печати"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Seals and Judgements by 5%.",
+                "ruRU": "Увеличивает урон от всех печатей и заклинаний категории \"Правосудие\" на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Seals and Judgements by 10%.",
+                "ruRU": "Увеличивает урон от всех печатей и заклинаний категории \"Правосудие\" на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Seals and Judgements by 15%.",
+                "ruRU": "Увеличивает урон от всех печатей и заклинаний категории \"Правосудие\" на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105331,
+          "spellId": 9453,
+          "definitionId": 134826,
+          "key": "unyielding-faith",
+          "iconFileDataId": 135984,
+          "iconName": "spell_holy_unyieldingfaith",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Unyielding Faith",
+            "ruRU": "Непоколебимая вера"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the duration of Fear and Disorient effects on you by 15%.",
+                "ruRU": "Сокращает время действия на вас эффектов страха и дезориентации на 15%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the duration of Fear and Disorient effects on you by 30%.",
+                "ruRU": "Сокращает время действия на вас эффектов страха и дезориентации на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105330,
+          "spellId": 1310897,
+          "definitionId": 134825,
+          "key": "voice-of-truth",
+          "iconFileDataId": 134229,
+          "iconName": "inv_misc_horn_03",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Voice of Truth",
+            "ruRU": "Глас истины"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Grants you immunity to Silence and Interrupt effects. Lasts 6 sec.",
+                "ruRU": "Дает невосприимчивость к эффектам немоты и прерывания на 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110871,
+          "spellId": 1310899,
+          "definitionId": 142623,
+          "key": "reverence",
+          "iconFileDataId": 135895,
+          "iconName": "spell_holy_divineillumination",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Reverence",
+            "ruRU": "Благоговение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Allows 10% of your Mana regeneration to continue while casting.",
+                "ruRU": "Во время применения заклинаний мана продолжает восполняться со скоростью 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Allows 20% of your Mana regeneration to continue while casting.",
+                "ruRU": "Во время применения заклинаний мана продолжает восполняться со скоростью 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Allows 30% of your Mana regeneration to continue while casting.",
+                "ruRU": "Во время применения заклинаний мана продолжает восполняться со скоростью 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105327,
+          "spellId": 429144,
+          "definitionId": 134822,
+          "key": "purifying-power",
+          "iconFileDataId": 135950,
+          "iconName": "spell_holy_purifyingpower",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Purifying Power",
+            "ruRU": "Очищающая сила"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of your Cleanse and Purify spells by 10% and reduces the cooldown of your Exorcism and Holy Wrath spells by 17%.",
+                "ruRU": "Снижает затраты маны на \"Очищение\" и \"Омовение\" на 10%, а также сокращает время восстановления \"Экзорцизма\" и \"Гнева небес\" на 17%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the mana cost of your Cleanse and Purify spells by 20% and reduces the cooldown of your Exorcism and Holy Wrath spells by 33%.",
+                "ruRU": "Снижает затраты маны на \"Очищение\" и \"Омовение\" на 20%, а также сокращает время восстановления \"Экзорцизма\" и \"Гнева небес\" на 33%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110873,
+          "spellId": 426065,
+          "definitionId": 142625,
+          "key": "infusion-of-light",
+          "iconFileDataId": 236254,
+          "iconName": "ability_paladin_infusionoflight",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Infusion of Light",
+            "ruRU": "Прилив Света"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Holy Shock and Flash of Light critical hits reduce the cast time of your next Holy Light cast within 15 sec by 0.5 sec.",
+                "ruRU": "Критические удары \"Шока небес\" и \"Вспышки Света\" сокращают время применения следующего \"Света небес\" на 0.5 сек. Время действия – 15 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Holy Shock and Flash of Light critical hits reduce the cast time of your next Holy Light cast within 15 sec by 1.0 sec.",
+                "ruRU": "Критические удары \"Шока небес\" и \"Вспышки Света\" сокращают время применения следующего \"Света небес\" на 1.0 сек. Время действия – 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105329,
+          "spellId": 20210,
+          "definitionId": 134824,
+          "key": "illumination",
+          "iconFileDataId": 135913,
+          "iconName": "spell_holy_greaterheal",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Illumination",
+            "ruRU": "Свечение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 20% chance to gain Mana equal to 50% of the base cost of the spell.",
+                "ruRU": "При критическом эффекте заклинаний \"Вспышка Света\", \"Свет небес\", \"Дозор Света\" и критическом исцеляющем эффекте \"Шока небес\" вы с вероятностью 20% восполняете 50% базовой стоимости заклинания."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 40% chance to gain Mana equal to 50% of the base cost of the spell.",
+                "ruRU": "При критическом эффекте заклинаний \"Вспышка Света\", \"Свет небес\", \"Дозор Света\" и критическом исцеляющем эффекте \"Шока небес\" вы с вероятностью 40% восполняете 50% базовой стоимости заклинания."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 60% chance to gain Mana equal to 50% of the base cost of the spell.",
+                "ruRU": "При критическом эффекте заклинаний \"Вспышка Света\", \"Свет небес\", \"Дозор Света\" и критическом исцеляющем эффекте \"Шока небес\" вы с вероятностью 60% восполняете 50% базовой стоимости заклинания."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 80% chance to gain Mana equal to 50% of the base cost of the spell.",
+                "ruRU": "При критическом эффекте заклинаний \"Вспышка Света\", \"Свет небес\", \"Дозор Света\" и критическом исцеляющем эффекте \"Шока небес\" вы с вероятностью 80% восполняете 50% базовой стоимости заклинания."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 100% chance to gain Mana equal to 50% of the base cost of the spell.",
+                "ruRU": "При критическом эффекте заклинаний \"Вспышка Света\", \"Свет небес\", \"Дозор Света\" и критическом исцеляющем эффекте \"Шока небес\" вы с вероятностью 100% восполняете 50% базовой стоимости заклинания."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            110871
+          ]
+        },
+        {
+          "nodeId": 105325,
+          "spellId": 20216,
+          "definitionId": 134820,
+          "key": "divine-favor",
+          "iconFileDataId": 135915,
+          "iconName": "spell_holy_heal",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Divine Favor",
+            "ruRU": "Божественное одобрение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance.",
+                "ruRU": "При приведении в действие это заклинание дает вашим следующим заклинаниям \"Свет небес\", \"Вспышка Света\" или \"Шок небес\" 100% шанса на критическое воздействие."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105324,
+          "spellId": 1310904,
+          "definitionId": 134819,
+          "key": "divine-precision",
+          "iconFileDataId": 135918,
+          "iconName": "spell_holy_healingfocus",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Divine Precision",
+            "ruRU": "Божественная точность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to hit with Holy spells by 6%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями светлой магии на 6%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to hit with Holy spells by 12%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями светлой магии на 12%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to hit with Holy spells by 18%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями светлой магии на 18%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105323
+          ]
+        },
+        {
+          "nodeId": 105323,
+          "spellId": 1311606,
+          "definitionId": 134818,
+          "key": "holy-shock",
+          "iconFileDataId": 135972,
+          "iconName": "spell_holy_searinglight",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Holy Shock",
+            "ruRU": "Шок небес"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Blasts the target with Holy energy, causing 129-139 Holy damage to an enemy, or 110-118 healing to an ally.",
+                "ruRU": "Переполняет цель мощью светлой магии, нанося 129-139 ед. урона противнику или восстанавливая 110-118 ед. здоровья союзнику."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110872,
+          "spellId": 1310905,
+          "definitionId": 142624,
+          "key": "consecrated-ground",
+          "iconFileDataId": 135926,
+          "iconName": "spell_holy_innerfire",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Consecrated Ground",
+            "ruRU": "Освященная земля"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Holy spells 5% increased damage against the first 4 enemies that enter your Consecration.",
+                "ruRU": "Ваши заклинания светлой магии наносят на 5% больше урона 4 первым противникам, попавшим в область \"Освящения\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Holy spells 10% increased damage against the first 4 enemies that enter your Consecration.",
+                "ruRU": "Ваши заклинания светлой магии наносят на 10% больше урона 4 первым противникам, попавшим в область \"Освящения\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105321,
+          "spellId": 5923,
+          "definitionId": 134816,
+          "key": "holy-power",
+          "iconFileDataId": 135938,
+          "iconName": "spell_holy_power",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Holy Power",
+            "ruRU": "Священная сила"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Holy Shock spell by 3%, and all other spells by 1%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 3%, а других ваших заклинаний – на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Holy Shock spell by 6%, and all other spells by 2%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 6%, а других ваших заклинаний – на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Holy Shock spell by 9%, and all other spells by 3%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 9%, а других ваших заклинаний – на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Holy Shock spell by 12%, and all other spells by 4%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 12%, а других ваших заклинаний – на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Holy Shock spell by 15%, and all other spells by 5%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 15%, а других ваших заклинаний – на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105320,
+          "spellId": 1310911,
+          "definitionId": 134815,
+          "key": "lights-vigil",
+          "iconFileDataId": 236256,
+          "iconName": "ability_paladin_judgementofthepure",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Light's Vigil",
+            "ruRU": "Дозор Света"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Applies Light's Vigil to the target for 30 sec. Your next Holy Shock cast on them triggers no cooldown and causes friendly targets to heal their party for 315-333, or enemy targets to suffer 175-189 Holy damage and refund 75% of Light's Vigil's Mana cost. You may only have 1 Light's Vigil active per Paladin, per party.",
+                "ruRU": "Применяет к цели \"Дозор Света\" на 30 сек. Следующий \"Шок небес\", который вы примените к этой цели, не потребует времени на восстановление. Если цель – союзник, то \"Шок небес\" восстановит всем участникам ее группы 315-333 ед. здоровья. Если цель - противник, то \"Шок небес\" нанесет ему 175-189 ед. урона от светлой магии, а вы восполните 75% затрат маны на \"Дозор Света\". Каждый паладин в каждой группе может применить не больше 1 эффекта \"Дозор Света\" единовременно."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105323
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protection",
+      "order": 1,
+      "name": {
+        "enUS": "Protection",
+        "ruRU": "Защита"
+      },
+      "talents": [
+        {
+          "nodeId": 105630,
+          "spellId": 20143,
+          "definitionId": 135155,
+          "key": "toughness",
+          "iconFileDataId": 135892,
+          "iconName": "spell_holy_devotion",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Toughness",
+            "ruRU": "Крепость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your armor value from items by 2%.",
+                "ruRU": "Увеличение на 2% эффективности усиления брони за счет носимой экипировки."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your armor value from items by 4%.",
+                "ruRU": "Увеличение на 4% эффективности усиления брони за счет носимой экипировки."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your armor value from items by 6%.",
+                "ruRU": "Увеличение на 6% эффективности усиления брони за счет носимой экипировки."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your armor value from items by 8%.",
+                "ruRU": "Увеличение на 8% эффективности усиления брони за счет носимой экипировки."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your armor value from items by 10%.",
+                "ruRU": "Увеличение на 10% эффективности усиления брони за счет носимой экипировки."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105626,
+          "spellId": 20127,
+          "definitionId": 135151,
+          "key": "redoubt",
+          "iconFileDataId": 132110,
+          "iconName": "ability_defend",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Redoubt",
+            "ruRU": "Оплот"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 6%. Lasts 10 sec or 5 blocks.",
+                "ruRU": "С вероятностью 10% после получения урона в ближнем бою вероятность блокировать удар повышается на 6%. Эффект действует 10 сек. или пока вы не заблокируете 5 ударов."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 12%. Lasts 10 sec or 5 blocks.",
+                "ruRU": "С вероятностью 10% после получения урона в ближнем бою вероятность блокировать удар повышается на 12%. Эффект действует 10 сек. или пока вы не заблокируете 5 ударов."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 18%. Lasts 10 sec or 5 blocks.",
+                "ruRU": "С вероятностью 10% после получения урона в ближнем бою вероятность блокировать удар повышается на 18%. Эффект действует 10 сек. или пока вы не заблокируете 5 ударов."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 24%. Lasts 10 sec or 5 blocks.",
+                "ruRU": "С вероятностью 10% после получения урона в ближнем бою вероятность блокировать удар повышается на 24%. Эффект действует 10 сек. или пока вы не заблокируете 5 ударов."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 30%. Lasts 10 sec or 5 blocks.",
+                "ruRU": "С вероятностью 10% после получения урона в ближнем бою вероятность блокировать удар повышается на 30%. Эффект действует 10 сек. или пока вы не заблокируете 5 ударов."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105638,
+          "spellId": 20189,
+          "definitionId": 135163,
+          "key": "precision",
+          "iconFileDataId": 132282,
+          "iconName": "ability_rogue_ambush",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Precision",
+            "ruRU": "Точность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to hit by 1%.",
+                "ruRU": "Повышает вероятность попадания на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to hit by 2%.",
+                "ruRU": "Повышает вероятность попадания на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to hit by 3%.",
+                "ruRU": "Повышает вероятность попадания на 3%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105637,
+          "spellId": 20174,
+          "definitionId": 135162,
+          "key": "guardians-favor",
+          "iconFileDataId": 135964,
+          "iconName": "spell_holy_sealofprotection",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Guardian's Favor",
+            "ruRU": "Помощь стража"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Blessing of Protection by 1 min and increases the duration of your Blessing of Freedom by 3 sec.",
+                "ruRU": "Сокращает время восстановления \"Благословения защиты\" на 1 мин. Продлевает время действия \"Благословения свободы\" на 3 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Blessing of Protection by 2 min and increases the duration of your Blessing of Freedom by 6 sec.",
+                "ruRU": "Сокращает время восстановления \"Благословения защиты\" на 2 мин. Продлевает время действия \"Благословения свободы\" на 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105636,
+          "spellId": 20096,
+          "definitionId": 135161,
+          "key": "anticipation",
+          "iconFileDataId": 135994,
+          "iconName": "spell_magic_lesserinvisibilty",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Anticipation",
+            "ruRU": "Предчувствие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Defense Skill by 4.",
+                "ruRU": "Повышает навык защиты на 4."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Defense Skill by 8.",
+                "ruRU": "Повышает навык защиты на 8."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Defense Skill by 12.",
+                "ruRU": "Повышает навык защиты на 12."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Defense Skill by 16.",
+                "ruRU": "Повышает навык защиты на 16."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Defense Skill by 20.",
+                "ruRU": "Повышает навык защиты на 20."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110875,
+          "spellId": 1314103,
+          "definitionId": 142627,
+          "key": "improved-seal-of-fury",
+          "iconFileDataId": 135960,
+          "iconName": "spell_holy_righteousnessaura",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Improved Seal of Fury",
+            "ruRU": "Улучшенная печать ярости"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When Seal of Fury's shield is fully absorbed, restore 0 Mana, increased by 15% per level the attacker is above you, up to 45%.",
+                "ruRU": "Когда щит \"Печати ярости\" поглощает максимальное количество урона, вы восполняете 0 ед. маны. Если уровень атакующего противника выше вашего, вы восполняете на 15% больше маны за каждую единицу разницы в уровнях. Максимальный бонус – 45%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105634,
+          "spellId": 20468,
+          "definitionId": 135159,
+          "key": "improved-righteous-fury",
+          "iconFileDataId": 135962,
+          "iconName": "spell_holy_sealoffury",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Righteous Fury",
+            "ruRU": "Улучшенное праведное неистовство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "While Righteous Fury is active, all damage taken is reduced by 2%.",
+                "ruRU": "\"Праведное неистовство\" уменьшает получаемый урон на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "While Righteous Fury is active, all damage taken is reduced by 4%.",
+                "ruRU": "\"Праведное неистовство\" уменьшает получаемый урон на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "While Righteous Fury is active, all damage taken is reduced by 6%.",
+                "ruRU": "\"Праведное неистовство\" уменьшает получаемый урон на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110874,
+          "spellId": 20150,
+          "definitionId": 142626,
+          "key": "shield-specialization",
+          "iconFileDataId": 134952,
+          "iconName": "inv_shield_06",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Shield Specialization",
+            "ruRU": "Специализация на щитах"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the amount of damage absorbed by your shield by 10%, and gives your blocks a 33% chance to restore 6% of your maximum Mana. May only occur once every 3 sec.",
+                "ruRU": "Увеличивает количество урона, поглощаемого вашим щитом, на 10%. Блокирование атак с вероятностью 33% восполняет 6% максимального запаса маны. Срабатывает не чаще раза в 3 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the amount of damage absorbed by your shield by 20%, and gives your blocks a 66% chance to restore 6% of your maximum Mana. May only occur once every 3 sec.",
+                "ruRU": "Увеличивает количество урона, поглощаемого вашим щитом, на 20%. Блокирование атак с вероятностью 66% восполняет 6% максимального запаса маны. Срабатывает не чаще раза в 3 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the amount of damage absorbed by your shield by 30%, and gives your blocks a 100% chance to restore 6% of your maximum Mana. May only occur once every 3 sec.",
+                "ruRU": "Увеличивает количество урона, поглощаемого вашим щитом, на 30%. Блокирование атак с вероятностью 100% восполняет 6% максимального запаса маны. Срабатывает не чаще раза в 3 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105626
+          ]
+        },
+        {
+          "nodeId": 105632,
+          "spellId": 1224697,
+          "definitionId": 135157,
+          "key": "sacred-duty",
+          "iconFileDataId": 135896,
+          "iconName": "spell_holy_divineintervention",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Sacred Duty",
+            "ruRU": "Священный долг"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your total Stamina by 2% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 30 sec.",
+                "ruRU": "Повышает выносливость на 2% и сокращает время восстановления \"Божественного щита\", \"Божественной защиты\" и \"Щита храмовника\" на 30 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your total Stamina by 4% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 60 sec.",
+                "ruRU": "Повышает выносливость на 4% и сокращает время восстановления \"Божественного щита\", \"Божественной защиты\" и \"Щита храмовника\" на 60 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110878,
+          "spellId": 1310994,
+          "definitionId": 142630,
+          "key": "swift-judgement",
+          "iconFileDataId": 236258,
+          "iconName": "ability_paladin_judgementred",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Swift Judgement",
+            "ruRU": "Стремительное правосудие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Finishes the remaining cooldown on your Judgement ability and reduces the Mana cost of your next Judgement by 100%.",
+                "ruRU": "Сбрасывает оставшееся время восстановления \"Правосудия\" и снижает затраты маны на следующее применение \"Правосудия\" на 100%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            110875
+          ]
+        },
+        {
+          "nodeId": 105629,
+          "spellId": 20196,
+          "definitionId": 135154,
+          "key": "one-handed-weapon-specialization",
+          "iconFileDataId": 135321,
+          "iconName": "inv_sword_20",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "One-Handed Weapon Specialization",
+            "ruRU": "Специализация на одноручном оружии"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage you deal with one-handed melee weapons by 3%.",
+                "ruRU": "Увеличение на 3% урона, наносимого используемым одноручным оружием ближнего боя."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage you deal with one-handed melee weapons by 7%.",
+                "ruRU": "Увеличение на 7% урона, наносимого используемым одноручным оружием ближнего боя."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage you deal with one-handed melee weapons by 10%.",
+                "ruRU": "Увеличение на 10% урона, наносимого используемым одноручным оружием ближнего боя."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105633,
+          "spellId": 20487,
+          "definitionId": 135158,
+          "key": "improved-hammer-of-justice",
+          "iconFileDataId": 135963,
+          "iconName": "spell_holy_sealofmight",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Hammer of Justice",
+            "ruRU": "Улучшенный молот правосудия"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Decreases the cooldown of your Hammer of Justice spell by 5 sec.",
+                "ruRU": "Сокращение времени восстановления заклинания \"Молот правосудия\" на 5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Decreases the cooldown of your Hammer of Justice spell by 10 sec.",
+                "ruRU": "Сокращение времени восстановления заклинания \"Молот правосудия\" на 10 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Decreases the cooldown of your Hammer of Justice spell by 15 sec.",
+                "ruRU": "Сокращение времени восстановления заклинания \"Молот правосудия\" на 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105625,
+          "spellId": 1311015,
+          "definitionId": 135150,
+          "key": "templars-bulwark",
+          "iconFileDataId": 236264,
+          "iconName": "ability_paladin_shieldofthetemplar",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Templar's Bulwark",
+            "ruRU": "Щит храмовника"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, this ability grants you an absorb shield equal to 100% of your maximum health for 8 sec. Applies Forbearance for 1 min. Cannot be cast while Forbearance is active.",
+                "ruRU": "При активации эта способность дает щит в размере 100% максимального запаса здоровья. Время действия – 8 сек. Применяет \"Воздержанность\" на 1 мин. Нельзя применять во время действия \"Воздержанности\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105627,
+          "spellId": 20177,
+          "definitionId": 135152,
+          "key": "reckoning",
+          "iconFileDataId": 135882,
+          "iconName": "spell_holy_blessingofstrength",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Reckoning",
+            "ruRU": "Расплата"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 8% chance to gain an extra attack after Blocking a melee attack and a 20% chance to gain an extra attack after being the victim of a non-periodic critical strike.",
+                "ruRU": "После того как вы блокируете атаку ближнего боя, ваша следующая атака с вероятностью 8% срабатывает дважды. После того как вы получаете непериодический критический урон, ваша следующая атака с вероятностью 20% срабатывает дважды."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 16% chance to gain an extra attack after Blocking a melee attack and a 40% chance to gain an extra attack after being the victim of a non-periodic critical strike.",
+                "ruRU": "После того как вы блокируете атаку ближнего боя, ваша следующая атака с вероятностью 16% срабатывает дважды. После того как вы получаете непериодический критический урон, ваша следующая атака с вероятностью 40% срабатывает дважды."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 24% chance to gain an extra attack after Blocking a melee attack and a 60% chance to gain an extra attack after being the victim of a non-periodic critical strike.",
+                "ruRU": "После того как вы блокируете атаку ближнего боя, ваша следующая атака с вероятностью 24% срабатывает дважды. После того как вы получаете непериодический критический урон, ваша следующая атака с вероятностью 60% срабатывает дважды."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives you a 32% chance to gain an extra attack after Blocking a melee attack and a 80% chance to gain an extra attack after being the victim of a non-periodic critical strike.",
+                "ruRU": "После того как вы блокируете атаку ближнего боя, ваша следующая атака с вероятностью 32% срабатывает дважды. После того как вы получаете непериодический критический урон, ваша следующая атака с вероятностью 80% срабатывает дважды."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives you a 40% chance to gain an extra attack after Blocking a melee attack and a 100% chance to gain an extra attack after being the victim of a non-periodic critical strike.",
+                "ruRU": "После того как вы блокируете атаку ближнего боя, ваша следующая атака с вероятностью 40% срабатывает дважды. После того как вы получаете непериодический критический урон, ваша следующая атака с вероятностью 100% срабатывает дважды."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110879,
+          "spellId": 1311034,
+          "definitionId": 142631,
+          "key": "iron-creed",
+          "iconFileDataId": 135925,
+          "iconName": "spell_holy_improvedresistanceauras",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Iron Creed",
+            "ruRU": "Железная вера"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the threat generated by your Holy Strike ability 5%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 2% for 6 sec.",
+                "ruRU": "Увеличивает уровень угрозы от \"Священного удара\" на 5%. Пока действует \"Праведное неистовство\", \"Священный удар\" также уменьшает получаемый урон на 2% на 6 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the threat generated by your Holy Strike ability 10%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 4% for 6 sec.",
+                "ruRU": "Увеличивает уровень угрозы от \"Священного удара\" на 10%. Пока действует \"Праведное неистовство\", \"Священный удар\" также уменьшает получаемый урон на 4% на 6 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the threat generated by your Holy Strike ability 15%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 6% for 6 sec.",
+                "ruRU": "Увеличивает уровень угрозы от \"Священного удара\" на 15%. Пока действует \"Праведное неистовство\", \"Священный удар\" также уменьшает получаемый урон на 6% на 6 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the threat generated by your Holy Strike ability 20%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 8% for 6 sec.",
+                "ruRU": "Увеличивает уровень угрозы от \"Священного удара\" на 20%. Пока действует \"Праведное неистовство\", \"Священный удар\" также уменьшает получаемый урон на 8% на 6 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the threat generated by your Holy Strike ability 25%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 10% for 6 sec.",
+                "ruRU": "Увеличивает уровень угрозы от \"Священного удара\" на 25%. Пока действует \"Праведное неистовство\", \"Священный удар\" также уменьшает получаемый урон на 10% на 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105628,
+          "spellId": 20925,
+          "definitionId": 135153,
+          "key": "holy-shield",
+          "iconFileDataId": 135880,
+          "iconName": "spell_holy_blessingofprotection",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Holy Shield",
+            "ruRU": "Щит небес"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases chance to block by 20% for 10 sec, and deals 110 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges.",
+                "ruRU": "Повышает вероятность блокировать удар на 20% на 10 сек. Пока эффект действует, при успешном блокировании вы наносите противнику 110 ед. урона от светлой магии. Урон от \"Щита небес\" создает на 20% больше угрозы. При каждом блоке расходуется 1 заряд. 4 заряда."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105625
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retribution",
+      "order": 2,
+      "name": {
+        "enUS": "Retribution",
+        "ruRU": "Воздаяние"
+      },
+      "talents": [
+        {
+          "nodeId": 105707,
+          "spellId": 20060,
+          "definitionId": 135237,
+          "key": "deflection",
+          "iconFileDataId": 132269,
+          "iconName": "ability_parry",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Deflection",
+            "ruRU": "Отражение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Parry chance by 1%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Parry chance by 2%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Parry chance by 3%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Parry chance by 4%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Parry chance by 5%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105706,
+          "spellId": 20101,
+          "definitionId": 135236,
+          "key": "benediction",
+          "iconFileDataId": 135863,
+          "iconName": "spell_frost_windwalkon",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Benediction",
+            "ruRU": "Благодарение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Mana cost of all instant cast spells and abilities by 2%.",
+                "ruRU": "Снижает затраты маны на применение мгновенных заклинаний и способностей на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Mana cost of all instant cast spells and abilities by 4%.",
+                "ruRU": "Снижает затраты маны на применение мгновенных заклинаний и способностей на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Mana cost of all instant cast spells and abilities by 6%.",
+                "ruRU": "Снижает затраты маны на применение мгновенных заклинаний и способностей на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the Mana cost of all instant cast spells and abilities by 8%.",
+                "ruRU": "Снижает затраты маны на применение мгновенных заклинаний и способностей на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the Mana cost of all instant cast spells and abilities by 10%.",
+                "ruRU": "Снижает затраты маны на применение мгновенных заклинаний и способностей на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105705,
+          "spellId": 25956,
+          "definitionId": 135235,
+          "key": "improved-judgement",
+          "iconFileDataId": 135959,
+          "iconName": "spell_holy_righteousfury",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Judgement",
+            "ruRU": "Улучшенное провосудие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Decreases the cooldown of your Judgement ability by 1 sec.",
+                "ruRU": "Сокращает время восстановления \"Правосудия\" на 1 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Decreases the cooldown of your Judgement ability by 2 sec.",
+                "ruRU": "Сокращает время восстановления \"Правосудия\" на 2 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105704,
+          "spellId": 1237268,
+          "definitionId": 135234,
+          "key": "holy-conduit",
+          "iconFileDataId": 237539,
+          "iconName": "spell_holy_devineaegis",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Holy Conduit",
+            "ruRU": "Священный проводник"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 20%.",
+                "ruRU": "Снижает затраты маны на \"Освящение\", \"Гнев небес\", \"Экзорцизм\" и \"Молот гнева\" на 20%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 40%.",
+                "ruRU": "Снижает затраты маны на \"Освящение\", \"Гнев небес\", \"Экзорцизм\" и \"Молот гнева\" на 40%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105703,
+          "spellId": 20117,
+          "definitionId": 135233,
+          "key": "conviction",
+          "iconFileDataId": 135957,
+          "iconName": "spell_holy_retributionaura",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Conviction",
+            "ruRU": "Приговор"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 1%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 2%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 3%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 4%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 5%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105702,
+          "spellId": 9452,
+          "definitionId": 135232,
+          "key": "vindication",
+          "iconFileDataId": 135985,
+          "iconName": "spell_holy_vindication",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Vindication",
+            "ruRU": "Подтверждение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your damaging melee attacks a chance to reduce the target's Attack Power by 2, and increase your Attack Power by 1% for 30 sec.",
+                "ruRU": "Атакующие способности ближнего боя могут уменьшить силу атаки на цели на 2 ед. и увеличить вашу силу атаки на 1% на 30 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your damaging melee attacks a chance to reduce the target's Attack Power by 4, and increase your Attack Power by 2% for 30 sec.",
+                "ruRU": "Атакующие способности ближнего боя могут уменьшить силу атаки на цели на 4 ед. и увеличить вашу силу атаки на 2% на 30 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your damaging melee attacks a chance to reduce the target's Attack Power by 6, and increase your Attack Power by 3% for 30 sec.",
+                "ruRU": "Атакующие способности ближнего боя могут уменьшить силу атаки на цели на 6 ед. и увеличить вашу силу атаки на 3% на 30 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105701,
+          "spellId": 1311074,
+          "definitionId": 135231,
+          "key": "sanctified-judgement",
+          "iconFileDataId": 236255,
+          "iconName": "ability_paladin_judgementblue",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Sanctified Judgement",
+            "ruRU": "Священное правосудие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Judgement ability a 33% chance to return 20% of the Mana cost of the judged seal.",
+                "ruRU": "\"Правосудие\" с вероятностью 33% восполняет ману в объеме 20% затрат на применение соответствующей печати."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Judgement ability a 66% chance to return 40% of the Mana cost of the judged seal.",
+                "ruRU": "\"Правосудие\" с вероятностью 66% восполняет ману в объеме 40% затрат на применение соответствующей печати."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Judgement ability a 100% chance to return 60% of the Mana cost of the judged seal.",
+                "ruRU": "\"Правосудие\" с вероятностью 100% восполняет ману в объеме 60% затрат на применение соответствующей печати."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105696,
+          "spellId": 20375,
+          "definitionId": 135226,
+          "key": "seal-of-command",
+          "iconFileDataId": 132347,
+          "iconName": "ability_warrior_innerrage",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Seal of Command",
+            "ruRU": "Печать повиновения"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec. Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20467s1 Holy damage, 93-101 if the target is stunned or incapacitated.",
+                "ruRU": "Ваши атаки с некоторой вероятностью наносят дополнительный урон от светлой магии в объеме 70% обычного урона от оружия. Одновременно на вас может действовать только одно заклинание категории \"Печать\". Время действия – 30 сек. Высвобождение энергии печати мгновенно наносит противнику $/2;20467s1 ед. урона от светлой магии. Если цель оглушена или парализована, вместо этого наносит 93-101 ед. урона."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105699,
+          "spellId": 26022,
+          "definitionId": 135229,
+          "key": "pursuit-of-justice",
+          "iconFileDataId": 135937,
+          "iconName": "spell_holy_persuitofjustice",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Pursuit of Justice",
+            "ruRU": "Погоня за справедливостью"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases movement speed and mounted movement speed by 8%. This does not stack with other movement speed increasing effects.",
+                "ruRU": "Повышает скорость передвижения пешком и на транспорте на 8%. Не суммируется с другими эффектами, повышающими скорость передвижения."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases movement speed and mounted movement speed by 15%. This does not stack with other movement speed increasing effects.",
+                "ruRU": "Повышает скорость передвижения пешком и на транспорте на 15%. Не суммируется с другими эффектами, повышающими скорость передвижения."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105698,
+          "spellId": 9799,
+          "definitionId": 135228,
+          "key": "eye-for-an-eye",
+          "iconFileDataId": 135904,
+          "iconName": "spell_holy_eyeforaneye",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Eye for an Eye",
+            "ruRU": "Око за око"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "All critical strikes against you cause 5% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
+                "ruRU": "Когда вы получаете критические удары, атакующий противник также получает 5% урона. Урон, наносимый способностью \"Око за око\", не может превышать 50% вашего максимального запаса здоровья."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "All critical strikes against you cause 10% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
+                "ruRU": "Когда вы получаете критические удары, атакующий противник также получает 10% урона. Урон, наносимый способностью \"Око за око\", не может превышать 50% вашего максимального запаса здоровья."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105700,
+          "spellId": 1311087,
+          "definitionId": 135230,
+          "key": "sacred-arbiter",
+          "iconFileDataId": 135278,
+          "iconName": "inv_sword_08",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Sacred Arbiter",
+            "ruRU": "Священный вершитель"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage of your Holy Strike ability by 10% and causes it to refresh all Judgement effects on the target.",
+                "ruRU": "Увеличивает наносимый \"Священным ударом\" урон на 10% и обновляет время действия всех эффектов \"Правосудия\" на цели."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110883,
+          "spellId": 1311083,
+          "definitionId": 142635,
+          "key": "crusade",
+          "iconFileDataId": 135889,
+          "iconName": "spell_holy_crusade",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Crusade",
+            "ruRU": "Священная война"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases all damage dealt by 1%. Increased by an additional 1% against Demon and Undead targets.",
+                "ruRU": "Увеличивает наносимый урон на 1%. Дополнительно увеличивает урон, наносимый демонам и нежити, на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases all damage dealt by 2%. Increased by an additional 2% against Demon and Undead targets.",
+                "ruRU": "Увеличивает наносимый урон на 2%. Дополнительно увеличивает урон, наносимый демонам и нежити, на 2%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105697,
+          "spellId": 20111,
+          "definitionId": 135227,
+          "key": "two-handed-weapon-specialization",
+          "iconFileDataId": 133041,
+          "iconName": "inv_hammer_04",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Two-Handed Weapon Specialization",
+            "ruRU": "Специализация на двуручном оружии"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage you deal with two-handed melee weapons by 3%.",
+                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage you deal with two-handed melee weapons by 6%.",
+                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 6%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage you deal with two-handed melee weapons by 9%.",
+                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 9%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105693,
+          "spellId": 20049,
+          "definitionId": 135223,
+          "key": "vengeance",
+          "iconFileDataId": 132275,
+          "iconName": "ability_racial_avatar",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Vengeance",
+            "ruRU": "Отмщение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Physical and Holy damage dealt by 1% for 30 sec after landing a critical strike. Stacks up to 5 times.",
+                "ruRU": "Когда вы совершаете критический удар, наносимый вами физический урон и урон от светлой магии увеличиваются на 1% на 30 сек. Эффект суммируется до 5 раз."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Physical and Holy damage dealt by 2% for 30 sec after landing a critical strike. Stacks up to 5 times.",
+                "ruRU": "Когда вы совершаете критический удар, наносимый вами физический урон и урон от светлой магии увеличиваются на 2% на 30 сек. Эффект суммируется до 5 раз."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Physical and Holy damage dealt by 3% for 30 sec after landing a critical strike. Stacks up to 5 times.",
+                "ruRU": "Когда вы совершаете критический удар, наносимый вами физический урон и урон от светлой магии увеличиваются на 3% на 30 сек. Эффект суммируется до 5 раз."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105701
+          ]
+        },
+        {
+          "nodeId": 105694,
+          "spellId": 20066,
+          "definitionId": 135224,
+          "key": "repentance",
+          "iconFileDataId": 135942,
+          "iconName": "spell_holy_prayerofhealing",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Repentance",
+            "ruRU": "Покаяние"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids.",
+                "ruRU": "Вводит противника в состояние глубокой задумчивости, лишающее возможности действовать на 6 сек. Любой нанесенный урон выводит цель из этого состояния. Действует только против гуманоидов."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110882,
+          "spellId": 1311084,
+          "definitionId": 142634,
+          "key": "champion-of-the-light",
+          "iconFileDataId": 236251,
+          "iconName": "ability_paladin_enlightenedjudgements",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Champion of the Light",
+            "ruRU": "Воитель Света"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your spell damage and healing by up to 33% of your Intellect.",
+                "ruRU": "Увеличивает урон от заклинаний и эффективность исцеления максимум на 33% вашего интеллекта."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your spell damage and healing by up to 66% of your Intellect.",
+                "ruRU": "Увеличивает урон от заклинаний и эффективность исцеления максимум на 66% вашего интеллекта."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your spell damage and healing by up to 100% of your Intellect.",
+                "ruRU": "Увеличивает урон от заклинаний и эффективность исцеления максимум на 100% вашего интеллекта."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110880,
+          "spellId": 1311085,
+          "definitionId": 142632,
+          "key": "instrument-of-law",
+          "iconFileDataId": 135897,
+          "iconName": "spell_holy_divinepurpose",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Instrument of Law",
+            "ruRU": "Орудие закона"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cast time of your Hammer of Wrath by 0.5 sec, and reduces all threat you generate by 10% while Righteous Fury is not active.",
+                "ruRU": "Сокращает время применения \"Молота гнева\" на 0.5 сек. и снижает уровень создаваемой вами угрозы на 10%, пока не действует \"Праведное неистовство\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cast time of your Hammer of Wrath by 1.0 sec, and reduces all threat you generate by 20% while Righteous Fury is not active.",
+                "ruRU": "Сокращает время применения \"Молота гнева\" на 1.0 сек. и снижает уровень создаваемой вами угрозы на 20%, пока не действует \"Праведное неистовство\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105692,
+          "spellId": 1310735,
+          "definitionId": 135222,
+          "key": "twist-of-light",
+          "iconFileDataId": 135878,
+          "iconName": "spell_holy_blessedresillience",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Twist of Light",
+            "ruRU": "Искаженный свет"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When you replace your Seal of Command, Seal of Righteousness, Seal of Fury, or Seal of Justice with a different Seal, gain an Echo. Your next melee attack applies the replaced Seal's effects, consuming the Echo.",
+                "ruRU": "Когда вы заменяете \"Печать повиновения\", \"Печать праведности\", \"Печать ярости\" или \"Печать справедливости\" другой печатью, то получаете отголосок. Следующая атака ближнего боя применяет эффект замененной печати и поглощает отголосок."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "product": "wow_classic_beta",
+  "build": "1.60.1.69977",
+  "syncedAt": "2026-09-24T07:20:44.931Z",
+  "locales": [
+    "enUS",
+    "ruRU"
+  ],
+  "tables": [
+    "TraitTree",
+    "TraitNode",
+    "TraitNodeEntry",
+    "TraitNodeXTraitNodeEntry",
+    "TraitDefinition",
+    "TraitDefinitionEffectPoints",
+    "TraitEdge",
+    "CurvePoint",
+    "SpellName",
+    "Spell",
+    "SpellEffect",
+    "SpellAuraOptions",
+    "SpellDuration",
+    "SpellDescriptionVariables",
+    "SpellMisc",
+    "SpellRadius",
+    "ManifestInterfaceData"
+  ]
+}

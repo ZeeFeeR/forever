@@ -1,0 +1,2262 @@
+{
+  "schemaVersion": 1,
+  "product": "wow_classic_beta",
+  "build": "1.60.1.69977",
+  "generatedAt": "2026-09-24T07:20:56.946Z",
+  "source": "Wago DB2 / WoW Forever beta client data",
+  "class": {
+    "id": "rogue",
+    "classId": 4,
+    "name": {
+      "enUS": "Rogue",
+      "ruRU": "Разбойник"
+    }
+  },
+  "traitTreeId": 1111,
+  "rules": {
+    "maxLevel": 60,
+    "firstPointLevel": 10,
+    "maxPoints": 51,
+    "pointsPerRow": 5
+  },
+  "trees": [
+    {
+      "id": "assassination",
+      "order": 0,
+      "name": {
+        "enUS": "Assassination",
+        "ruRU": "Ликвидация"
+      },
+      "talents": [
+        {
+          "nodeId": 105742,
+          "spellId": 13741,
+          "definitionId": 135272,
+          "key": "improved-gouge",
+          "iconFileDataId": 132155,
+          "iconName": "ability_gouge",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Gouge",
+            "ruRU": "Улучшенный парализующий удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the duration of your Gouge ability by 0.5 sec.",
+                "ruRU": "Продлевает время действия \"Парализующего удара\" на 0.5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the duration of your Gouge ability by 1 sec.",
+                "ruRU": "Продлевает время действия \"Парализующего удара\" на 1 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the duration of your Gouge ability by 1.5 sec.",
+                "ruRU": "Продлевает время действия \"Парализующего удара\" на 1.5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105723,
+          "spellId": 14144,
+          "definitionId": 135253,
+          "key": "remorseless-attacks",
+          "iconFileDataId": 132151,
+          "iconName": "ability_fiegndead",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Remorseless Attacks",
+            "ruRU": "Беспощадные атаки"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "After killing a non-trivial enemy, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, Mutilate, or Ghostly Strike. Lasts 20 sec.",
+                "ruRU": "После убийства, которое дает опыт или честь, вероятность критического удара следующей способности \"Коварный удар\", \"Удар в спину\", \"Внезапный удар\", \"Расправа\" или \"Призрачный удар\" повышается на 20%. Время действия – 20 сек"
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "After killing a non-trivial enemy, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, Mutilate, or Ghostly Strike. Lasts 20 sec.",
+                "ruRU": "После убийства, которое дает опыт или честь, вероятность критического удара следующей способности \"Коварный удар\", \"Удар в спину\", \"Внезапный удар\", \"Расправа\" или \"Призрачный удар\" повышается на 40%. Время действия – 20 сек"
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105722,
+          "spellId": 14138,
+          "definitionId": 135252,
+          "key": "malice",
+          "iconFileDataId": 132277,
+          "iconName": "ability_racial_bloodrage",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Malice",
+            "ruRU": "Злоба"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks and Poisons by 1%.",
+                "ruRU": "Повышает вероятность нанесения критического урона атаками и ядами на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks and Poisons by 2%.",
+                "ruRU": "Повышает вероятность нанесения критического урона атаками и ядами на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks and Poisons by 3%.",
+                "ruRU": "Повышает вероятность нанесения критического урона атаками и ядами на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks and Poisons by 4%.",
+                "ruRU": "Повышает вероятность нанесения критического урона атаками и ядами на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks and Poisons by 5%.",
+                "ruRU": "Повышает вероятность нанесения критического урона атаками и ядами на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105721,
+          "spellId": 14156,
+          "definitionId": 135251,
+          "key": "ruthlessness",
+          "iconFileDataId": 132122,
+          "iconName": "ability_druid_disembowel",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Ruthlessness",
+            "ruRU": "Жестокость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your finishing moves a 20% chance to add a Combo Point to your target.",
+                "ruRU": "С вероятностью 20% ваш завершающий прием начнет новую серию приемов."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your finishing moves a 40% chance to add a Combo Point to your target.",
+                "ruRU": "С вероятностью 40% ваш завершающий прием начнет новую серию приемов."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your finishing moves a 60% chance to add a Combo Point to your target.",
+                "ruRU": "С вероятностью 60% ваш завершающий прием начнет новую серию приемов."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105720,
+          "spellId": 14158,
+          "definitionId": 135250,
+          "key": "murder",
+          "iconFileDataId": 136147,
+          "iconName": "spell_shadow_deathscream",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Murder",
+            "ruRU": "Убийство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases all damage dealt by 2% against Humanoid and Giant targets.",
+                "ruRU": "Увеличивает урон, наносимый гуманоидам и великанам, на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases all damage dealt by 4% against Humanoid and Giant targets.",
+                "ruRU": "Увеличивает урон, наносимый гуманоидам и великанам, на 4%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105739,
+          "spellId": 14165,
+          "definitionId": 135269,
+          "key": "improved-slice-and-dice",
+          "iconFileDataId": 132306,
+          "iconName": "ability_rogue_slicedice",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Slice and Dice",
+            "ruRU": "Улучшенная мясорубка"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the duration of your Slice and Dice ability by 15%.",
+                "ruRU": "Увеличение длительности \"Мясорубки\" на 15%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the duration of your Slice and Dice ability by 30%.",
+                "ruRU": "Увеличение длительности \"Мясорубки\" на 30%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the duration of your Slice and Dice ability by 45%.",
+                "ruRU": "Увеличение длительности \"Мясорубки\" на 45%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105759,
+          "spellId": 14179,
+          "definitionId": 135289,
+          "key": "relentless-strikes",
+          "iconFileDataId": 132340,
+          "iconName": "ability_warrior_decisivestrike",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Relentless Strikes",
+            "ruRU": "Неослабевающие удары"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your finishing moves have a 20% chance per Combo Point to restore 25 Energy.",
+                "ruRU": "С вероятностью 20% за каждый прием в серии ваш завершающий прием восстанавливает 25 ед. энергии."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105717,
+          "spellId": 14168,
+          "definitionId": 135247,
+          "key": "improved-expose-armor",
+          "iconFileDataId": 132354,
+          "iconName": "ability_warrior_riposte",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Expose Armor",
+            "ruRU": "Улучшенное ослабление доспеха"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Expose Armor ability by 5, and refunds 1 Combo Point when cast with 5 Combo Points.",
+                "ruRU": "Когда вы применяете \"Ослабление доспеха\" при 5 приемах в серии, затраты энергии снижаются на 5 ед. и вы восполняете 1 прием."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Expose Armor ability by 10, and refunds 2 Combo Points when cast with 5 Combo Points.",
+                "ruRU": "Когда вы применяете \"Ослабление доспеха\" при 5 приемах в серии, затраты энергии снижаются на 10 ед. и вы восполняете 2 приема."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105716,
+          "spellId": 14128,
+          "definitionId": 135246,
+          "key": "lethality",
+          "iconFileDataId": 132109,
+          "iconName": "ability_criticalstrike",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Lethality",
+            "ruRU": "Смертоносность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 4%.",
+                "ruRU": "Увеличивает критический урон от \"Коварного удара\", \"Парализующего удара\", \"Удара в спину\", \"Расправы\", \"Призрачного удара\" и \"Кровоизлияния\" на 4%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 8%.",
+                "ruRU": "Увеличивает критический урон от \"Коварного удара\", \"Парализующего удара\", \"Удара в спину\", \"Расправы\", \"Призрачного удара\" и \"Кровоизлияния\" на 8%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 12%.",
+                "ruRU": "Увеличивает критический урон от \"Коварного удара\", \"Парализующего удара\", \"Удара в спину\", \"Расправы\", \"Призрачного удара\" и \"Кровоизлияния\" на 12%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 16%.",
+                "ruRU": "Увеличивает критический урон от \"Коварного удара\", \"Парализующего удара\", \"Удара в спину\", \"Расправы\", \"Призрачного удара\" и \"Кровоизлияния\" на 16%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 20%.",
+                "ruRU": "Увеличивает критический урон от \"Коварного удара\", \"Парализующего удара\", \"Удара в спину\", \"Расправы\", \"Призрачного удара\" и \"Кровоизлияния\" на 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105722
+          ]
+        },
+        {
+          "nodeId": 105714,
+          "spellId": 16513,
+          "definitionId": 135244,
+          "key": "vile-poisons",
+          "iconFileDataId": 132293,
+          "iconName": "ability_rogue_feigndeath",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Vile Poisons",
+            "ruRU": "Тлетворные яды"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.",
+                "ruRU": "Увеличивает урон, наносимый вашими ядами, на 4%. Заклинания и эффекты противников с вероятностью 8% не снимают ваши яды."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects.",
+                "ruRU": "Увеличивает урон, наносимый вашими ядами, на 8%. Заклинания и эффекты противников с вероятностью 16% не снимают ваши яды."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects.",
+                "ruRU": "Увеличивает урон, наносимый вашими ядами, на 12%. Заклинания и эффекты противников с вероятностью 24% не снимают ваши яды."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects.",
+                "ruRU": "Увеличивает урон, наносимый вашими ядами, на 16%. Заклинания и эффекты противников с вероятностью 32% не снимают ваши яды."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects.",
+                "ruRU": "Увеличивает урон, наносимый вашими ядами, на 20%. Заклинания и эффекты противников с вероятностью 40% не снимают ваши яды."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105715,
+          "spellId": 14177,
+          "definitionId": 135245,
+          "key": "cold-blood",
+          "iconFileDataId": 135988,
+          "iconName": "spell_ice_lament",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Cold Blood",
+            "ruRU": "Хладнокровие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, Eviscerate, or Mutilate by 100%.",
+                "ruRU": "При использовании повышает вероятность критического эффекта следующей способности \"Коварный удар\", \"Удар в спину\", \"Внезапный удар\", \"Потрошение\" или \"Расправа\" на 100%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105713,
+          "spellId": 14113,
+          "definitionId": 135243,
+          "key": "improved-poisons",
+          "iconFileDataId": 132273,
+          "iconName": "ability_poisons",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Poisons",
+            "ruRU": "Улучшенные яды"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the chance to apply Poisons to your target by 2%, and gives Poison applications a 10% chance to not consume a charge.",
+                "ruRU": "Повышает вероятность применить к цели яд на 2%. С вероятностью 10% вы не расходуете заряд яда при срабатывании."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the chance to apply Poisons to your target by 4%, and gives Poison applications a 20% chance to not consume a charge.",
+                "ruRU": "Повышает вероятность применить к цели яд на 4%. С вероятностью 20% вы не расходуете заряд яда при срабатывании."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the chance to apply Poisons to your target by 6%, and gives Poison applications a 30% chance to not consume a charge.",
+                "ruRU": "Повышает вероятность применить к цели яд на 6%. С вероятностью 30% вы не расходуете заряд яда при срабатывании."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the chance to apply Poisons to your target by 8%, and gives Poison applications a 40% chance to not consume a charge.",
+                "ruRU": "Повышает вероятность применить к цели яд на 8%. С вероятностью 40% вы не расходуете заряд яда при срабатывании."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the chance to apply Poisons to your target by 10%, and gives Poison applications a 50% chance to not consume a charge.",
+                "ruRU": "Повышает вероятность применить к цели яд на 10%. С вероятностью 50% вы не расходуете заряд яда при срабатывании."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105718,
+          "spellId": 14983,
+          "definitionId": 135248,
+          "key": "vigor",
+          "iconFileDataId": 136023,
+          "iconName": "spell_nature_earthbindtotem",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Vigor",
+            "ruRU": "Неутомимость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your maximum Energy by 5.",
+                "ruRU": "Увеличивает максимальный запас энергии на 5 ед."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your maximum Energy by 10.",
+                "ruRU": "Увеличивает максимальный запас энергии на 10 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105709,
+          "spellId": 1310707,
+          "definitionId": 135239,
+          "key": "mutilate",
+          "iconFileDataId": 236270,
+          "iconName": "ability_rogue_deadlybrew",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Mutilate",
+            "ruRU": "Расправа"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Instantly attacks with both weapons for 75% weapon damage plus an additional 17.25 with each weapon. Damage increased by 20% against Poisoned targets. Awards 2 Combo Points.",
+                "ruRU": "Мгновенно атакует оружием в обеих руках, нанося 75% урона от оружия и еще 17.25 ед. урона каждым оружием. Урон увеличивается на 20%, если цель отравлена. Продлевает серию приемов на 2."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105711,
+          "spellId": 14174,
+          "definitionId": 135241,
+          "key": "improved-kidney-shot",
+          "iconFileDataId": 132298,
+          "iconName": "ability_rogue_kidneyshot",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Kidney Shot",
+            "ruRU": "Улучшенный удар по почкам"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Enemies Stunned by your Kidney Shot ability take 5% increased damage from your poisons and attacks.",
+                "ruRU": "Оглушенные \"Ударом по почкам\" противники получают на 5% больше урона от ваших ядов и атак."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Enemies Stunned by your Kidney Shot ability take 10% increased damage from your poisons and attacks.",
+                "ruRU": "Оглушенные \"Ударом по почкам\" противники получают на 10% больше урона от ваших ядов и атак."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105710,
+          "spellId": 14186,
+          "definitionId": 135240,
+          "key": "seal-fate",
+          "iconFileDataId": 136130,
+          "iconName": "spell_shadow_chilltouch",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Seal Fate",
+            "ruRU": "Печать судьбы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your critical strikes from abilities that add Combo Points have a 20% chance to add an additional Combo Point.",
+                "ruRU": "С вероятностью 20% критические эффекты способностей, которые продлевают серию приемов, дают еще один прием."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your critical strikes from abilities that add Combo Points have a 40% chance to add an additional Combo Point.",
+                "ruRU": "С вероятностью 40% критические эффекты способностей, которые продлевают серию приемов, дают еще один прием."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your critical strikes from abilities that add Combo Points have a 60% chance to add an additional Combo Point.",
+                "ruRU": "С вероятностью 60% критические эффекты способностей, которые продлевают серию приемов, дают еще один прием."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Your critical strikes from abilities that add Combo Points have a 80% chance to add an additional Combo Point.",
+                "ruRU": "С вероятностью 80% критические эффекты способностей, которые продлевают серию приемов, дают еще один прием."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Your critical strikes from abilities that add Combo Points have a 100% chance to add an additional Combo Point.",
+                "ruRU": "С вероятностью 100% критические эффекты способностей, которые продлевают серию приемов, дают еще один прием."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105712,
+          "spellId": 1310703,
+          "definitionId": 135242,
+          "key": "venom",
+          "iconFileDataId": 135341,
+          "iconName": "inv_sword_31",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Venom",
+            "ruRU": "Яд"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Finishing move that increases the damage of your Poisons by 30% and your chance to apply Poisons by 10%. Lasts longer per combo point: 1 point : 9 seconds 2 points: 12 seconds 3 points: 15 seconds 4 points: 18 seconds 5 points: 21 seconds",
+                "ruRU": "Завершающий прием, увеличивающий урон от ядов на 30%, а вероятность отравить цель – на 10%. Время действия зависит от длины серии: 1 прием : 9 сек. 2 приема: 12 сек. 3 приема: 15 сек. 4 приема: 18 сек. 5 приемов: 21 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105709
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combat",
+      "order": 1,
+      "name": {
+        "enUS": "Combat",
+        "ruRU": "Бой"
+      },
+      "talents": [
+        {
+          "nodeId": 105708,
+          "spellId": 14162,
+          "definitionId": 135238,
+          "key": "improved-eviscerate",
+          "iconFileDataId": 132292,
+          "iconName": "ability_rogue_eviscerate",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Eviscerate",
+            "ruRU": "Улучшенное потрошение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Eviscerate ability by 7%.",
+                "ruRU": "\"Потрошение\" наносит на 7% больше урона."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Eviscerate ability by 13%.",
+                "ruRU": "\"Потрошение\" наносит на 13% больше урона."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Eviscerate ability by 20%.",
+                "ruRU": "\"Потрошение\" наносит на 20% больше урона."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105741,
+          "spellId": 13732,
+          "definitionId": 135271,
+          "key": "improved-sinister-strike",
+          "iconFileDataId": 136189,
+          "iconName": "spell_shadow_ritualofsacrifice",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Sinister Strike",
+            "ruRU": "Улучшенный коварный удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Sinister Strike ability by 3.",
+                "ruRU": "Снижение на 3 ед. расхода энергии на совершение \"Коварного удара\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Sinister Strike ability by 5.",
+                "ruRU": "Снижение на 5 ед. расхода энергии на совершение \"Коварного удара\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 113398,
+          "spellId": 13712,
+          "definitionId": 145370,
+          "key": "lightning-reflexes",
+          "iconFileDataId": 136047,
+          "iconName": "spell_nature_invisibilty",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Lightning Reflexes",
+            "ruRU": "Молниеносные рефлексы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Dodge chance by 1%.",
+                "ruRU": "Повышает вероятность уклонения на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Dodge chance by 2%.",
+                "ruRU": "Повышает вероятность уклонения на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Dodge chance by 3%.",
+                "ruRU": "Повышает вероятность уклонения на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Dodge chance by 4%.",
+                "ruRU": "Повышает вероятность уклонения на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Dodge chance by 5%.",
+                "ruRU": "Повышает вероятность уклонения на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105719,
+          "spellId": 1224716,
+          "definitionId": 135249,
+          "key": "puncturing-wounds",
+          "iconFileDataId": 132090,
+          "iconName": "ability_backstab",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Puncturing Wounds",
+            "ruRU": "Колотые раны"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 15% chance to add an additional Combo Point.",
+                "ruRU": "Повышает вероятность критического эффекта \"Удара в спину\" на 10%, а \"Расправы\" – на 5%. \"Удар в спину\" с вероятностью 15% продлевает серию приемов еще на 1."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Backstab by 20% and your Mutilate by 10%, and gives Backstab a 30% chance to add an additional Combo Point.",
+                "ruRU": "Повышает вероятность критического эффекта \"Удара в спину\" на 20%, а \"Расправы\" – на 10%. \"Удар в спину\" с вероятностью 30% продлевает серию приемов еще на 1."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Backstab by 30% and your Mutilate by 15%, and gives Backstab a 45% chance to add an additional Combo Point.",
+                "ruRU": "Повышает вероятность критического эффекта \"Удара в спину\" на 30%, а \"Расправы\" – на 15%. \"Удар в спину\" с вероятностью 45% продлевает серию приемов еще на 1."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105738,
+          "spellId": 13713,
+          "definitionId": 135268,
+          "key": "deflection",
+          "iconFileDataId": 132269,
+          "iconName": "ability_parry",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Deflection",
+            "ruRU": "Отражение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Parry chance by 2%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Parry chance by 4%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Parry chance by 6%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105737,
+          "spellId": 13705,
+          "definitionId": 135267,
+          "key": "precision",
+          "iconFileDataId": 132222,
+          "iconName": "ability_marksmanship",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Precision",
+            "ruRU": "Точность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to hit by 1%.",
+                "ruRU": "Повышает вероятность попадания на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to hit by 2%.",
+                "ruRU": "Повышает вероятность попадания на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to hit by 3%.",
+                "ruRU": "Повышает вероятность попадания на 3%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105736,
+          "spellId": 13742,
+          "definitionId": 135266,
+          "key": "endurance",
+          "iconFileDataId": 136205,
+          "iconName": "spell_shadow_shadowward",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Endurance",
+            "ruRU": "Закалка"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Sprint and Evasion abilities by 30%.",
+                "ruRU": "Сокращает время восстановления \"Спринта\" и \"Ускользания\" на 30%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Sprint and Evasion abilities by 60%.",
+                "ruRU": "Сокращает время восстановления \"Спринта\" и \"Ускользания\" на 60%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105735,
+          "spellId": 14251,
+          "definitionId": 135265,
+          "key": "riposte",
+          "iconFileDataId": 132336,
+          "iconName": "ability_warrior_challange",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Riposte",
+            "ruRU": "Ответный удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 sec.",
+                "ruRU": "Удар, который можно нанести только после успешного парирования атаки противника. Эта атака наносит 150% урона от оружия и обезоруживает цель на 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105738
+          ]
+        },
+        {
+          "nodeId": 105732,
+          "spellId": 13743,
+          "definitionId": 135262,
+          "key": "improved-sprint",
+          "iconFileDataId": 132307,
+          "iconName": "ability_rogue_sprint",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Sprint",
+            "ruRU": "Улучшенный спринт"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability.",
+                "ruRU": "При использовании \"Спринта\" с вероятностью 50% с вас снимаются все затрудняющие передвижение эффекты."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives a 100% chance to remove all movement impairing effects when you activate your Sprint ability.",
+                "ruRU": "При использовании \"Спринта\" с вероятностью 100% с вас снимаются все затрудняющие передвижение эффекты."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105733,
+          "spellId": 13754,
+          "definitionId": 135263,
+          "key": "improved-kick",
+          "iconFileDataId": 132219,
+          "iconName": "ability_kick",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Kick",
+            "ruRU": "Улучшенный пинок"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Kick ability a 50% chance to Silence the target for 2 sec.",
+                "ruRU": "\"Пинок\" с вероятностью 50% поражает цель немотой на 2 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Kick ability a 100% chance to Silence the target for 2 sec.",
+                "ruRU": "\"Пинок\" с вероятностью 100% поражает цель немотой на 2 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 108100,
+          "spellId": 1310711,
+          "definitionId": 138268,
+          "key": "flawless-execution",
+          "iconFileDataId": 135345,
+          "iconName": "inv_sword_35",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Flawless Execution",
+            "ruRU": "Безупречная расправа"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Eviscerate ability by 10.",
+                "ruRU": "Снижает расход энергии на способность \"Потрошение\" на 10 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105740,
+          "spellId": 13715,
+          "definitionId": 135270,
+          "key": "dual-wield-specialization",
+          "iconFileDataId": 132147,
+          "iconName": "ability_dualwield",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Dual Wield Specialization",
+            "ruRU": "Специализация на бое двумя оружиями"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your off-hand weapon by 5%.",
+                "ruRU": "Увеличивает урон от оружия в левой руке на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your off-hand weapon by 10%.",
+                "ruRU": "Увеличивает урон от оружия в левой руке на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your off-hand weapon by 15%.",
+                "ruRU": "Увеличивает урон от оружия в левой руке на 15%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the damage done by your off-hand weapon by 20%.",
+                "ruRU": "Увеличивает урон от оружия в левой руке на 20%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the damage done by your off-hand weapon by 25%.",
+                "ruRU": "Увеличивает урон от оружия в левой руке на 25%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105737
+          ]
+        },
+        {
+          "nodeId": 105728,
+          "spellId": 13877,
+          "definitionId": 135258,
+          "key": "blade-flurry",
+          "iconFileDataId": 132350,
+          "iconName": "ability_warrior_punishingblow",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Blade Flurry",
+            "ruRU": "Шквал клинков"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your melee attack speed by 20% and your melee attacks strike an additional nearby opponent. Lasts 15 sec.",
+                "ruRU": "Повышает скорость атаки в ближнем бою на 20%. Ваши атаки ближнего боя также поражают еще одного ближайшего противника. Время действия – 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105727,
+          "spellId": 13960,
+          "definitionId": 135257,
+          "key": "hack-and-slash",
+          "iconFileDataId": 135328,
+          "iconName": "inv_sword_27",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Hack and Slash",
+            "ruRU": "Руби, кромсай!"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Sword: Your successful melee attacks have a 1% chance to trigger an extra attack on the target. |CFFFFFFFFDagger/Fist: Increases your critical strike chance by 1%. |CFFFFFFFFMace: Your attacks ignore 3% of your target's armor.",
+                "ruRU": "Усиливает атаки ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/меч: атаки ближнего боя с вероятностью 1% срабатывают повторно. |CFFFFFFFFКинжал/кулачное: повышает вероятность критического удара на 1%. |CFFFFFFFFДробящее: атаки игнорируют 3% брони цели."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Sword: Your successful melee attacks have a 2% chance to trigger an extra attack on the target. |CFFFFFFFFDagger/Fist: Increases your critical strike chance by 2%. |CFFFFFFFFMace: Your attacks ignore 6% of your target's armor.",
+                "ruRU": "Усиливает атаки ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/меч: атаки ближнего боя с вероятностью 2% срабатывают повторно. |CFFFFFFFFКинжал/кулачное: повышает вероятность критического удара на 2%. |CFFFFFFFFДробящее: атаки игнорируют 6% брони цели."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Sword: Your successful melee attacks have a 3% chance to trigger an extra attack on the target. |CFFFFFFFFDagger/Fist: Increases your critical strike chance by 3%. |CFFFFFFFFMace: Your attacks ignore 9% of your target's armor.",
+                "ruRU": "Усиливает атаки ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/меч: атаки ближнего боя с вероятностью 3% срабатывают повторно. |CFFFFFFFFКинжал/кулачное: повышает вероятность критического удара на 3%. |CFFFFFFFFДробящее: атаки игнорируют 9% брони цели."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Sword: Your successful melee attacks have a 4% chance to trigger an extra attack on the target. |CFFFFFFFFDagger/Fist: Increases your critical strike chance by 4%. |CFFFFFFFFMace: Your attacks ignore 12% of your target's armor.",
+                "ruRU": "Усиливает атаки ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/меч: атаки ближнего боя с вероятностью 4% срабатывают повторно. |CFFFFFFFFКинжал/кулачное: повышает вероятность критического удара на 4%. |CFFFFFFFFДробящее: атаки игнорируют 12% брони цели."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Sword: Your successful melee attacks have a 5% chance to trigger an extra attack on the target. |CFFFFFFFFDagger/Fist: Increases your critical strike chance by 5%. |CFFFFFFFFMace: Your attacks ignore 15% of your target's armor.",
+                "ruRU": "Усиливает атаки ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/меч: атаки ближнего боя с вероятностью 5% срабатывают повторно. |CFFFFFFFFКинжал/кулачное: повышает вероятность критического удара на 5%. |CFFFFFFFFДробящее: атаки игнорируют 15% брони цели."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105726,
+          "spellId": 30919,
+          "definitionId": 135256,
+          "key": "weapon-expertise",
+          "iconFileDataId": 135882,
+          "iconName": "spell_holy_blessingofstrength",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Weapon Expertise",
+            "ruRU": "Оружейное мастерство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the chance for your attacks to be Dodged or Parried by 1%.",
+                "ruRU": "Снижает вероятность того, что цель парирует ваши атаки или уклонится от них, на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the chance for your attacks to be Dodged or Parried by 2%.",
+                "ruRU": "Снижает вероятность того, что цель парирует ваши атаки или уклонится от них, на 2%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105728
+          ]
+        },
+        {
+          "nodeId": 105730,
+          "spellId": 18427,
+          "definitionId": 135260,
+          "key": "aggression",
+          "iconFileDataId": 132275,
+          "iconName": "ability_racial_avatar",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Aggression",
+            "ruRU": "Агрессивность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%.",
+                "ruRU": "Увеличивает урон от \"Коварного удара\", \"Удара в спину\" и \"Потрошения\" на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 4%.",
+                "ruRU": "Увеличивает урон от \"Коварного удара\", \"Удара в спину\" и \"Потрошения\" на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 6%.",
+                "ruRU": "Увеличивает урон от \"Коварного удара\", \"Удара в спину\" и \"Потрошения\" на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105724,
+          "spellId": 13750,
+          "definitionId": 135254,
+          "key": "adrenaline-rush",
+          "iconFileDataId": 136206,
+          "iconName": "spell_shadow_shadowworddominate",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Adrenaline Rush",
+            "ruRU": "Выброс адреналина"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Energy regeneration rate by 100% for 15 sec.",
+                "ruRU": "Увеличивает скорость восполнения энергии на 100% в течение 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        }
+      ]
+    },
+    {
+      "id": "subtlety",
+      "order": 2,
+      "name": {
+        "enUS": "Subtlety",
+        "ruRU": "Скрытность"
+      },
+      "talents": [
+        {
+          "nodeId": 105756,
+          "spellId": 13975,
+          "definitionId": 135286,
+          "key": "camouflage",
+          "iconFileDataId": 132320,
+          "iconName": "ability_stealth",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Camouflage",
+            "ruRU": "Камуфляж"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces your speed penalty from your Stealth ability by 3% and reduces its cooldown by 2 sec.",
+                "ruRU": "Уменьшает штраф к скорости передвижения в состоянии незаметности на 3% и сокращает время восстановления \"Незаметности\" на 2 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces your speed penalty from your Stealth ability by 6% and reduces its cooldown by 3 sec.",
+                "ruRU": "Уменьшает штраф к скорости передвижения в состоянии незаметности на 6% и сокращает время восстановления \"Незаметности\" на 3 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces your speed penalty from your Stealth ability by 9% and reduces its cooldown by 4 sec.",
+                "ruRU": "Уменьшает штраф к скорости передвижения в состоянии незаметности на 9% и сокращает время восстановления \"Незаметности\" на 4 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces your speed penalty from your Stealth ability by 12% and reduces its cooldown by 5 sec.",
+                "ruRU": "Уменьшает штраф к скорости передвижения в состоянии незаметности на 12% и сокращает время восстановления \"Незаметности\" на 5 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces your speed penalty from your Stealth ability by 15% and reduces its cooldown by 6 sec.",
+                "ruRU": "Уменьшает штраф к скорости передвижения в состоянии незаметности на 15% и сокращает время восстановления \"Незаметности\" на 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105761,
+          "spellId": 13958,
+          "definitionId": 135291,
+          "key": "master-of-deception",
+          "iconFileDataId": 136129,
+          "iconName": "spell_shadow_charm",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Master of Deception",
+            "ruRU": "Мастер маскировки"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the chance enemies have to detect you while in Stealth mode as if you were 1 level higher.",
+                "ruRU": "Снижает вероятность того, что противники обнаружат вас в состоянии незаметности, как если бы ваш уровень был на 1 выше."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the chance enemies have to detect you while in Stealth mode as if you were 2 levels higher.",
+                "ruRU": "Снижает вероятность того, что противники обнаружат вас в состоянии незаметности, как если бы ваш уровень был на 2 выше."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the chance enemies have to detect you while in Stealth mode as if you were 3 levels higher.",
+                "ruRU": "Снижает вероятность того, что противники обнаружат вас в состоянии незаметности, как если бы ваш уровень был на 3 выше."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105760,
+          "spellId": 14057,
+          "definitionId": 135290,
+          "key": "opportunity",
+          "iconFileDataId": 132366,
+          "iconName": "ability_warrior_warcry",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Opportunity",
+            "ruRU": "Правильный момент"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 5%.",
+                "ruRU": "Увеличивает урон от \"Удара в спину\", \"Гарроты\", \"Внезапного удара\" и \"Расправы\", на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 10%.",
+                "ruRU": "Увеличивает урон от \"Удара в спину\", \"Гарроты\", \"Внезапного удара\" и \"Расправы\", на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105751,
+          "spellId": 13983,
+          "definitionId": 135281,
+          "key": "setup",
+          "iconFileDataId": 136056,
+          "iconName": "spell_nature_mirrorimage",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Setup",
+            "ruRU": "Выучка"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 33% chance to add a Combo Point to your target after Dodging an attack or fully resisting a spell.",
+                "ruRU": "Когда вы уклоняетесь от атаки или полностью сопротивляетесь заклинанию, с вероятностью 33% длина серии приемов против цели увеличивается на 1."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 67% chance to add a Combo Point to your target after Dodging an attack or fully resisting a spell.",
+                "ruRU": "Когда вы уклоняетесь от атаки или полностью сопротивляетесь заклинанию, с вероятностью 67% длина серии приемов против цели увеличивается на 1."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 100% chance to add a Combo Point to your target after Dodging an attack or fully resisting a spell.",
+                "ruRU": "Когда вы уклоняетесь от атаки или полностью сопротивляетесь заклинанию, с вероятностью 100% длина серии приемов против цели увеличивается на 1."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105753,
+          "spellId": 13981,
+          "definitionId": 135283,
+          "key": "elusiveness",
+          "iconFileDataId": 135994,
+          "iconName": "spell_magic_lesserinvisibilty",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Elusiveness",
+            "ruRU": "Неуловимость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
+                "ruRU": "Уменьшает время восстановления способностей \"Исчезновение\" и \"Ослепление\" на 45 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Vanish and Blind abilities by 90 sec.",
+                "ruRU": "Уменьшает время восстановления способностей \"Исчезновение\" и \"Ослепление\" на 90 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105757,
+          "spellId": 1224782,
+          "definitionId": 135287,
+          "key": "dirty-tricks",
+          "iconFileDataId": 132310,
+          "iconName": "ability_sap",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Dirty Tricks",
+            "ruRU": "Грязные приемы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Sap and Blind abilities by 25%.",
+                "ruRU": "Снижает затраты энергии на \"Ошеломление\" и \"Ослепление\" на 25%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Sap and Blind abilities by 50%.",
+                "ruRU": "Снижает затраты энергии на \"Ошеломление\" и \"Ослепление\" на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105749,
+          "spellId": 14079,
+          "definitionId": 135279,
+          "key": "improved-ambush",
+          "iconFileDataId": 132282,
+          "iconName": "ability_rogue_ambush",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Ambush",
+            "ruRU": "Улучшенный внезапный удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Ambush ability by 15%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Внезапного удара\" на 15%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Ambush ability by 30%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Внезапного удара\" на 30%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Ambush ability by 45%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Внезапного удара\" на 45%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105755,
+          "spellId": 13976,
+          "definitionId": 135285,
+          "key": "initiative",
+          "iconFileDataId": 136159,
+          "iconName": "spell_shadow_fumble",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Initiative",
+            "ruRU": "Инициатива"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 33% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+                "ruRU": "С вероятностью 33% в результате проведения приемов \"Внезапный удар\", \"Гаррота\" и \"Подлый трюк\" длина серии приемов, проводимой против цели, увеличится дополнительно на 1 прием."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 67% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+                "ruRU": "С вероятностью 67% в результате проведения приемов \"Внезапный удар\", \"Гаррота\" и \"Подлый трюк\" длина серии приемов, проводимой против цели, увеличится дополнительно на 1 прием."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 100% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+                "ruRU": "С вероятностью 100% в результате проведения приемов \"Внезапный удар\", \"Гаррота\" и \"Подлый трюк\" длина серии приемов, проводимой против цели, увеличится дополнительно на 1 прием."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105754,
+          "spellId": 14278,
+          "definitionId": 135284,
+          "key": "ghostly-strike",
+          "iconFileDataId": 136136,
+          "iconName": "spell_shadow_curse",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Ghostly Strike",
+            "ruRU": "Призрачный удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "A strike that deals 125% (180% if a Dagger is equipped in your Main Hand) weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point.",
+                "ruRU": "Удар, наносящий 125% урона от оружия (180%, если в правой руке вы держите кинжал), и увеличивающий вероятность уклонения от атак на 15% на 7 сек. Длина серии приемов увеличивается на 1."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110868,
+          "spellId": 14084,
+          "definitionId": 142620,
+          "key": "improved-distract",
+          "iconFileDataId": 132289,
+          "iconName": "ability_rogue_distract",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Distract",
+            "ruRU": "Улучшенное отвлечение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the radius of your Distract ability by 3 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower.",
+                "ruRU": "Увеличивает радиус действия способности \"Отвлечение\" на 3 м и дополнительно уменьшает вероятность отвлеченных противников обнаружить вас, снижая эффективный уровень еще на 1."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the radius of your Distract ability by 5 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 2 levels lower.",
+                "ruRU": "Увеличивает радиус действия способности \"Отвлечение\" на 5 м и дополнительно уменьшает вероятность отвлеченных противников обнаружить вас, снижая эффективный уровень еще на 2."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105747,
+          "spellId": 30894,
+          "definitionId": 135277,
+          "key": "heightened-senses",
+          "iconFileDataId": 132089,
+          "iconName": "ability_ambush",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Heightened Senses",
+            "ruRU": "Обостренные чувства"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Stealth detection as if you were 1 level higher and reduces your chance to be hit by spells and ranged attacks by 2%.",
+                "ruRU": "Улучшает способность обнаружения замаскированных целей, словно ваш уровень выше на 1. Уменьшает вероятность того, что противники попадут в вас заклинаниями и атаками дальнего боя, на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Stealth detection as if you were 3 levels higher and reduces your chance to be hit by spells and ranged attacks by 4%.",
+                "ruRU": "Улучшает способность обнаружения замаскированных целей, словно ваш уровень выше на 3. Уменьшает вероятность того, что противники попадут в вас заклинаниями и атаками дальнего боя, на 4%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105743,
+          "spellId": 14183,
+          "definitionId": 135273,
+          "key": "premeditation",
+          "iconFileDataId": 136183,
+          "iconName": "spell_shadow_possession",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Premeditation",
+            "ruRU": "Умысел"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Adds 2 Combo Points to your target. You must add to or use those combo points within 20 sec or the combo points are lost.",
+                "ruRU": "Подготовительный прием, продлевающий серию на 2. Необходимо продолжить или завершить серию в течение 20 сек., или эффект пропадет."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105752,
+          "spellId": 14171,
+          "definitionId": 135282,
+          "key": "serrated-blades",
+          "iconFileDataId": 135315,
+          "iconName": "inv_sword_17",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Serrated Blades",
+            "ruRU": "Зазубренные клинки"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Causes your attacks to ignore 3% of your target's Armor and increases the damage dealt by your Rupture ability by 10%.",
+                "ruRU": "Позволяет вашим атакам игнорировать 3% брони цели. Увеличивает урон от способности \"Рваная рана\" на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Causes your attacks to ignore 6% of your target's Armor and increases the damage dealt by your Rupture ability by 20%.",
+                "ruRU": "Позволяет вашим атакам игнорировать 6% брони цели. Увеличивает урон от способности \"Рваная рана\" на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Causes your attacks to ignore 9% of your target's Armor and increases the damage dealt by your Rupture ability by 30%.",
+                "ruRU": "Позволяет вашим атакам игнорировать 9% брони цели. Увеличивает урон от способности \"Рваная рана\" на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105745,
+          "spellId": 14082,
+          "definitionId": 135275,
+          "key": "dirty-deeds",
+          "iconFileDataId": 136220,
+          "iconName": "spell_shadow_summonsuccubus",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Dirty Deeds",
+            "ruRU": "Грязные делишки"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10, and your Garrote ability no longer requires you to be behind your target.",
+                "ruRU": "Уменьшает расход энергии на способности \"Подлый трюк\" и \"Гаррота\" на 10 ед. Для применения \"Гарроты\" больше не обязательно находиться за спиной у цели."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20, and your Garrote ability no longer requires you to be behind your target.",
+                "ruRU": "Уменьшает расход энергии на способности \"Подлый трюк\" и \"Гаррота\" на 20 ед. Для применения \"Гарроты\" больше не обязательно находиться за спиной у цели."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105746,
+          "spellId": 14185,
+          "definitionId": 135276,
+          "key": "preparation",
+          "iconFileDataId": 136121,
+          "iconName": "spell_shadow_antishadow",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Preparation",
+            "ruRU": "Подготовка"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, this ability immediately finishes the cooldown on your other Rogue abilities.",
+                "ruRU": "При активации этой способности немедленно обнуляется время до восстановления остальных способностей разбойника."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105748,
+          "spellId": 16511,
+          "definitionId": 135278,
+          "key": "hemorrhage",
+          "iconFileDataId": 136168,
+          "iconName": "spell_shadow_lifedrain",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Hemorrhage",
+            "ruRU": "Кровоизлияние"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "An instant strike that deals 100% weapon damage (145% if a Dagger is equipped) and causes the target to take 15% increased Rupture damage from the Rogue. Lasts 15 sec. Awards 1 Combo Point.",
+                "ruRU": "Резкий удар, наносящий 100% урона от оружия (145%, если вы вооружены кинжалом). Увеличивает урон, который ваша \"Рваная рана\" наносит цели, на 15%. Время действия – 15 сек. Длина серии приемов увеличивается на 1."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105752
+          ]
+        },
+        {
+          "nodeId": 110867,
+          "spellId": 1310728,
+          "definitionId": 142619,
+          "key": "quietus",
+          "iconFileDataId": 132297,
+          "iconName": "ability_rogue_garrote",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Quietus",
+            "ruRU": "Упокоение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health.",
+                "ruRU": "\"Коварный удар\", \"Призрачный удар\" и \"Кровоизлияние\" наносят на 2% больше урона целям, уровень здоровья которых ниже 35%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 4% more damage against targets below 35% health.",
+                "ruRU": "\"Коварный удар\", \"Призрачный удар\" и \"Кровоизлияние\" наносят на 4% больше урона целям, уровень здоровья которых ниже 35%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 6% more damage against targets below 35% health.",
+                "ruRU": "\"Коварный удар\", \"Призрачный удар\" и \"Кровоизлияние\" наносят на 6% больше урона целям, уровень здоровья которых ниже 35%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 8% more damage against targets below 35% health.",
+                "ruRU": "\"Коварный удар\", \"Призрачный удар\" и \"Кровоизлияние\" наносят на 8% больше урона целям, уровень здоровья которых ниже 35%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 10% more damage against targets below 35% health.",
+                "ruRU": "\"Коварный удар\", \"Призрачный удар\" и \"Кровоизлияние\" наносят на 10% больше урона целям, уровень здоровья которых ниже 35%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105745
+          ]
+        },
+        {
+          "nodeId": 105750,
+          "spellId": 462708,
+          "definitionId": 135280,
+          "key": "cutthroat",
+          "iconFileDataId": 626005,
+          "iconName": "classicon_rogue",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Cutthroat",
+            "ruRU": "Горлорез"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth.",
+                "ruRU": "\"Удар в спину\" с вероятностью 3% позволяет применить следующий \"Внезапный удар\", не находясь в состоянии незаметности. Время действия – 10 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Backstab has a 6% chance to cause your next Ambush within 10 sec to not require Stealth.",
+                "ruRU": "\"Удар в спину\" с вероятностью 6% позволяет применить следующий \"Внезапный удар\", не находясь в состоянии незаметности. Время действия – 10 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your Backstab has a 9% chance to cause your next Ambush within 10 sec to not require Stealth.",
+                "ruRU": "\"Удар в спину\" с вероятностью 9% позволяет применить следующий \"Внезапный удар\", не находясь в состоянии незаметности. Время действия – 10 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Your Backstab has a 12% chance to cause your next Ambush within 10 sec to not require Stealth.",
+                "ruRU": "\"Удар в спину\" с вероятностью 12% позволяет применить следующий \"Внезапный удар\", не находясь в состоянии незаметности. Время действия – 10 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Your Backstab has a 15% chance to cause your next Ambush within 10 sec to not require Stealth.",
+                "ruRU": "\"Удар в спину\" с вероятностью 15% позволяет применить следующий \"Внезапный удар\", не находясь в состоянии незаметности. Время действия – 10 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110866,
+          "spellId": 1310721,
+          "definitionId": 142618,
+          "key": "thousand-cuts",
+          "iconFileDataId": 132302,
+          "iconName": "ability_rogue_rupture",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Thousand Cuts",
+            "ruRU": "Тысяча порезов"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When your Rupture ability deals periodic damage, the Energy cost of your next Hemorrhage or Backstab ability within 10 sec is reduced by 3, stacking up to 5 times.",
+                "ruRU": "Когда ваша \"Рваная рана\" наносит периодический урон, затраты энергии на следующее применение \"Кровоизлияния\" или \"Удара в спину\" снижаются на 3 ед. на 10 сек. Эффект суммируется до 5 раз."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105746
+          ]
+        }
+      ]
+    }
+  ]
+}

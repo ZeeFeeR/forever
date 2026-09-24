@@ -1,0 +1,2281 @@
+{
+  "schemaVersion": 1,
+  "product": "wow_classic_beta",
+  "build": "1.60.1.69977",
+  "generatedAt": "2026-09-24T07:21:06.396Z",
+  "source": "Wago DB2 / WoW Forever beta client data",
+  "class": {
+    "id": "druid",
+    "classId": 11,
+    "name": {
+      "enUS": "Druid",
+      "ruRU": "Друид"
+    }
+  },
+  "traitTreeId": 1089,
+  "rules": {
+    "maxLevel": 60,
+    "firstPointLevel": 10,
+    "maxPoints": 51,
+    "pointsPerRow": 5
+  },
+  "trees": [
+    {
+      "id": "balance",
+      "order": 0,
+      "name": {
+        "enUS": "Balance",
+        "ruRU": "Баланс"
+      },
+      "talents": [
+        {
+          "nodeId": 104923,
+          "spellId": 16814,
+          "definitionId": 134384,
+          "key": "improved-wrath",
+          "iconFileDataId": 136006,
+          "iconName": "spell_nature_abolishmagic",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Wrath",
+            "ruRU": "Улучшенный гнев"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cast time of your Wrath spell by 0.1 sec and its Mana cost by 10%.",
+                "ruRU": "Сокращает время применения \"Гнева\" на 0.1 сек. и снижает затраты маны на его применение на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cast time of your Wrath spell by 0.2 sec and its Mana cost by 20%.",
+                "ruRU": "Сокращает время применения \"Гнева\" на 0.2 сек. и снижает затраты маны на его применение на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cast time of your Wrath spell by 0.3 sec and its Mana cost by 30%.",
+                "ruRU": "Сокращает время применения \"Гнева\" на 0.3 сек. и снижает затраты маны на его применение на 30%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the cast time of your Wrath spell by 0.4 sec and its Mana cost by 40%.",
+                "ruRU": "Сокращает время применения \"Гнева\" на 0.4 сек. и снижает затраты маны на его применение на 40%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the cast time of your Wrath spell by 0.5 sec and its Mana cost by 50%.",
+                "ruRU": "Сокращает время применения \"Гнева\" на 0.5 сек. и снижает затраты маны на его применение на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104924,
+          "spellId": 1223081,
+          "definitionId": 134385,
+          "key": "genesis",
+          "iconFileDataId": 135730,
+          "iconName": "spell_arcane_arcane03",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Genesis",
+            "ruRU": "Сотворение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the periodic damage and healing done by your spells and abilities by 1%.",
+                "ruRU": "Увеличивает периодический урон и силу исцеления ваших заклинаний и способностей на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the periodic damage and healing done by your spells and abilities by 2%.",
+                "ruRU": "Увеличивает периодический урон и силу исцеления ваших заклинаний и способностей на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the periodic damage and healing done by your spells and abilities by 3%.",
+                "ruRU": "Увеличивает периодический урон и силу исцеления ваших заклинаний и способностей на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the periodic damage and healing done by your spells and abilities by 4%.",
+                "ruRU": "Увеличивает периодический урон и силу исцеления ваших заклинаний и способностей на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the periodic damage and healing done by your spells and abilities by 5%.",
+                "ruRU": "Увеличивает периодический урон и силу исцеления ваших заклинаний и способностей на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104925,
+          "spellId": 16845,
+          "definitionId": 134386,
+          "key": "moonglow",
+          "iconFileDataId": 136087,
+          "iconName": "spell_nature_sentinal",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Moonglow",
+            "ruRU": "Лунное сияние"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Mana cost of your damaging spells by 8%.",
+                "ruRU": "Reduces the Mana cost of your damaging spells by 8%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Mana cost of your damaging spells by 17%.",
+                "ruRU": "Reduces the Mana cost of your damaging spells by 17%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Mana cost of your damaging spells by 25%.",
+                "ruRU": "Reduces the Mana cost of your damaging spells by 25%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104931,
+          "spellId": 16821,
+          "definitionId": 134392,
+          "key": "improved-moonfire",
+          "iconFileDataId": 136096,
+          "iconName": "spell_nature_starfall",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Moonfire",
+            "ruRU": "Улучшенный лунный огонь"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage and critical strike chance of your Moonfire spell by 5%.",
+                "ruRU": "Увеличение урона и шанса на критический удар от вашего заклинания \"Лунный огонь\" на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage and critical strike chance of your Moonfire spell by 10%.",
+                "ruRU": "Увеличение урона и шанса на критический удар от вашего заклинания \"Лунный огонь\" на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104927,
+          "spellId": 1223082,
+          "definitionId": 134388,
+          "key": "natures-majesty",
+          "iconFileDataId": 135138,
+          "iconName": "inv_staff_01",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Nature's Majesty",
+            "ruRU": "Величие природы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your critical strike chance with spells and melee attacks by 2%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний и атак ближнего боя на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your critical strike chance with spells and melee attacks by 4%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний и атак ближнего боя на 4%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104929,
+          "spellId": 16819,
+          "definitionId": 134390,
+          "key": "natures-reach",
+          "iconFileDataId": 136065,
+          "iconName": "spell_nature_naturetouchgrow",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Nature's Reach",
+            "ruRU": "Предел сил Природы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the range of your offensive Balance spells by 10% and improves your chance to hit by 2%.",
+                "ruRU": "Увеличивает дальность действия наносящих урон заклинаний специализации \"Баланс\" на 10% и повышает вероятностью попадания на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the range of your offensive Balance spells by 20% and improves your chance to hit by 4%.",
+                "ruRU": "Увеличивает дальность действия наносящих урон заклинаний специализации \"Баланс\" на 20% и повышает вероятностью попадания на 4%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104926,
+          "spellId": 16918,
+          "definitionId": 134387,
+          "key": "improved-entangling-roots",
+          "iconFileDataId": 136100,
+          "iconName": "spell_nature_stranglevines",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Entangling Roots",
+            "ruRU": "Улучшенный гнев деревьев"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Entangling Roots spell by 25%, and its victims can take up to 25% more damage without interrupting the effect.",
+                "ruRU": "Увеличивает урон от \"Гнева деревьев\" на 25%. Обездвиженные цели могут получить на 25% больше урона, прежде чем эффект будет снят."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Entangling Roots spell by 50%, and its victims can take up to 50% more damage without interrupting the effect.",
+                "ruRU": "Увеличивает урон от \"Гнева деревьев\" на 50%. Обездвиженные цели могут получить на 50% больше урона, прежде чем эффект будет снят."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Entangling Roots spell by 75%, and its victims can take up to 75% more damage without interrupting the effect.",
+                "ruRU": "Увеличивает урон от \"Гнева деревьев\" на 75%. Обездвиженные цели могут получить на 75% больше урона, прежде чем эффект будет снят."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104928,
+          "spellId": 1223083,
+          "definitionId": 134389,
+          "key": "natures-splendor",
+          "iconFileDataId": 136061,
+          "iconName": "spell_nature_natureresistancetotem",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Nature's Splendor",
+            "ruRU": "Великолепие природы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the duration of your Moonfire and Rejuvenation spells by 3 sec, your Regrowth spell by 6 sec, and your Insect Swarm spell by 2 sec.",
+                "ruRU": "Увеличивает время действия заклинаний \"Лунный огонь\" и \"Омоложение\" на 3 сек., \"Восстановления\" – на 6 сек. и \"Роя насекомых\" – на 2 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104927
+          ]
+        },
+        {
+          "nodeId": 104930,
+          "spellId": 5570,
+          "definitionId": 134391,
+          "key": "insect-swarm",
+          "iconFileDataId": 136045,
+          "iconName": "spell_nature_insectswarm",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Insect Swarm",
+            "ruRU": "Рой насекомых"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "The enemy target is swarmed by insects, decreasing their chance to hit with attacks by 2% and causing 48 Nature damage over 12 sec.",
+                "ruRU": "Противника атакует рой насекомых, снижающий его вероятность попадания атаками на 2% и наносящий 48 ед. урона от сил природы за 12 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104932,
+          "spellId": 16909,
+          "definitionId": 134393,
+          "key": "vengeance",
+          "iconFileDataId": 136075,
+          "iconName": "spell_nature_purge",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Vengeance",
+            "ruRU": "Отмщение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Arcane and Nature spells by 20%.",
+                "ruRU": "Увеличивает критический урон от заклинаний тайной магии и сил природы на 20%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Arcane and Nature spells by 40%.",
+                "ruRU": "Увеличивает критический урон от заклинаний тайной магии и сил природы на 40%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Arcane and Nature spells by 60%.",
+                "ruRU": "Увеличивает критический урон от заклинаний тайной магии и сил природы на 60%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Arcane and Nature spells by 80%.",
+                "ruRU": "Увеличивает критический урон от заклинаний тайной магии и сил природы на 80%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Arcane and Nature spells by 100%.",
+                "ruRU": "Увеличивает критический урон от заклинаний тайной магии и сил природы на 100%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104931
+          ]
+        },
+        {
+          "nodeId": 104933,
+          "spellId": 16850,
+          "definitionId": 134394,
+          "key": "improved-starfire",
+          "iconFileDataId": 135753,
+          "iconName": "spell_arcane_starfire",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Starfire",
+            "ruRU": "Улучшенный звездный огонь"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cast time of Starfire by 0.1 sec and Starfire has a 3% chance to stun its target for 3 sec.",
+                "ruRU": "Сокращает время применения \"Звездного огня\" на 0.1 сек. \"Звездный огонь\" с вероятностью 3% оглушает цель на 3 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cast time of Starfire by 0.2 sec and Starfire has a 6% chance to stun its target for 3 sec.",
+                "ruRU": "Сокращает время применения \"Звездного огня\" на 0.2 сек. \"Звездный огонь\" с вероятностью 6% оглушает цель на 3 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cast time of Starfire by 0.3 sec and Starfire has a 9% chance to stun its target for 3 sec.",
+                "ruRU": "Сокращает время применения \"Звездного огня\" на 0.3 сек. \"Звездный огонь\" с вероятностью 9% оглушает цель на 3 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the cast time of Starfire by 0.4 sec and Starfire has a 12% chance to stun its target for 3 sec.",
+                "ruRU": "Сокращает время применения \"Звездного огня\" на 0.4 сек. \"Звездный огонь\" с вероятностью 12% оглушает цель на 3 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the cast time of Starfire by 0.5 sec and Starfire has a 15% chance to stun its target for 3 sec.",
+                "ruRU": "Сокращает время применения \"Звездного огня\" на 0.5 сек. \"Звездный огонь\" с вероятностью 15% оглушает цель на 3 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110844,
+          "spellId": 17245,
+          "definitionId": 142590,
+          "key": "overgrowth",
+          "iconFileDataId": 134196,
+          "iconName": "inv_misc_herb_15",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Overgrowth",
+            "ruRU": "Разрастание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the maximum number of targets you may have affected by Entangling Roots by 1.",
+                "ruRU": "Увеличивает максимальное количество целей, к которым вы можете применить \"Гнев деревьев\", на 1."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the maximum number of targets you may have affected by Entangling Roots by 2.",
+                "ruRU": "Увеличивает максимальное количество целей, к которым вы можете применить \"Гнев деревьев\", на 2."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104934,
+          "spellId": 16880,
+          "definitionId": 134395,
+          "key": "natures-grace",
+          "iconFileDataId": 136062,
+          "iconName": "spell_nature_naturesblessing",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Nature's Grace",
+            "ruRU": "Благоволение природы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "All non-periodic spell criticals grace you with a blessing of nature, increasing your spellcasting speed and reducing your global cooldown by 10% for 3 sec.",
+                "ruRU": "Когда ваше заклинание прямого действия наносит критический урон, вы получаете благословение природы, повышающее скорость применения заклинаний и сокращающее общее время восстановления на 10% на 3 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104935,
+          "spellId": 408248,
+          "definitionId": 134396,
+          "key": "eclipse",
+          "iconFileDataId": 236151,
+          "iconName": "ability_druid_eclipse",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Eclipse",
+            "ruRU": "Затмение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.17 sec. Stores up to 4 charges. Lasts 15 sec.",
+                "ruRU": "\"Гнев\" сокращает время применения 2 следующих заклинаний \"Звездный огонь\" на 0.17 сек. Можно накопить до 4 зарядов. Время действия – 15 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.33 sec. Stores up to 4 charges. Lasts 15 sec.",
+                "ruRU": "\"Гнев\" сокращает время применения 2 следующих заклинаний \"Звездный огонь\" на 0.33 сек. Можно накопить до 4 зарядов. Время действия – 15 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.50 sec. Stores up to 4 charges. Lasts 15 sec.",
+                "ruRU": "\"Гнев\" сокращает время применения 2 следующих заклинаний \"Звездный огонь\" на 0.50 сек. Можно накопить до 4 зарядов. Время действия – 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104936,
+          "spellId": 16896,
+          "definitionId": 134397,
+          "key": "moonfury",
+          "iconFileDataId": 136057,
+          "iconName": "spell_nature_moonglow",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Moonfury",
+            "ruRU": "Лунное неистовство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Arcane and Nature spells by 2%.",
+                "ruRU": "Увеличивает урон от заклинаний тайной магии и сил природы на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Arcane and Nature spells by 4%.",
+                "ruRU": "Увеличивает урон от заклинаний тайной магии и сил природы на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Arcane and Nature spells by 6%.",
+                "ruRU": "Увеличивает урон от заклинаний тайной магии и сил природы на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the damage done by your Arcane and Nature spells by 8%.",
+                "ruRU": "Увеличивает урон от заклинаний тайной магии и сил природы на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the damage done by your Arcane and Nature spells by 10%.",
+                "ruRU": "Увеличивает урон от заклинаний тайной магии и сил природы на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104937,
+          "spellId": 24858,
+          "definitionId": 134398,
+          "key": "moonkin-form",
+          "iconFileDataId": 136036,
+          "iconName": "spell_nature_forceofnature",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Moonkin Form",
+            "ruRU": "Облик лунного совуха"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Transforms the Druid into Moonkin Form. While in this form, the armor contribution from items is increased by 360%, Omen of Clarity gains 100% increased chance to trigger, and all party members within 45 yards have their critical strike chance increased by 3%, exclusive with Leader of the Pack. The Moonkin cannot cast healing spells while shapeshifted. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
+                "ruRU": "Transforms the Druid into Moonkin Form. While in this form, the armor contribution from items is increased by 360%, Omen of Clarity gains 100% increased chance to trigger, and all party members within 45 yards have their critical strike chance increased by 3%, exclusive with Leader of the Pack. The Moonkin cannot cast healing spells while shapeshifted. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        }
+      ]
+    },
+    {
+      "id": "feral-combat",
+      "order": 1,
+      "name": {
+        "enUS": "Feral Combat",
+        "ruRU": "Сила зверя"
+      },
+      "talents": [
+        {
+          "nodeId": 104938,
+          "spellId": 16934,
+          "definitionId": 134399,
+          "key": "ferocity",
+          "iconFileDataId": 132190,
+          "iconName": "ability_hunter_pet_hyena",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Ferocity",
+            "ruRU": "Свирепость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 1 Rage or Energy.",
+                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 1 ед."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 2 Rage or Energy.",
+                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 2 ед."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 3 Rage or Energy.",
+                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 3 ед."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 4 Rage or Energy.",
+                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 4 ед."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 5 Rage or Energy.",
+                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 5 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104939,
+          "spellId": 17003,
+          "definitionId": 134400,
+          "key": "heart-of-the-wild",
+          "iconFileDataId": 135879,
+          "iconName": "spell_holy_blessingofagility",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Heart of the Wild",
+            "ruRU": "Сердце дикой природы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Intellect by 2%. In addition, while in Bear Form or Dire Bear Form your Stamina is increased by 4% and while in Cat Form your Strength is increased by 2%.",
+                "ruRU": "Повышает интеллект на 2%. Также повышает выносливость в облике медведя и лютого медведя на 4% и повышает силу в облике кошки на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Intellect by 4%. In addition, while in Bear Form or Dire Bear Form your Stamina is increased by 8% and while in Cat Form your Strength is increased by 4%.",
+                "ruRU": "Повышает интеллект на 4%. Также повышает выносливость в облике медведя и лютого медведя на 8% и повышает силу в облике кошки на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Intellect by 6%. In addition, while in Bear Form or Dire Bear Form your Stamina is increased by 12% and while in Cat Form your Strength is increased by 6%.",
+                "ruRU": "Повышает интеллект на 6%. Также повышает выносливость в облике медведя и лютого медведя на 12% и повышает силу в облике кошки на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Intellect by 8%. In addition, while in Bear Form or Dire Bear Form your Stamina is increased by 16% and while in Cat Form your Strength is increased by 8%.",
+                "ruRU": "Повышает интеллект на 8%. Также повышает выносливость в облике медведя и лютого медведя на 16% и повышает силу в облике кошки на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Intellect by 10%. In addition, while in Bear Form or Dire Bear Form your Stamina is increased by 20% and while in Cat Form your Strength is increased by 10%.",
+                "ruRU": "Повышает интеллект на 10%. Также повышает выносливость в облике медведя и лютого медведя на 20% и повышает силу в облике кошки на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104943,
+          "spellId": 17002,
+          "definitionId": 134404,
+          "key": "feral-swiftness",
+          "iconFileDataId": 136095,
+          "iconName": "spell_nature_spiritwolf",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Feral Swiftness",
+            "ruRU": "Звериная скорость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your movement speed while in Cat Form by 15%, and increases your chance to Dodge by 2%.",
+                "ruRU": "Повышает скорость передвижения в облике кошки на 15% и увеличивает вероятность уклонения на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your movement speed while in Cat Form by 30%, and increases your chance to Dodge by 4%.",
+                "ruRU": "Повышает скорость передвижения в облике кошки на 30% и увеличивает вероятность уклонения на 4%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104940,
+          "spellId": 16947,
+          "definitionId": 134401,
+          "key": "feral-instinct",
+          "iconFileDataId": 132089,
+          "iconName": "ability_ambush",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Feral Instinct",
+            "ruRU": "Животный инстинкт"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases damage done by your Swipe ability by 10% and reduces the chance enemies have to detect you while Prowling as if you were 1 level higher.",
+                "ruRU": "Увеличивает урон от \"Размаха\" на 10% и снижает вероятность того, что противники обнаружат вас во время действия \"Крадущегося зверя\", как если бы ваш уровень был выше на 1."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases damage done by your Swipe ability by 20% and reduces the chance enemies have to detect you while Prowling as if you were 2 levels higher.",
+                "ruRU": "Увеличивает урон от \"Размаха\" на 20% и снижает вероятность того, что противники обнаружат вас во время действия \"Крадущегося зверя\", как если бы ваш уровень был выше на 2."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases damage done by your Swipe ability by 30% and reduces the chance enemies have to detect you while Prowling as if you were 3 levels higher.",
+                "ruRU": "Увеличивает урон от \"Размаха\" на 30% и снижает вероятность того, что противники обнаружат вас во время действия \"Крадущегося зверя\", как если бы ваш уровень был выше на 3."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104941,
+          "spellId": 16940,
+          "definitionId": 134402,
+          "key": "brutal-impact",
+          "iconFileDataId": 132114,
+          "iconName": "ability_druid_bash",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Brutal Impact",
+            "ruRU": "Жестокий удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the stun duration of your Bash and Pounce abilities by 0.5 sec and reduces the cooldown of Bash by 15 sec.",
+                "ruRU": "Увеличивает длительность оглушения от ваших способностей \"Оглушить\" и \"Наскок\" на 0.5 сек. и сокращает время восстановления способности \"Оглушить\" на 15 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the stun duration of your Bash and Pounce abilities by 1 sec and reduces the cooldown of Bash by 30 sec.",
+                "ruRU": "Увеличивает длительность оглушения от ваших способностей \"Оглушить\" и \"Наскок\" на 1 сек. и сокращает время восстановления способности \"Оглушить\" на 30 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104942,
+          "spellId": 16929,
+          "definitionId": 134403,
+          "key": "thick-hide",
+          "iconFileDataId": 134355,
+          "iconName": "inv_misc_pelt_bear_03",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Thick Hide",
+            "ruRU": "Плотная шкура"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "While in Bear Form, Cat Form, Dire Bear Form, or Moonkin Form, you gain 1 additional base Armor per level and another 0.67 base Armor for each point of defense skill beyond five times your level. This amount can be further increased by multipliers from those forms.",
+                "ruRU": "В облике медведя, кошки, лютого медведя или лунного совуха ваша базовая броня повышается еще на 1 за каждый уровень, а также еще на 0.67 за каждый уровень навыка защиты, превышающий пятикратный уровень вашего персонажа. Бонусы к броне в данных обликах также действуют на этот эффект."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "While in Bear Form, Cat Form, Dire Bear Form, or Moonkin Form, you gain 2 additional base Armor per level and another 1.33 base Armor for each point of defense skill beyond five times your level. This amount can be further increased by multipliers from those forms.",
+                "ruRU": "В облике медведя, кошки, лютого медведя или лунного совуха ваша базовая броня повышается еще на 2 за каждый уровень, а также еще на 1.33 за каждый уровень навыка защиты, превышающий пятикратный уровень вашего персонажа. Бонусы к броне в данных обликах также действуют на этот эффект."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "While in Bear Form, Cat Form, Dire Bear Form, or Moonkin Form, you gain 3 additional base Armor per level and another 2.00 base Armor for each point of defense skill beyond five times your level. This amount can be further increased by multipliers from those forms.",
+                "ruRU": "В облике медведя, кошки, лютого медведя или лунного совуха ваша базовая броня повышается еще на 3 за каждый уровень, а также еще на 2.00 за каждый уровень навыка защиты, превышающий пятикратный уровень вашего персонажа. Бонусы к броне в данных обликах также действуют на этот эффект."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104948,
+          "spellId": 16998,
+          "definitionId": 134409,
+          "key": "savage-fury",
+          "iconFileDataId": 132141,
+          "iconName": "ability_druid_ravage",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Savage Fury",
+            "ruRU": "Бешеное неистовство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage caused by your Claw, Rake, Shred, Maul, and Swipe abilities by 5%.",
+                "ruRU": "Увеличивает урон от способностей \"Когти\", \"Глубокая рана\", \"Полоснуть\", \"Трепка\" и \"Размах\" на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage caused by your Claw, Rake, Shred, Maul, and Swipe abilities by 10%.",
+                "ruRU": "Увеличивает урон от способностей \"Когти\", \"Глубокая рана\", \"Полоснуть\", \"Трепка\" и \"Размах\" на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104944,
+          "spellId": 1238122,
+          "definitionId": 134405,
+          "key": "feral-charge",
+          "iconFileDataId": 132183,
+          "iconName": "ability_hunter_pet_bear",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Feral Charge",
+            "ruRU": "Звериный рывок"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "$?a5487|a9634[|CFFFFFFFFRequires Bear Form, Dire Bear Form][|CFFFF2020Requires Bear Form, Dire Bear Form] Charge an enemy, immobilizing them and interrupting any spell they are casting for 4 sec. $@spelltooltip414924",
+                "ruRU": "$?a5487|a9634[|CFFFFFFFFТребуется облик медведя или лютого медведя][|CFFFF2020Требуется облик медведя или лютого медведя] Вы совершаете рывок к противнику, обездвиживая его и прерывая применение заклинаний на 4 сек. $@spelltooltip414924"
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104946,
+          "spellId": 16942,
+          "definitionId": 134407,
+          "key": "sharpened-claws",
+          "iconFileDataId": 134297,
+          "iconName": "inv_misc_monsterclaw_04",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Sharpened Claws",
+            "ruRU": "Острые когти"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your critical strike chance while in Bear Form, Dire Bear Form, or Cat Form by 3%.",
+                "ruRU": "Повышает вероятность критического удара в облике медведя, лютого медведя и кошки на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your critical strike chance while in Bear Form, Dire Bear Form, or Cat Form by 6%.",
+                "ruRU": "Повышает вероятность критического удара в облике медведя, лютого медведя и кошки на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104945,
+          "spellId": 16966,
+          "definitionId": 134406,
+          "key": "shredding-attacks",
+          "iconFileDataId": 136231,
+          "iconName": "spell_shadow_vampiricaura",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Shredding Attacks",
+            "ruRU": "Растерзать противника"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Shred ability by 6 and reduces the Rage cost of your Lacerate ability by 1.",
+                "ruRU": "Снижает затраты энергии на способность \"Полоснуть\" на 6 ед. и снижает затраты ярости на способность \"Растерзать\" на 1 ед."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Shred ability by 12 and reduces the Rage cost of your Lacerate ability by 2.",
+                "ruRU": "Снижает затраты энергии на способность \"Полоснуть\" на 12 ед. и снижает затраты ярости на способность \"Растерзать\" на 2 ед."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Energy cost of your Shred ability by 18 and reduces the Rage cost of your Lacerate ability by 3.",
+                "ruRU": "Снижает затраты энергии на способность \"Полоснуть\" на 18 ед. и снижает затраты ярости на способность \"Растерзать\" на 3 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104949,
+          "spellId": 407995,
+          "definitionId": 134410,
+          "key": "mangle",
+          "iconFileDataId": 132135,
+          "iconName": "ability_druid_mangle2",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Mangle",
+            "ruRU": "Увечье"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Mangle the target for 100% normal damage plus 26.",
+                "ruRU": "Увечит цель, нанося 100% обычного урона и еще 26 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104948
+          ]
+        },
+        {
+          "nodeId": 104952,
+          "spellId": 16972,
+          "definitionId": 134413,
+          "key": "predatory-strikes",
+          "iconFileDataId": 132185,
+          "iconName": "ability_hunter_pet_cat",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Predatory Strikes",
+            "ruRU": "Удары хищника"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your melee Attack Power in Cat Form, Bear Form, and Dire Bear Form by 50% of your level.",
+                "ruRU": "Повышает силу атаки ближнего боя в облике кошки, медведя и лютого медведя на 50% вашего уровня."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your melee Attack Power in Cat Form, Bear Form, and Dire Bear Form by 100% of your level.",
+                "ruRU": "Повышает силу атаки ближнего боя в облике кошки, медведя и лютого медведя на 100% вашего уровня."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your melee Attack Power in Cat Form, Bear Form, and Dire Bear Form by 150% of your level.",
+                "ruRU": "Повышает силу атаки ближнего боя в облике кошки, медведя и лютого медведя на 150% вашего уровня."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104947,
+          "spellId": 16958,
+          "definitionId": 134408,
+          "key": "primal-fury",
+          "iconFileDataId": 132278,
+          "iconName": "ability_racial_cannibalize",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Primal Fury",
+            "ruRU": "Изначальное неистовство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 50% chance to gain an additional $/10;16959s1 Rage any time you get a critical strike while in Bear Form or Dire Bear Form. In addition, your non-periodic critical strikes from Cat Form abilities that generate Combo Points have a 50% chance to add an additional Combo Point.",
+                "ruRU": "Когда вы наносите критический удар в облике медведя или лютого медведя, вы с вероятностью 50% накапливаете еще $/10;16959s1 ед. ярости. Кроме того, критические удары способностей прямого действия в облике кошки, увеличивающие длину серии, с вероятностью 50% увеличивают длину серии еще на 1."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 100% chance to gain an additional $/10;16959s1 Rage any time you get a critical strike while in Bear Form or Dire Bear Form. In addition, your non-periodic critical strikes from Cat Form abilities that generate Combo Points have a 100% chance to add an additional Combo Point.",
+                "ruRU": "Когда вы наносите критический удар в облике медведя или лютого медведя, вы с вероятностью 100% накапливаете еще $/10;16959s1 ед. ярости. Кроме того, критические удары способностей прямого действия в облике кошки, увеличивающие длину серии, с вероятностью 100% увеличивают длину серии еще на 1."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104946
+          ]
+        },
+        {
+          "nodeId": 104950,
+          "spellId": 1223242,
+          "definitionId": 134411,
+          "key": "predatory-instincts",
+          "iconFileDataId": 132138,
+          "iconName": "ability_druid_predatoryinstincts",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Predatory Instincts",
+            "ruRU": "Хищный инстинкт"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your melee abilities by 10%.",
+                "ruRU": "Увеличивает дополнительный урон от критических ударов ближнего боя на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your melee abilities by 20%.",
+                "ruRU": "Увеличивает дополнительный урон от критических ударов ближнего боя на 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104955,
+          "spellId": 17007,
+          "definitionId": 134416,
+          "key": "leader-of-the-pack",
+          "iconFileDataId": 136112,
+          "iconName": "spell_nature_unyeildingstamina",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Leader of the Pack",
+            "ruRU": "Вожак стаи"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "While in Cat Form, Bear Form, or Dire Bear Form, the Leader of the Pack increases the critical strike chance of all party members within 45 yards by 3%, exclusive with Moonkin Aura.",
+                "ruRU": "В облике кошки, медведя или лютого медведя \"Вожак стаи\" повышает вероятность критического удара участников группы в радиусе 45 м на 3%. Не суммируется с \"Аурой лунного совуха\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104951,
+          "spellId": 417046,
+          "definitionId": 134412,
+          "key": "king-of-the-jungle",
+          "iconFileDataId": 236159,
+          "iconName": "ability_druid_kingofthejungle",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "King of the Jungle",
+            "ruRU": "Король джунглей"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Tiger's Fury now instantly grants you 20 Energy.",
+                "ruRU": "\"Тигриное неистовство\" теперь мгновенно восстанавливает 20 ед. энергии."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Tiger's Fury now instantly grants you 40 Energy.",
+                "ruRU": "\"Тигриное неистовство\" теперь мгновенно восстанавливает 40 ед. энергии."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Tiger's Fury now instantly grants you 60 Energy.",
+                "ruRU": "\"Тигриное неистовство\" теперь мгновенно восстанавливает 60 ед. энергии."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104954,
+          "spellId": 417051,
+          "definitionId": 134415,
+          "key": "natural-reaction",
+          "iconFileDataId": 132091,
+          "iconName": "ability_bullrush",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Natural Reaction",
+            "ruRU": "Безусловный рефлекс"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your dodge chance by 1%, and gives you a 20% chance to gain 5 Rage each time you dodge.",
+                "ruRU": "Повышает вероятность уклонения на 1%. Когда вы уклоняетесь от атаки, вы с вероятностью 20% накапливаете 5 ед. ярости."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your dodge chance by 2%, and gives you a 40% chance to gain 5 Rage each time you dodge.",
+                "ruRU": "Повышает вероятность уклонения на 2%. Когда вы уклоняетесь от атаки, вы с вероятностью 40% накапливаете 5 ед. ярости."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your dodge chance by 3%, and gives you a 60% chance to gain 5 Rage each time you dodge.",
+                "ruRU": "Повышает вероятность уклонения на 3%. Когда вы уклоняетесь от атаки, вы с вероятностью 60% накапливаете 5 ед. ярости."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your dodge chance by 4%, and gives you a 80% chance to gain 5 Rage each time you dodge.",
+                "ruRU": "Повышает вероятность уклонения на 4%. Когда вы уклоняетесь от атаки, вы с вероятностью 80% накапливаете 5 ед. ярости."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your dodge chance by 5%, and gives you a 100% chance to gain 5 Rage each time you dodge.",
+                "ruRU": "Повышает вероятность уклонения на 5%. Когда вы уклоняетесь от атаки, вы с вероятностью 100% накапливаете 5 ед. ярости."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104953,
+          "spellId": 1223246,
+          "definitionId": 134414,
+          "key": "rend-and-tear",
+          "iconFileDataId": 236164,
+          "iconName": "ability_druid_primalagression",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Rend and Tear",
+            "ruRU": "Рви и терзай"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases damage done by your melee abilities on Bleeding targets by 2%.",
+                "ruRU": "Увеличивает урон от способностей ближнего боя, применяемых к кровоточащим целям, на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases damage done by your melee abilities on Bleeding targets by 4%.",
+                "ruRU": "Увеличивает урон от способностей ближнего боя, применяемых к кровоточащим целям, на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases damage done by your melee abilities on Bleeding targets by 6%.",
+                "ruRU": "Увеличивает урон от способностей ближнего боя, применяемых к кровоточащим целям, на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases damage done by your melee abilities on Bleeding targets by 8%.",
+                "ruRU": "Увеличивает урон от способностей ближнего боя, применяемых к кровоточащим целям, на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases damage done by your melee abilities on Bleeding targets by 10%.",
+                "ruRU": "Увеличивает урон от способностей ближнего боя, применяемых к кровоточащим целям, на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104952
+          ]
+        },
+        {
+          "nodeId": 104956,
+          "spellId": 417141,
+          "definitionId": 134417,
+          "key": "berserk",
+          "iconFileDataId": 236149,
+          "iconName": "ability_druid_berserk",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Berserk",
+            "ruRU": "Берсерк"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "$?a5487|a9634|a3025[|CFFFFFFFFReuires Cat Form, Bear Form, Dire Bear Form][|CFFFF2020Requires Cat Form, Bear Form, Dire Bear Form] Causes your Mangle ability to strike up to 3 targets, removes its cooldown, and increases the critical strike chance of your Combo Point-generating abilities by 100%. Clears and grants immunity to Fear effects for the duration. Lasts 15 sec.",
+                "ruRU": "$?a5487|a9634|a3025[|CFFFFFFFFТребуется облик кошки, медведя или лютого медведя][|CFFFF2020Требуется облик кошки, медведя или лютого медведя] В состоянии берсерка \"Увечье\" поражает до 3 противников, не требует времени на восстановления и повышает вероятность критического удара способностей, продлевающих серию приемов, на 100%. \"Берсерк\" снимает эффекты страха и дает невосприимчивость к ним. Время действия – 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104955
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restoration",
+      "order": 2,
+      "name": {
+        "enUS": "Restoration",
+        "ruRU": "Исцеление"
+      },
+      "talents": [
+        {
+          "nodeId": 104957,
+          "spellId": 17063,
+          "definitionId": 134418,
+          "key": "natures-focus",
+          "iconFileDataId": 136042,
+          "iconName": "spell_nature_healingwavegreater",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Nature's Focus",
+            "ruRU": "Средоточие Природы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 14% chance to avoid interruption caused by damage while casting Arcane and Nature spells.",
+                "ruRU": "С вероятностью 14% применение заклинаний тайной магии и сил природы не прерывается при получении урона."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 28% chance to avoid interruption caused by damage while casting Arcane and Nature spells.",
+                "ruRU": "С вероятностью 28% применение заклинаний тайной магии и сил природы не прерывается при получении урона."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 42% chance to avoid interruption caused by damage while casting Arcane and Nature spells.",
+                "ruRU": "С вероятностью 42% применение заклинаний тайной магии и сил природы не прерывается при получении урона."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives you a 56% chance to avoid interruption caused by damage while casting Arcane and Nature spells.",
+                "ruRU": "С вероятностью 56% применение заклинаний тайной магии и сил природы не прерывается при получении урона."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives you a 70% chance to avoid interruption caused by damage while casting Arcane and Nature spells.",
+                "ruRU": "С вероятностью 70% применение заклинаний тайной магии и сил природы не прерывается при получении урона."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104958,
+          "spellId": 17056,
+          "definitionId": 134419,
+          "key": "furor",
+          "iconFileDataId": 135881,
+          "iconName": "spell_holy_blessingofstamina",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Furor",
+            "ruRU": "Гнев"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 20% chance to gain $/10;17057s1 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 20% of the Energy you had when you were last in Cat Form, plus 2 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 20 Energy.",
+                "ruRU": "Когда вы принимаете облик медведя или лютого медведя, вы с вероятностью 20% накапливаете $/10;17057s1 ед. ярости. Когда вы принимаете облик кошки, вы восстанавливаете 20% энергии, остававшейся у вас, когда вы покинули этот облик в прошлый раз, а также еще 2 ед. энергии за каждую секунду, проведенную не в облике медведя, кошки и лютого медведя. Максимум 20 ед. энергии."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 40% chance to gain $/10;17057s1 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 40% of the Energy you had when you were last in Cat Form, plus 4 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 40 Energy.",
+                "ruRU": "Когда вы принимаете облик медведя или лютого медведя, вы с вероятностью 40% накапливаете $/10;17057s1 ед. ярости. Когда вы принимаете облик кошки, вы восстанавливаете 40% энергии, остававшейся у вас, когда вы покинули этот облик в прошлый раз, а также еще 4 ед. энергии за каждую секунду, проведенную не в облике медведя, кошки и лютого медведя. Максимум 40 ед. энергии."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 60% chance to gain $/10;17057s1 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 60% of the Energy you had when you were last in Cat Form, plus 6 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 60 Energy.",
+                "ruRU": "Когда вы принимаете облик медведя или лютого медведя, вы с вероятностью 60% накапливаете $/10;17057s1 ед. ярости. Когда вы принимаете облик кошки, вы восстанавливаете 60% энергии, остававшейся у вас, когда вы покинули этот облик в прошлый раз, а также еще 6 ед. энергии за каждую секунду, проведенную не в облике медведя, кошки и лютого медведя. Максимум 60 ед. энергии."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives you a 80% chance to gain $/10;17057s1 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 80% of the Energy you had when you were last in Cat Form, plus 8 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 80 Energy.",
+                "ruRU": "Когда вы принимаете облик медведя или лютого медведя, вы с вероятностью 80% накапливаете $/10;17057s1 ед. ярости. Когда вы принимаете облик кошки, вы восстанавливаете 80% энергии, остававшейся у вас, когда вы покинули этот облик в прошлый раз, а также еще 8 ед. энергии за каждую секунду, проведенную не в облике медведя, кошки и лютого медведя. Максимум 80 ед. энергии."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives you a 100% chance to gain $/10;17057s1 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 100% of the Energy you had when you were last in Cat Form, plus 10 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 100 Energy.",
+                "ruRU": "Когда вы принимаете облик медведя или лютого медведя, вы с вероятностью 100% накапливаете $/10;17057s1 ед. ярости. Когда вы принимаете облик кошки, вы восстанавливаете 100% энергии, остававшейся у вас, когда вы покинули этот облик в прошлый раз, а также еще 10 ед. энергии за каждую секунду, проведенную не в облике медведя, кошки и лютого медведя. Максимум 100 ед. энергии."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104922,
+          "spellId": 17069,
+          "definitionId": 134383,
+          "key": "naturalist",
+          "iconFileDataId": 136041,
+          "iconName": "spell_nature_healingtouch",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Naturalist",
+            "ruRU": "Натуралист"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cast time of your Healing Touch spell by 0.1 sec and increases all damage you deal by 1%.",
+                "ruRU": "Сокращает время применения \"Целительного прикосновения\" на 0.1 сек. и увеличивает наносимый вами урон на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cast time of your Healing Touch spell by 0.2 sec and increases all damage you deal by 2%.",
+                "ruRU": "Сокращает время применения \"Целительного прикосновения\" на 0.2 сек. и увеличивает наносимый вами урон на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cast time of your Healing Touch spell by 0.3 sec and increases all damage you deal by 3%.",
+                "ruRU": "Сокращает время применения \"Целительного прикосновения\" на 0.3 сек. и увеличивает наносимый вами урон на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the cast time of your Healing Touch spell by 0.4 sec and increases all damage you deal by 4%.",
+                "ruRU": "Сокращает время применения \"Целительного прикосновения\" на 0.4 сек. и увеличивает наносимый вами урон на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the cast time of your Healing Touch spell by 0.5 sec and increases all damage you deal by 5%.",
+                "ruRU": "Сокращает время применения \"Целительного прикосновения\" на 0.5 сек. и увеличивает наносимый вами урон на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104920,
+          "spellId": 17118,
+          "definitionId": 134381,
+          "key": "subtlety",
+          "iconFileDataId": 132150,
+          "iconName": "ability_eyeoftheowl",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Subtlety",
+            "ruRU": "Скрытность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the threat generated by your Nature and Arcane spells by 10%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой заклинаниями сил природы и тайной магии, на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the threat generated by your Nature and Arcane spells by 20%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой заклинаниями сил природы и тайной магии, на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the threat generated by your Nature and Arcane spells by 30%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой заклинаниями сил природы и тайной магии, на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104919,
+          "spellId": 16833,
+          "definitionId": 134380,
+          "key": "natural-shapeshifter",
+          "iconFileDataId": 136116,
+          "iconName": "spell_nature_wispsplode",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Natural Shapeshifter",
+            "ruRU": "Прирожденный оборотень"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of all shapeshifting by 10%.",
+                "ruRU": "Снижение расхода маны на оборотничество на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the mana cost of all shapeshifting by 20%.",
+                "ruRU": "Снижение расхода маны на оборотничество на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the mana cost of all shapeshifting by 30%.",
+                "ruRU": "Снижение расхода маны на оборотничество на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104917,
+          "spellId": 17106,
+          "definitionId": 134378,
+          "key": "reflection",
+          "iconFileDataId": 135863,
+          "iconName": "spell_frost_windwalkon",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Reflection",
+            "ruRU": "Отражение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Allows 17% of your Mana regeneration to continue while casting.",
+                "ruRU": "В процессе применения заклинаний продолжается 17% от восполнения маны."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Allows 33% of your Mana regeneration to continue while casting.",
+                "ruRU": "В процессе применения заклинаний продолжается 33% от восполнения маны."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Allows 50% of your Mana regeneration to continue while casting.",
+                "ruRU": "В процессе применения заклинаний продолжается 50% от восполнения маны."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104916,
+          "spellId": 17104,
+          "definitionId": 134377,
+          "key": "gift-of-nature",
+          "iconFileDataId": 136074,
+          "iconName": "spell_nature_protectionformnature",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Gift of Nature",
+            "ruRU": "Дар природы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the effect of all your healing spells by 2%.",
+                "ruRU": "Повышает эффективность исцеляющих заклинаний на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the effect of all your healing spells by 4%.",
+                "ruRU": "Повышает эффективность исцеляющих заклинаний на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the effect of all your healing spells by 6%.",
+                "ruRU": "Повышает эффективность исцеляющих заклинаний на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the effect of all your healing spells by 8%.",
+                "ruRU": "Повышает эффективность исцеляющих заклинаний на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the effect of all your healing spells by 10%.",
+                "ruRU": "Повышает эффективность исцеляющих заклинаний на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104918,
+          "spellId": 414673,
+          "definitionId": 134379,
+          "key": "gift-of-the-earthmother",
+          "iconFileDataId": 136094,
+          "iconName": "spell_nature_spiritarmor",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Gift of the Earthmother",
+            "ruRU": "Дар Матери-Земли"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the global cooldown by 0.5 seconds on your Rejuvenation, Swiftmend, and Wild Growth spells.",
+                "ruRU": "Сокращает общее время восстановления для \"Омоложения\", \"Быстрого восстановления\" и \"Буйного роста\" на 0.5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104915,
+          "spellId": 24968,
+          "definitionId": 134376,
+          "key": "tranquil-spirit",
+          "iconFileDataId": 135900,
+          "iconName": "spell_holy_elunesgrace",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Tranquil Spirit",
+            "ruRU": "Мирный дух"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of your Healing Touch and Tranquility spells by 2%.",
+                "ruRU": "Снижение затрат маны на ваши заклинания \"Целительное прикосновение\" и \"Спокойствие\" на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the mana cost of your Healing Touch and Tranquility spells by 4%.",
+                "ruRU": "Снижение затрат маны на ваши заклинания \"Целительное прикосновение\" и \"Спокойствие\" на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the mana cost of your Healing Touch and Tranquility spells by 6%.",
+                "ruRU": "Снижение затрат маны на ваши заклинания \"Целительное прикосновение\" и \"Спокойствие\" на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the mana cost of your Healing Touch and Tranquility spells by 8%.",
+                "ruRU": "Снижение затрат маны на ваши заклинания \"Целительное прикосновение\" и \"Спокойствие\" на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the mana cost of your Healing Touch and Tranquility spells by 10%.",
+                "ruRU": "Снижение затрат маны на ваши заклинания \"Целительное прикосновение\" и \"Спокойствие\" на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104914,
+          "spellId": 17111,
+          "definitionId": 134375,
+          "key": "improved-rejuvenation",
+          "iconFileDataId": 136081,
+          "iconName": "spell_nature_rejuvenation",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Rejuvenation",
+            "ruRU": "Улучшенное омоложение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the effect of your Rejuvenation spell by 5%.",
+                "ruRU": "Увеличение эффекта от заклинания \"Омоложение\" на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the effect of your Rejuvenation spell by 10%.",
+                "ruRU": "Увеличение эффекта от заклинания \"Омоложение\" на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the effect of your Rejuvenation spell by 15%.",
+                "ruRU": "Увеличение эффекта от заклинания \"Омоложение\" на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104912,
+          "spellId": 18562,
+          "definitionId": 134373,
+          "key": "swiftmend",
+          "iconFileDataId": 134914,
+          "iconName": "inv_relics_idolofrejuvenation",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Swiftmend",
+            "ruRU": "Быстрое восстановление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Instantly heals a target with an active Rejuvenation or Regrowth effect for an amount equal to the full duration of the periodic effect of one of those spells.",
+                "ruRU": "Мгновенно восполняет здоровье цели с активным эффектом \"Омоложение\" или \"Восстановление\" в объеме, равном исцелению от периодического эффекта одного из этих заклинаний за все время действия."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104921,
+          "spellId": 17116,
+          "definitionId": 134382,
+          "key": "natures-swiftness",
+          "iconFileDataId": 136076,
+          "iconName": "spell_nature_ravenform",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Nature's Swiftness",
+            "ruRU": "Природная стремительность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, your next Nature spell becomes an instant cast spell.",
+                "ruRU": "Мгновенное применение следующего заклинания сил природы."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104922
+          ]
+        },
+        {
+          "nodeId": 104911,
+          "spellId": 1309631,
+          "definitionId": 134372,
+          "key": "living-spirit",
+          "iconFileDataId": 136037,
+          "iconName": "spell_nature_giftofthewaterspirit",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Living Spirit",
+            "ruRU": "Живой дух"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Spirit by 5%.",
+                "ruRU": "Повышает дух на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Spirit by 10%.",
+                "ruRU": "Повышает дух на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Spirit by 15%.",
+                "ruRU": "Повышает дух на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104909,
+          "spellId": 17123,
+          "definitionId": 134370,
+          "key": "improved-tranquility",
+          "iconFileDataId": 136107,
+          "iconName": "spell_nature_tranquility",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Tranquility",
+            "ruRU": "Улучшенное спокойствие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces threat caused by Tranquility by 50% and its cooldown by 30%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой \"Спокойствием\", на 50% и сокращает время восстановления \"Спокойствия\" на 30%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces threat caused by Tranquility by 100% and its cooldown by 60%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой \"Спокойствием\", на 100% и сокращает время восстановления \"Спокойствия\" на 60%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104913,
+          "spellId": 17074,
+          "definitionId": 134374,
+          "key": "improved-regrowth",
+          "iconFileDataId": 136085,
+          "iconName": "spell_nature_resistnature",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Regrowth",
+            "ruRU": "Улучшенное восстановление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Regrowth spell by 10%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Восстановления\" на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Regrowth spell by 20%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Восстановления\" на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Regrowth spell by 30%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Восстановления\" на 30%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Regrowth spell by 40%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Восстановления\" на 40%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Regrowth spell by 50%.",
+                "ruRU": "Повышает вероятность критического эффекта \"Восстановления\" на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104914
+          ]
+        },
+        {
+          "nodeId": 104910,
+          "spellId": 408120,
+          "definitionId": 134371,
+          "key": "wild-growth",
+          "iconFileDataId": 236153,
+          "iconName": "ability_druid_flourish",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Wild Growth",
+            "ruRU": "Буйный рост"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Heals the target and their party for 280 over 7 sec. Party members must be within 43.5 yards of target. The amount healed is applied quickly at first, and slows down as Wild Growth reaches its full duration.",
+                "ruRU": "Восполняет цели и участникам ее группы в радиусе 43.5 м 280 ед. здоровья за 7 сек. Объем исцеления постепенно уменьшается на протяжении действия \"Буйного роста\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104911
+          ]
+        }
+      ]
+    }
+  ]
+}

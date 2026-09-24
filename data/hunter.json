@@ -1,0 +1,2314 @@
+{
+  "schemaVersion": 1,
+  "product": "wow_classic_beta",
+  "build": "1.60.1.69977",
+  "generatedAt": "2026-09-24T07:20:59.311Z",
+  "source": "Wago DB2 / WoW Forever beta client data",
+  "class": {
+    "id": "hunter",
+    "classId": 3,
+    "name": {
+      "enUS": "Hunter",
+      "ruRU": "Охотник"
+    }
+  },
+  "traitTreeId": 1091,
+  "rules": {
+    "maxLevel": 60,
+    "firstPointLevel": 10,
+    "maxPoints": 51,
+    "pointsPerRow": 5
+  },
+  "trees": [
+    {
+      "id": "beast-mastery",
+      "order": 0,
+      "name": {
+        "enUS": "Beast Mastery",
+        "ruRU": "Повелитель зверей"
+      },
+      "talents": [
+        {
+          "nodeId": 104960,
+          "spellId": 19552,
+          "definitionId": 134422,
+          "key": "deadly-aspects",
+          "iconFileDataId": 136076,
+          "iconName": "spell_nature_ravenform",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Deadly Aspects",
+            "ruRU": "Смертоносные духи"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "While Aspect of the Hawk is active, Auto Shot has a 2% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 2% chance of increasing melee attack speed by 30% for 12 sec.",
+                "ruRU": "Во время действия \"Духа ястреба\" автоматическая стрельба с вероятностью 2% повышает скорость атаки в дальнем бою на 30% на 12 сек. Во время действия \"Духа зверя\" автоатаки в ближнем бою с вероятностью 2% повышают скорость атаки в ближнем бою на 30% на 12 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "While Aspect of the Hawk is active, Auto Shot has a 4% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 4% chance of increasing melee attack speed by 30% for 12 sec.",
+                "ruRU": "Во время действия \"Духа ястреба\" автоматическая стрельба с вероятностью 4% повышает скорость атаки в дальнем бою на 30% на 12 сек. Во время действия \"Духа зверя\" автоатаки в ближнем бою с вероятностью 4% повышают скорость атаки в ближнем бою на 30% на 12 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "While Aspect of the Hawk is active, Auto Shot has a 6% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 6% chance of increasing melee attack speed by 30% for 12 sec.",
+                "ruRU": "Во время действия \"Духа ястреба\" автоматическая стрельба с вероятностью 6% повышает скорость атаки в дальнем бою на 30% на 12 сек. Во время действия \"Духа зверя\" автоатаки в ближнем бою с вероятностью 6% повышают скорость атаки в ближнем бою на 30% на 12 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "While Aspect of the Hawk is active, Auto Shot has a 8% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 8% chance of increasing melee attack speed by 30% for 12 sec.",
+                "ruRU": "Во время действия \"Духа ястреба\" автоматическая стрельба с вероятностью 8% повышает скорость атаки в дальнем бою на 30% на 12 сек. Во время действия \"Духа зверя\" автоатаки в ближнем бою с вероятностью 8% повышают скорость атаки в ближнем бою на 30% на 12 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "While Aspect of the Hawk is active, Auto Shot has a 10% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 10% chance of increasing melee attack speed by 30% for 12 sec.",
+                "ruRU": "Во время действия \"Духа ястреба\" автоматическая стрельба с вероятностью 10% повышает скорость атаки в дальнем бою на 30% на 12 сек. Во время действия \"Духа зверя\" автоатаки в ближнем бою с вероятностью 10% повышают скорость атаки в ближнем бою на 30% на 12 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104976,
+          "spellId": 19583,
+          "definitionId": 134438,
+          "key": "endurance-training",
+          "iconFileDataId": 136080,
+          "iconName": "spell_nature_reincarnation",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Endurance Training",
+            "ruRU": "Тренировка стойкости"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the Health and Armor of your pets by 3%.",
+                "ruRU": "Увеличивает запас здоровья и усиливает броню ваших питомцев на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the Health and Armor of your pets by 6%.",
+                "ruRU": "Увеличивает запас здоровья и усиливает броню ваших питомцев на 6%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the Health and Armor of your pets by 9%.",
+                "ruRU": "Увеличивает запас здоровья и усиливает броню ваших питомцев на 9%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the Health and Armor of your pets by 12%.",
+                "ruRU": "Увеличивает запас здоровья и усиливает броню ваших питомцев на 12%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the Health and Armor of your pets by 15%.",
+                "ruRU": "Увеличивает запас здоровья и усиливает броню ваших питомцев на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104975,
+          "spellId": 1223755,
+          "definitionId": 134437,
+          "key": "focused-fire",
+          "iconFileDataId": 135539,
+          "iconName": "inv_weapon_crossbow_10",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Focused Fire",
+            "ruRU": "Направленный огонь"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases all damage you and your pet deal by 1% while your pet is active.",
+                "ruRU": "Пока ваш питомец активен, вы и ваш питомец наносите на 1% больше урона."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases all damage you and your pet deal by 2% while your pet is active.",
+                "ruRU": "Пока ваш питомец активен, вы и ваш питомец наносите на 2% больше урона."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104974,
+          "spellId": 19549,
+          "definitionId": 134436,
+          "key": "improved-aspect-of-the-monkey",
+          "iconFileDataId": 132159,
+          "iconName": "ability_hunter_aspectofthemonkey",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Aspect of the Monkey",
+            "ruRU": "Улучшенный дух обезьяны"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the Dodge bonus of your Aspect of the Monkey by 2%. Additionally, your pet gains 50% of the effect of your Aspect of the Monkey ability.",
+                "ruRU": "Бонус к вероятности уклонения от \"Духа обезьяны\" увеличивается на 2%. Кроме того, ваш питомец получает 50% эффекта \"Духа обезьяны\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the Dodge bonus of your Aspect of the Monkey by 4%. Additionally, your pet gains 50% of the effect of your Aspect of the Monkey ability.",
+                "ruRU": "Бонус к вероятности уклонения от \"Духа обезьяны\" увеличивается на 4%. Кроме того, ваш питомец получает 50% эффекта \"Духа обезьяны\"."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the Dodge bonus of your Aspect of the Monkey by 6%. Additionally, your pet gains 50% of the effect of your Aspect of the Monkey ability.",
+                "ruRU": "Бонус к вероятности уклонения от \"Духа обезьяны\" увеличивается на 6%. Кроме того, ваш питомец получает 50% эффекта \"Духа обезьяны\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104973,
+          "spellId": 19559,
+          "definitionId": 134435,
+          "key": "pathfinding",
+          "iconFileDataId": 132242,
+          "iconName": "ability_mount_jungletiger",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Pathfinding",
+            "ruRU": "Знание троп"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.",
+                "ruRU": "Увеличение приращения скорости при обращении к духу гепарда и духу стаи на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.",
+                "ruRU": "Увеличение приращения скорости при обращении к духу гепарда и духу стаи на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104972,
+          "spellId": 24443,
+          "definitionId": 134434,
+          "key": "improved-revive-pet",
+          "iconFileDataId": 132163,
+          "iconName": "ability_hunter_beastsoothe",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Revive Pet",
+            "ruRU": "Улучшенное воскрешение питомца"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Revive Pet's casting time is reduced by 3 sec, mana cost is reduced by 20%, and increases the health your pet returns with by an additional 15%.",
+                "ruRU": "Время наложения заклинания \"Воскрешение питомца\" уменьшается на 3 сек., расход маны уменьшается на 20%, здоровье, которым наделен ваш питомец по возвращении, увеличивается дополнительно на 15%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Revive Pet's casting time is reduced by 6 sec, mana cost is reduced by 40%, and increases the health your pet returns with by an additional 30%.",
+                "ruRU": "Время наложения заклинания \"Воскрешение питомца\" уменьшается на 6 сек., расход маны уменьшается на 40%, здоровье, которым наделен ваш питомец по возвращении, увеличивается дополнительно на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104970,
+          "spellId": 19596,
+          "definitionId": 134432,
+          "key": "bestial-swiftness",
+          "iconFileDataId": 132120,
+          "iconName": "ability_druid_dash",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Bestial Swiftness",
+            "ruRU": "Звериная стремительность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the movement speed of your pets by 30%.",
+                "ruRU": "Повышает скорость передвижения ваших питомцев на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104969,
+          "spellId": 19616,
+          "definitionId": 134431,
+          "key": "unleashed-fury",
+          "iconFileDataId": 132091,
+          "iconName": "ability_bullrush",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Unleashed Fury",
+            "ruRU": "Неудержимое неистовство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your pets and hawks by 3%.",
+                "ruRU": "Увеличивает урон, наносимый вашими питомцами и ястребами, на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your pets and hawks by 6%.",
+                "ruRU": "Увеличивает урон, наносимый вашими питомцами и ястребами, на 6%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your pets and hawks by 9%.",
+                "ruRU": "Увеличивает урон, наносимый вашими питомцами и ястребами, на 9%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the damage done by your pets and hawks by 12%.",
+                "ruRU": "Увеличивает урон, наносимый вашими питомцами и ястребами, на 12%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the damage done by your pets and hawks by 15%.",
+                "ruRU": "Увеличивает урон, наносимый вашими питомцами и ястребами, на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104968,
+          "spellId": 19572,
+          "definitionId": 134430,
+          "key": "improved-mend-pet",
+          "iconFileDataId": 132179,
+          "iconName": "ability_hunter_mendpet",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Mend Pet",
+            "ruRU": "Улучшенное лечение питомца"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Mend Pet spell a 15% chance of cleansing 1 Curse, Disease, Magic, or Poison effect from your pet each time it heals and reduces the Mana cost by 10%.",
+                "ruRU": "\"Лечение питомца\" с вероятностью 15% снимает 1 эффект проклятия, болезни, магии или яда с каждым тактом, а также расходует на 10% меньше маны."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Mend Pet spell a 50% chance of cleansing 1 Curse, Disease, Magic, or Poison effect from your pet each time it heals and reduces the Mana cost by 20%.",
+                "ruRU": "\"Лечение питомца\" с вероятностью 50% снимает 1 эффект проклятия, болезни, магии или яда с каждым тактом, а также расходует на 20% меньше маны."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104967,
+          "spellId": 19598,
+          "definitionId": 134429,
+          "key": "ferocity",
+          "iconFileDataId": 134297,
+          "iconName": "inv_misc_monsterclaw_04",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Ferocity",
+            "ruRU": "Свирепость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your pets and hawks by 2%.",
+                "ruRU": "Повышает вероятность критического удара ваших питомцев и ястребов на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of your pets and hawks by 4%.",
+                "ruRU": "Повышает вероятность критического удара ваших питомцев и ястребов на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike chance of your pets and hawks by 6%.",
+                "ruRU": "Повышает вероятность критического удара ваших питомцев и ястребов на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical strike chance of your pets and hawks by 8%.",
+                "ruRU": "Повышает вероятность критического удара ваших питомцев и ястребов на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical strike chance of your pets and hawks by 10%.",
+                "ruRU": "Повышает вероятность критического удара ваших питомцев и ястребов на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104966,
+          "spellId": 1293241,
+          "definitionId": 134428,
+          "key": "summon-hawk",
+          "iconFileDataId": 132158,
+          "iconName": "ability_hunter_animalhandler",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Summon Hawk",
+            "ruRU": "Призыв ястреба"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Command a hawk to dive-bomb your targeted enemy, dealing 32 + 5% of ranged attack power Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot.",
+                "ruRU": "Вы приказываете ястребу спикировать на цель, нанося 32 + 5% от силы атаки дальнего боя ед. физического урона, и атаковать ее в течение 18 сек. Одновременно вы можете призвать не более 2 ястребов. \"Призыв ястреба\" имеет общее время восстановления с \"Чародейским выстрелом\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104965,
+          "spellId": 19578,
+          "definitionId": 134427,
+          "key": "spirit-bond",
+          "iconFileDataId": 132121,
+          "iconName": "ability_druid_demoralizingroar",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Spirit Bond",
+            "ruRU": "Узы духа"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "While your pet is active, you and your pet will regenerate 1% of total health every 10 sec.",
+                "ruRU": "Пока ваш питомец активен, вы и ваш питомец восстанавливаете 1% общего запаса здоровья раз в 10 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "While your pet is active, you and your pet will regenerate 1% of total health every 5 sec.",
+                "ruRU": "Пока ваш питомец активен, вы и ваш питомец восстанавливаете 1% общего запаса здоровья раз в 5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104964,
+          "spellId": 19577,
+          "definitionId": 134426,
+          "key": "intimidation",
+          "iconFileDataId": 132111,
+          "iconName": "ability_devour",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Intimidation",
+            "ruRU": "Устрашение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Command your pet to Stun the target for 3 sec on its next successful attack, which also gains 100% increased critical strike chance. Generates high threat.",
+                "ruRU": "Следующая успешная атака вашего питомца оглушает цель на 3 сек., при этом вероятность критического удара этой атаки повышается на 100%. Создает высокий уровень угрозы."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104970
+          ]
+        },
+        {
+          "nodeId": 104963,
+          "spellId": 19590,
+          "definitionId": 134425,
+          "key": "bestial-discipline",
+          "iconFileDataId": 136006,
+          "iconName": "spell_nature_abolishmagic",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Bestial Discipline",
+            "ruRU": "Беспрекословное послушание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the Focus regeneration of your pets by 10% and allows 25% of your Mana regeneration to continue while casting.",
+                "ruRU": "Повышает скорость восстановления концентрации ваших питомцев на 10%. Во время применения способностей ваша мана продолжает восполняться со скоростью 25%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the Focus regeneration of your pets by 20% and allows 50% of your Mana regeneration to continue while casting.",
+                "ruRU": "Повышает скорость восстановления концентрации ваших питомцев на 20%. Во время применения способностей ваша мана продолжает восполняться со скоростью 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104962,
+          "spellId": 19621,
+          "definitionId": 134424,
+          "key": "frenzy",
+          "iconFileDataId": 134296,
+          "iconName": "inv_misc_monsterclaw_03",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Frenzy",
+            "ruRU": "Бешенство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your pet a 20% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                "ruRU": "Дает вашему питомцу 20% шанс увеличить скорость атаки на 30% в течение 8 сек после нанесения критического удара."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your pet a 40% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                "ruRU": "Дает вашему питомцу 40% шанс увеличить скорость атаки на 30% в течение 8 сек после нанесения критического удара."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your pet a 60% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                "ruRU": "Дает вашему питомцу 60% шанс увеличить скорость атаки на 30% в течение 8 сек после нанесения критического удара."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives your pet a 80% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                "ruRU": "Дает вашему питомцу 80% шанс увеличить скорость атаки на 30% в течение 8 сек после нанесения критического удара."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives your pet a 100% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                "ruRU": "Дает вашему питомцу 100% шанс увеличить скорость атаки на 30% в течение 8 сек после нанесения критического удара."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104967
+          ]
+        },
+        {
+          "nodeId": 104961,
+          "spellId": 19574,
+          "definitionId": 134423,
+          "key": "bestial-wrath",
+          "iconFileDataId": 132127,
+          "iconName": "ability_druid_ferociousbite",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Bestial Wrath",
+            "ruRU": "Звериный гнев"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Send your pet into a rage causing 50% additional damage for 18 sec. While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.",
+                "ruRU": "Приводит питомца в ярость, увеличивая наносимый им урон на 50% на 18 сек. В состоянии ярости питомец не знает ни страха, ни жалости, и только смерть может остановить его."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104964
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marksmanship",
+      "order": 1,
+      "name": {
+        "enUS": "Marksmanship",
+        "ruRU": "Стрельба"
+      },
+      "talents": [
+        {
+          "nodeId": 105013,
+          "spellId": 19498,
+          "definitionId": 134478,
+          "key": "hawk-eye",
+          "iconFileDataId": 132327,
+          "iconName": "ability_townwatch",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Hawk Eye",
+            "ruRU": "Глаз ястреба"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the range of your ranged weapons by 2 yards.",
+                "ruRU": "Увеличение дальности применения оружия дальнего боя на 2 метра."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the range of your ranged weapons by 4 yards.",
+                "ruRU": "Увеличение дальности применения оружия дальнего боя на 4 метра."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the range of your ranged weapons by 6 yards.",
+                "ruRU": "Увеличение дальности применения оружия дальнего боя на 6 метров."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105012,
+          "spellId": 19407,
+          "definitionId": 134477,
+          "key": "improved-concussive-shot",
+          "iconFileDataId": 135860,
+          "iconName": "spell_frost_stun",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Concussive Shot",
+            "ruRU": "Улучшенный контузящий выстрел"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Concussive Shot a 4% chance to stun the target for 3 sec.",
+                "ruRU": "Повышение до 4% вероятности оглушения противника на 3 сек при использовании способности \"Шокирующий выстрел\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Concussive Shot a 8% chance to stun the target for 3 sec.",
+                "ruRU": "Повышение до 8% вероятности оглушения противника на 3 сек при использовании способности \"Шокирующий выстрел\"."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Concussive Shot a 12% chance to stun the target for 3 sec.",
+                "ruRU": "Повышение до 12% вероятности оглушения противника на 3 сек при использовании способности \"Шокирующий выстрел\"."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives your Concussive Shot a 16% chance to stun the target for 3 sec.",
+                "ruRU": "Повышение до 16% вероятности оглушения противника на 3 сек при использовании способности \"Шокирующий выстрел\"."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives your Concussive Shot a 20% chance to stun the target for 3 sec.",
+                "ruRU": "Повышение до 20% вероятности оглушения противника на 3 сек при использовании способности \"Шокирующий выстрел\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105011,
+          "spellId": 19426,
+          "definitionId": 134476,
+          "key": "lethal-attacks",
+          "iconFileDataId": 132312,
+          "iconName": "ability_searingarrow",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Lethal Attacks",
+            "ruRU": "Смертоносные атаки"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks by 1%.",
+                "ruRU": "Повышает вероятность критического удара всех атак на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks by 2%.",
+                "ruRU": "Повышает вероятность критического удара всех атак на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks by 3%.",
+                "ruRU": "Повышает вероятность критического удара всех атак на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks by 4%.",
+                "ruRU": "Повышает вероятность критического удара всех атак на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your critical strike chance with all attacks by 5%.",
+                "ruRU": "Повышает вероятность критического удара всех атак на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110870,
+          "spellId": 1310661,
+          "definitionId": 142622,
+          "key": "improved-stings",
+          "iconFileDataId": 1412206,
+          "iconName": "hunter_pvp_spidersting",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Stings",
+            "ruRU": "Смертельные укусы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increased the damage of your Serpent Sting ability by 6%, reduces the cooldown of your Viper Sting ability by 2 sec, and increases the duration of your Scorpid Sting ability by 15 sec.",
+                "ruRU": "\"Укус змеи\" наносит на 6% больше урона, время восстановления \"Укуса гадюки\" сокращается на 2 сек., а время действия \"Укуса скорпида\" продлевается на 15 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increased the damage of your Serpent Sting ability by 13%, reduces the cooldown of your Viper Sting ability by 4 sec, and increases the duration of your Scorpid Sting ability by 30 sec.",
+                "ruRU": "\"Укус змеи\" наносит на 13% больше урона, время восстановления \"Укуса гадюки\" сокращается на 4 сек., а время действия \"Укуса скорпида\" продлевается на 30 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increased the damage of your Serpent Sting ability by 20%, reduces the cooldown of your Viper Sting ability by 6 sec, and increases the duration of your Scorpid Sting ability by 45 sec.",
+                "ruRU": "\"Укус змеи\" наносит на 20% больше урона, время восстановления \"Укуса гадюки\" сокращается на 6 сек., а время действия \"Укуса скорпида\" продлевается на 45 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105009,
+          "spellId": 19416,
+          "definitionId": 134474,
+          "key": "efficiency",
+          "iconFileDataId": 135865,
+          "iconName": "spell_frost_wizardmark",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Efficiency",
+            "ruRU": "Эффективность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 3%.",
+                "ruRU": "Снижает затраты маны на ваши способности категории \"Выстрел\" и \"Укус\", а также способности ближнего боя на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 6%.",
+                "ruRU": "Снижает затраты маны на ваши способности категории \"Выстрел\" и \"Укус\", а также способности ближнего боя на 6%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 9%.",
+                "ruRU": "Снижает затраты маны на ваши способности категории \"Выстрел\" и \"Укус\", а также способности ближнего боя на 9%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 12%.",
+                "ruRU": "Снижает затраты маны на ваши способности категории \"Выстрел\" и \"Укус\", а также способности ближнего боя на 12%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 15%.",
+                "ruRU": "Снижает затраты маны на ваши способности категории \"Выстрел\" и \"Укус\", а также способности ближнего боя на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105008,
+          "spellId": 1223984,
+          "definitionId": 134473,
+          "key": "careful-aim",
+          "iconFileDataId": 132217,
+          "iconName": "ability_hunter_zenarchery",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Careful Aim",
+            "ruRU": "Верная цель"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Attack Power by 20% of your Intellect.",
+                "ruRU": "Повышает силу атаки на 20% интеллекта."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Attack Power by 40% of your Intellect.",
+                "ruRU": "Повышает силу атаки на 40% интеллекта."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Attack Power by 60% of your Intellect.",
+                "ruRU": "Повышает силу атаки на 60% интеллекта."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Attack Power by 80% of your Intellect.",
+                "ruRU": "Повышает силу атаки на 80% интеллекта."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Attack Power by 100% of your Intellect.",
+                "ruRU": "Повышает силу атаки на 100% интеллекта."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105005,
+          "spellId": 415405,
+          "definitionId": 134470,
+          "key": "rapid-killing",
+          "iconFileDataId": 132205,
+          "iconName": "ability_hunter_rapidkilling",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Rapid Killing",
+            "ruRU": "Быстрые убийства"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown on your Rapid Fire ability by 1 min. In addition, when you kill a non-trivial enemy or it dies while afflicted by your Serpent Sting, you gain Rapid Killing, increasing the damage of your next Shot ability within 20 sec by 10%.",
+                "ruRU": "Сокращает время восстановления \"Быстрой стрельбы\" на 1 мин. Кроме того, когда вы убиваете представляющего угрозу противника или такой противник погибает под действием вашего \"Укуса змеи\", вы получаете эффект \"Быстрые убийства\", увеличивающий урон от следующей способности категории \"Выстрел\" на 10%. Время действия – 20 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown on your Rapid Fire ability by 2 min. In addition, when you kill a non-trivial enemy or it dies while afflicted by your Serpent Sting, you gain Rapid Killing, increasing the damage of your next Shot ability within 20 sec by 20%.",
+                "ruRU": "Сокращает время восстановления \"Быстрой стрельбы\" на 2 мин. Кроме того, когда вы убиваете представляющего угрозу противника или такой противник погибает под действием вашего \"Укуса змеи\", вы получаете эффект \"Быстрые убийства\", увеличивающий урон от следующей способности категории \"Выстрел\" на 20%. Время действия – 20 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105006,
+          "spellId": 19454,
+          "definitionId": 134471,
+          "key": "improved-arcane-shot",
+          "iconFileDataId": 132218,
+          "iconName": "ability_impalingbolt",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Arcane Shot",
+            "ruRU": "Улучшенный чародейский выстрел"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Arcane Shot by 0.3 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot.",
+                "ruRU": "Сокращает время восстановления \"Чародейского выстрела\" на 0.3 сек. Не влияет на способности, имеющие общее время восстановления с \"Чародейским выстрелом\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Arcane Shot by 0.6 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot.",
+                "ruRU": "Сокращает время восстановления \"Чародейского выстрела\" на 0.6 сек. Не влияет на способности, имеющие общее время восстановления с \"Чародейским выстрелом\"."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cooldown of your Arcane Shot by 0.9 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot.",
+                "ruRU": "Сокращает время восстановления \"Чародейского выстрела\" на 0.9 сек. Не влияет на способности, имеющие общее время восстановления с \"Чародейским выстрелом\"."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the cooldown of your Arcane Shot by 1.2 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot.",
+                "ruRU": "Сокращает время восстановления \"Чародейского выстрела\" на 1.2 сек. Не влияет на способности, имеющие общее время восстановления с \"Чародейским выстрелом\"."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the cooldown of your Arcane Shot by 1.5 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot.",
+                "ruRU": "Сокращает время восстановления \"Чародейского выстрела\" на 1.5 сек. Не влияет на способности, имеющие общее время восстановления с \"Чародейским выстрелом\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105007,
+          "spellId": 415370,
+          "definitionId": 134472,
+          "key": "lone-wolf",
+          "iconFileDataId": 132266,
+          "iconName": "ability_mount_whitedirewolf",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Lone Wolf",
+            "ruRU": "Одинокий волк"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "You deal 20% increased damage with all attacks while you do not have an active pet.",
+                "ruRU": "Ваши атаки наносят на 20% больше урона, пока у вас нет активного питомца."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105004,
+          "spellId": 1299346,
+          "definitionId": 134469,
+          "key": "trueshot-aura",
+          "iconFileDataId": 132329,
+          "iconName": "ability_trueshot",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Trueshot Aura",
+            "ruRU": "Аура меткого выстрела"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the Ranged Attack Power of party members within 45 yards by 30. Lasts 30 min.",
+                "ruRU": "Повышает силу атаки дальнего боя участников группы в радиусе 45 м на 30. Время действия – 30 мин."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105002,
+          "spellId": 19485,
+          "definitionId": 134467,
+          "key": "mortal-shots",
+          "iconFileDataId": 132271,
+          "iconName": "ability_piercedamage",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Mortal Shots",
+            "ruRU": "Смертоносные выстрелы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus on all ranged abilities by 6%.",
+                "ruRU": "Увеличивает бонус критическому урону способностей дальнего боя на 6%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus on all ranged abilities by 12%.",
+                "ruRU": "Увеличивает бонус критическому урону способностей дальнего боя на 12%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus on all ranged abilities by 18%.",
+                "ruRU": "Увеличивает бонус критическому урону способностей дальнего боя на 18%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus on all ranged abilities by 24%.",
+                "ruRU": "Увеличивает бонус критическому урону способностей дальнего боя на 24%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus on all ranged abilities by 30%.",
+                "ruRU": "Увеличивает бонус критическому урону способностей дальнего боя на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105008
+          ]
+        },
+        {
+          "nodeId": 105003,
+          "spellId": 19464,
+          "definitionId": 134468,
+          "key": "improved-serpent-sting",
+          "iconFileDataId": 132204,
+          "iconName": "ability_hunter_quickshot",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Serpent Sting",
+            "ruRU": "Смертельный укус змеи"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Serpent Sting by 2%.",
+                "ruRU": "Увеличение на 2% урона, наносимого \"Укусом змеи\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Serpent Sting by 4%.",
+                "ruRU": "Увеличение на 4% урона, наносимого \"Укусом змеи\"."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Serpent Sting by 6%.",
+                "ruRU": "Увеличение на 6% урона, наносимого \"Укусом змеи\"."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the damage done by your Serpent Sting by 8%.",
+                "ruRU": "Увеличение на 8% урона, наносимого \"Укусом змеи\"."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the damage done by your Serpent Sting by 10%.",
+                "ruRU": "Увеличение на 10% урона, наносимого \"Укусом змеи\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104999,
+          "spellId": 1223987,
+          "definitionId": 134464,
+          "key": "rapid-recuperation",
+          "iconFileDataId": 236201,
+          "iconName": "ability_hunter_rapidregeneration",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Rapid Recuperation",
+            "ruRU": "Быстрая концентрация"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Hitting a target with your Serpent Sting ability grants you 25% and consuming Rapid Killing grants you 50% of your Mana regeneration while casting for the next 15 sec.",
+                "ruRU": "Поразив цель \"Укусом змеи\", вы восполняете ману во время применения способностей со скоростью 25%, а после поглощения эффекта \"Быстрые убийства\" – со скоростью 50%. Время действия – 15 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Hitting a target with your Serpent Sting ability grants you 50% and consuming Rapid Killing grants you 100% of your Mana regeneration while casting for the next 15 sec.",
+                "ruRU": "Поразив цель \"Укусом змеи\", вы восполняете ману во время применения способностей со скоростью 50%, а после поглощения эффекта \"Быстрые убийства\" – со скоростью 100%. Время действия – 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105005
+          ]
+        },
+        {
+          "nodeId": 105001,
+          "spellId": 19461,
+          "definitionId": 134466,
+          "key": "barrage",
+          "iconFileDataId": 132330,
+          "iconName": "ability_upgrademoonglaive",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Barrage",
+            "ruRU": "Заградительный огонь"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 3%.",
+                "ruRU": "Увеличивает урон от \"Залпа\", \"Града стрел\" и \"Прицельного выстрела\" на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 7%.",
+                "ruRU": "Увеличивает урон от \"Залпа\", \"Града стрел\" и \"Прицельного выстрела\" на 7%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 10%.",
+                "ruRU": "Увеличивает урон от \"Залпа\", \"Града стрел\" и \"Прицельного выстрела\" на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105000,
+          "spellId": 19503,
+          "definitionId": 134465,
+          "key": "scatter-shot",
+          "iconFileDataId": 132153,
+          "iconName": "ability_golemstormbolt",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Scatter Shot",
+            "ruRU": "Дезориентирующий выстрел"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "A short-range shot that deals 50% weapon damage and disorients the target for 4 sec. Any damage caused will remove the effect. Turns off your attack when used.",
+                "ruRU": "Выстрел на короткой дистанции с нанесением цели 50% урона от оружия и лишением ее ощущения направления на 4 сек. Любой нанесенный урон отменяет действие эффекта."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104998,
+          "spellId": 19507,
+          "definitionId": 134463,
+          "key": "ranged-weapon-specialization",
+          "iconFileDataId": 135615,
+          "iconName": "inv_weapon_rifle_06",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Ranged Weapon Specialization",
+            "ruRU": "Специализация на оружии дальнего боя"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage you deal with ranged weapons by 1%.",
+                "ruRU": "Повешение урона, наносимого оружием дальнего боя, на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage you deal with ranged weapons by 2%.",
+                "ruRU": "Повешение урона, наносимого оружием дальнего боя, на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage you deal with ranged weapons by 3%.",
+                "ruRU": "Повешение урона, наносимого оружием дальнего боя, на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the damage you deal with ranged weapons by 4%.",
+                "ruRU": "Повешение урона, наносимого оружием дальнего боя, на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the damage you deal with ranged weapons by 5%.",
+                "ruRU": "Повешение урона, наносимого оружием дальнего боя, на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104997,
+          "spellId": 1310687,
+          "definitionId": 134462,
+          "key": "sniper-shot",
+          "iconFileDataId": 1412205,
+          "iconName": "hunter_pvp_snipershot",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Sniper Shot",
+            "ruRU": "Снайперский выстрел"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "A steady snipe that increases ranged damage by 160.",
+                "ruRU": "Снайперский выстрел, наносящий 160 ед. дополнительного урона в дальнем бою."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105004
+          ]
+        }
+      ]
+    },
+    {
+      "id": "survival",
+      "order": 2,
+      "name": {
+        "enUS": "Survival",
+        "ruRU": "Выживание"
+      },
+      "talents": [
+        {
+          "nodeId": 104996,
+          "spellId": 24293,
+          "definitionId": 134461,
+          "key": "improved-tracking",
+          "iconFileDataId": 134154,
+          "iconName": "inv_misc_head_dragon_black",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Tracking",
+            "ruRU": "Мастерское выслеживание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 1%.",
+                "ruRU": "Когда вы выслеживаете зверей, демонов, драконов, элементалей, великанов, гуманоидов или нежить, вы наносите на 1% выбранным существам."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 2%.",
+                "ruRU": "Когда вы выслеживаете зверей, демонов, драконов, элементалей, великанов, гуманоидов или нежить, вы наносите на 2% выбранным существам."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 3%.",
+                "ruRU": "Когда вы выслеживаете зверей, демонов, драконов, элементалей, великанов, гуманоидов или нежить, вы наносите на 3% выбранным существам."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 4%.",
+                "ruRU": "Когда вы выслеживаете зверей, демонов, драконов, элементалей, великанов, гуманоидов или нежить, вы наносите на 4% выбранным существам."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 5%.",
+                "ruRU": "Когда вы выслеживаете зверей, демонов, драконов, элементалей, великанов, гуманоидов или нежить, вы наносите на 5% выбранным существам."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104995,
+          "spellId": 19295,
+          "definitionId": 134460,
+          "key": "deflection",
+          "iconFileDataId": 132269,
+          "iconName": "ability_parry",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Deflection",
+            "ruRU": "Отражение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Parry chance by 2%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Parry chance by 4%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Parry chance by 6%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Parry chance by 8%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Parry chance by 10%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104994,
+          "spellId": 19184,
+          "definitionId": 134459,
+          "key": "entrapment",
+          "iconFileDataId": 136100,
+          "iconName": "spell_nature_stranglevines",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Entrapment",
+            "ruRU": "Удержание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When your traps are triggered, all affected targets are Entrapped, preventing them from moving for 1 sec.",
+                "ruRU": "Ваши ловушки также применяют к пораженным целям эффект \"В ловушке\", обездвиживающий их на 1 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "When your traps are triggered, all affected targets are Entrapped, preventing them from moving for 2 sec.",
+                "ruRU": "Ваши ловушки также применяют к пораженным целям эффект \"В ловушке\", обездвиживающий их на 2 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "When your traps are triggered, all affected targets are Entrapped, preventing them from moving for 3 sec.",
+                "ruRU": "Ваши ловушки также применяют к пораженным целям эффект \"В ловушке\", обездвиживающий их на 3 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "When your traps are triggered, all affected targets are Entrapped, preventing them from moving for 4 sec.",
+                "ruRU": "Ваши ловушки также применяют к пораженным целям эффект \"В ловушке\", обездвиживающий их на 4 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "When your traps are triggered, all affected targets are Entrapped, preventing them from moving for 5 sec.",
+                "ruRU": "Ваши ловушки также применяют к пораженным целям эффект \"В ловушке\", обездвиживающий их на 5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104993,
+          "spellId": 19159,
+          "definitionId": 134458,
+          "key": "savage-strikes",
+          "iconFileDataId": 132277,
+          "iconName": "ability_racial_bloodrage",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Savage Strikes",
+            "ruRU": "Беспощадные удары"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of all your melee abilities by 2%.",
+                "ruRU": "Повышает вероятность критического удара способностей ближнего боя на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of all your melee abilities by 4%.",
+                "ruRU": "Повышает вероятность критического удара способностей ближнего боя на 4%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104992,
+          "spellId": 19255,
+          "definitionId": 134457,
+          "key": "survivalist",
+          "iconFileDataId": 136223,
+          "iconName": "spell_shadow_twilight",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Survivalist",
+            "ruRU": "Остаться в живых"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your total Health by 2%.",
+                "ruRU": "Увеличивает общий запас здоровья на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your total Health by 4%.",
+                "ruRU": "Увеличивает общий запас здоровья на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your total Health by 6%.",
+                "ruRU": "Увеличивает общий запас здоровья на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your total Health by 8%.",
+                "ruRU": "Увеличивает общий запас здоровья на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your total Health by 10%.",
+                "ruRU": "Увеличивает общий запас здоровья на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104990,
+          "spellId": 19228,
+          "definitionId": 134455,
+          "key": "improved-wing-clip",
+          "iconFileDataId": 132309,
+          "iconName": "ability_rogue_trip",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Wing Clip",
+            "ruRU": "Улучшенная подрезка крыльев"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Wing Clip ability a 7% chance to immobilize the target for 5 sec.",
+                "ruRU": "Способность \"Подрезать крылья\" с вероятностью 7% обездвиживает цель на 5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Wing Clip ability a 13% chance to immobilize the target for 5 sec.",
+                "ruRU": "Способность \"Подрезать крылья\" с вероятностью 13% обездвиживает цель на 5 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Wing Clip ability a 20% chance to immobilize the target for 5 sec.",
+                "ruRU": "Способность \"Подрезать крылья\" с вероятностью 20% обездвиживает цель на 5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104991,
+          "spellId": 19239,
+          "definitionId": 134456,
+          "key": "clever-traps",
+          "iconFileDataId": 136106,
+          "iconName": "spell_nature_timestop",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Clever Traps",
+            "ruRU": "Хитрые ловушки"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the duration of Freezing and Frost trap effects by 15% and the damage of Immolation and Explosive trap effects by 15%.",
+                "ruRU": "Увеличение длительности эффектов \"Ледяной ловушки\" и \"Замораживающей ловушки\" на 15%, а урона от \"Огненной ловушки\" и \"Взрывной ловушки\" – на 15%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the duration of Freezing and Frost trap effects by 30% and the damage of Immolation and Explosive trap effects by 30%.",
+                "ruRU": "Увеличение длительности эффектов \"Ледяной ловушки\" и \"Замораживающей ловушки\" на 30%, а урона от \"Огненной ловушки\" и \"Взрывной ловушки\" – на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104987,
+          "spellId": 19290,
+          "definitionId": 134452,
+          "key": "surefooted",
+          "iconFileDataId": 132219,
+          "iconName": "ability_kick",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Surefooted",
+            "ruRU": "Верный шаг"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your hit chance by 1% and reduces the duration of movement impairing effects on you by 10%.",
+                "ruRU": "Повышает вероятность попадания на 1% и сокращает время действия на вас затрудняющих передвижение эффектов на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your hit chance by 2% and reduces the duration of movement impairing effects on you by 20%.",
+                "ruRU": "Повышает вероятность попадания на 2% и сокращает время действия на вас затрудняющих передвижение эффектов на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your hit chance by 3% and reduces the duration of movement impairing effects on you by 30%.",
+                "ruRU": "Повышает вероятность попадания на 3% и сокращает время действия на вас затрудняющих передвижение эффектов на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104986,
+          "spellId": 19263,
+          "definitionId": 134451,
+          "key": "deterrence",
+          "iconFileDataId": 132369,
+          "iconName": "ability_whirlwind",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Deterrence",
+            "ruRU": "Сдерживание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, increases your Dodge and Parry chance by 25% for 10 sec.",
+                "ruRU": "Повышение вероятности уклонения и парирования удара на 25% на 10 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104988,
+          "spellId": 19376,
+          "definitionId": 134453,
+          "key": "survival-tactics",
+          "iconFileDataId": 132149,
+          "iconName": "ability_ensnare",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Survival Tactics",
+            "ruRU": "Тактика выживания"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your chance to hit with your Trap and Feign Death abilities by 5%.",
+                "ruRU": "Повышает вероятность попадания для ловушек и способности \"Притвориться мертвым\" на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your chance to hit with your Trap and Feign Death abilities by 10%.",
+                "ruRU": "Повышает вероятность попадания для ловушек и способности \"Притвориться мертвым\" на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110861,
+          "spellId": 1310627,
+          "definitionId": 142607,
+          "key": "predators-edge",
+          "iconFileDataId": 1376041,
+          "iconName": "ability_hunter_hatchettoss",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Predator's Edge",
+            "ruRU": "Лезвие хищника"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your melee critical strike damage by 6% and your offhand weapon damage by 10%.",
+                "ruRU": "Критический урон от атак ближнего боя увеличивается на 6%. Урон от оружия в левой руке увеличивается на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your melee critical strike damage by 12% and your offhand weapon damage by 20%.",
+                "ruRU": "Критический урон от атак ближнего боя увеличивается на 12%. Урон от оружия в левой руке увеличивается на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your melee critical strike damage by 18% and your offhand weapon damage by 30%.",
+                "ruRU": "Критический урон от атак ближнего боя увеличивается на 18%. Урон от оружия в левой руке увеличивается на 30%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your melee critical strike damage by 24% and your offhand weapon damage by 40%.",
+                "ruRU": "Критический урон от атак ближнего боя увеличивается на 24%. Урон от оружия в левой руке увеличивается на 40%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your melee critical strike damage by 30% and your offhand weapon damage by 50%.",
+                "ruRU": "Критический урон от атак ближнего боя увеличивается на 30%. Урон от оружия в левой руке увеличивается на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104989,
+          "spellId": 19306,
+          "definitionId": 134454,
+          "key": "counterattack",
+          "iconFileDataId": 132336,
+          "iconName": "ability_warrior_challange",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Counterattack",
+            "ruRU": "Контратака"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "A strike that becomes active after parrying an opponent's attack. This attack deals 50% weapon damage plus 26 and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried.",
+                "ruRU": "Удар, наносящий противнику 50% урона от оружия и еще 26 ед., а также обездвиживающий его на 5 сек. Можно применить только после парирования атаки. Этот удар невозможно заблокировать или парировать, и от него нельзя уклониться."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104986
+          ]
+        },
+        {
+          "nodeId": 104983,
+          "spellId": 440529,
+          "definitionId": 134448,
+          "key": "resourcefulness",
+          "iconFileDataId": 132207,
+          "iconName": "ability_hunter_resourcefulness",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Resourcefulness",
+            "ruRU": "Находчивость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of your Trap abilities and melee abilities by 30%. In addition, your critical strikes have a 50% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec.",
+                "ruRU": "Снижает затраты маны на применение ловушек и способностей ближнего боя на 30%. Кроме того, после того как вы наносите критический удар, вы с вероятностью 50% восполняете ману во время применения способностей со скоростью 50% в течение 30 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the mana cost of your Trap abilities and melee abilities by 60%. In addition, your critical strikes have a 100% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec.",
+                "ruRU": "Снижает затраты маны на применение ловушек и способностей ближнего боя на 60%. Кроме того, после того как вы наносите критический удар, вы с вероятностью 100% восполняете ману во время применения способностей со скоростью 50% в течение 30 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104985,
+          "spellId": 1310532,
+          "definitionId": 134450,
+          "key": "expose-prey",
+          "iconFileDataId": 132215,
+          "iconName": "ability_hunter_swiftstrike",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Expose Prey",
+            "ruRU": "Обнаружение добычи"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your attacks against targets with Hunter's Mark have a 5% chance to activate your Mongoose Bite for 5 sec.",
+                "ruRU": "Атаки против цели, на которую действует ваша \"Метка охотника\", с вероятностью 5% активируют \"Укус мангуста\" на 5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your attacks against targets with Hunter's Mark have a 10% chance to activate your Mongoose Bite for 5 sec.",
+                "ruRU": "Атаки против цели, на которую действует ваша \"Метка охотника\", с вероятностью 10% активируют \"Укус мангуста\" на 5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110860,
+          "spellId": 1310496,
+          "definitionId": 142606,
+          "key": "survivalists-discipline",
+          "iconFileDataId": 132178,
+          "iconName": "ability_hunter_mastertactitian",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Survivalist's Discipline",
+            "ruRU": "Дисциплина выживающего"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Trap and Deterrence abilities by 20%.",
+                "ruRU": "Сокращает время восстановления ловушек и \"Сдерживания\" на 20%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Trap and Deterrence abilities by 40%.",
+                "ruRU": "Сокращает время восстановления ловушек и \"Сдерживания\" на 40%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104981,
+          "spellId": 1317257,
+          "definitionId": 134446,
+          "key": "strider-kick",
+          "iconFileDataId": 132198,
+          "iconName": "ability_hunter_pet_tallstrider",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Strider Kick",
+            "ruRU": "Удар долгонога"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "A powerful kick that deals 100% melee weapon damage.",
+                "ruRU": "Мощный удар ногой, наносящий 100% урона от оружия ближнего боя."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110859,
+          "spellId": 19168,
+          "definitionId": 142605,
+          "key": "lightning-reflexes",
+          "iconFileDataId": 136047,
+          "iconName": "spell_nature_invisibilty",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Lightning Reflexes",
+            "ruRU": "Молниеносные рефлексы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Agility by 2%.",
+                "ruRU": "Повышение ловкости на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Agility by 4%.",
+                "ruRU": "Повышение ловкости на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Agility by 6%.",
+                "ruRU": "Повышение ловкости на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Agility by 8%.",
+                "ruRU": "Повышение ловкости на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Agility by 10%.",
+                "ruRU": "Повышение ловкости на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104984,
+          "spellId": 1310533,
+          "definitionId": 134449,
+          "key": "lacerating-strikes",
+          "iconFileDataId": 132155,
+          "iconName": "ability_gouge",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Lacerating Strikes",
+            "ruRU": "Раздирающие удары"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Mongoose Bite also causes the target to Bleed for damage over 21 sec equal to 40% of the damage done by Mongoose Bite.",
+                "ruRU": "\"Укус мангуста\" также вызывает у цели кровотечение, за 21 сек. наносящее урон в объеме 40% урона от \"Укуса мангуста\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104985
+          ]
+        }
+      ]
+    }
+  ]
+}

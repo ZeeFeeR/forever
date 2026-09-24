@@ -1,0 +1,2367 @@
+{
+  "schemaVersion": 1,
+  "product": "wow_classic_beta",
+  "build": "1.60.1.69977",
+  "generatedAt": "2026-09-24T07:20:54.575Z",
+  "source": "Wago DB2 / WoW Forever beta client data",
+  "class": {
+    "id": "warrior",
+    "classId": 1,
+    "name": {
+      "enUS": "Warrior",
+      "ruRU": "Воин"
+    }
+  },
+  "traitTreeId": 1117,
+  "rules": {
+    "maxLevel": 60,
+    "firstPointLevel": 10,
+    "maxPoints": 51,
+    "pointsPerRow": 5
+  },
+  "trees": [
+    {
+      "id": "arms",
+      "order": 0,
+      "name": {
+        "enUS": "Arms",
+        "ruRU": "Оружие"
+      },
+      "talents": [
+        {
+          "nodeId": 105958,
+          "spellId": 12282,
+          "definitionId": 135489,
+          "key": "improved-heroic-strike",
+          "iconFileDataId": 132282,
+          "iconName": "ability_rogue_ambush",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Heroic Strike",
+            "ruRU": "Улучшенный удар героя"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cost of your Heroic Strike ability by 1 Rage.",
+                "ruRU": "Снижает затраты ярости на \"Удар героя\" на 1 ед."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cost of your Heroic Strike ability by 2 Rage.",
+                "ruRU": "Снижает затраты ярости на \"Удар героя\" на 2 ед."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cost of your Heroic Strike ability by 3 Rage.",
+                "ruRU": "Снижает затраты ярости на \"Удар героя\" на 3 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105957,
+          "spellId": 16462,
+          "definitionId": 135488,
+          "key": "deflection",
+          "iconFileDataId": 132269,
+          "iconName": "ability_parry",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Deflection",
+            "ruRU": "Отражение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Parry chance by 1%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Parry chance by 2%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Parry chance by 3%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Parry chance by 4%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Parry chance by 5%.",
+                "ruRU": "Увеличивает вероятность парирования атак на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105956,
+          "spellId": 12286,
+          "definitionId": 135487,
+          "key": "improved-rend",
+          "iconFileDataId": 132155,
+          "iconName": "ability_gouge",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Rend",
+            "ruRU": "Улучшенное кровопускание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the Bleed damage done by your Rend ability by 12%.",
+                "ruRU": "\"Кровопускание\" наносит на 12% больше урона от кровотечения."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the Bleed damage done by your Rend ability by 23%.",
+                "ruRU": "\"Кровопускание\" наносит на 23% больше урона от кровотечения."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the Bleed damage done by your Rend ability by 35%.",
+                "ruRU": "\"Кровопускание\" наносит на 35% больше урона от кровотечения."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105955,
+          "spellId": 12285,
+          "definitionId": 135486,
+          "key": "improved-charge",
+          "iconFileDataId": 132337,
+          "iconName": "ability_warrior_charge",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Charge",
+            "ruRU": "Улучшенный рывок"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the Rage generated by your Charge ability by 3.",
+                "ruRU": "\"Рывок\" дает на 3 ед. ярости больше."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the Rage generated by your Charge ability by 6.",
+                "ruRU": "\"Рывок\" дает на 6 ед. ярости больше."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105954,
+          "spellId": 12295,
+          "definitionId": 135485,
+          "key": "improved-tactical-mastery",
+          "iconFileDataId": 136031,
+          "iconName": "spell_nature_enchantarmor",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Tactical Mastery",
+            "ruRU": "Улучшенное тактическое превосходство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Tactical Mastery lets you retain up to an additional 3 Rage when you change stances.",
+                "ruRU": "\"Тактическое превосходство\" позволяет сохранять еще до 3 ед. ярости при смене боевой стойки."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Tactical Mastery lets you retain up to an additional 6 Rage when you change stances.",
+                "ruRU": "\"Тактическое превосходство\" позволяет сохранять еще до 6 ед. ярости при смене боевой стойки."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Tactical Mastery lets you retain up to an additional 9 Rage when you change stances.",
+                "ruRU": "\"Тактическое превосходство\" позволяет сохранять еще до 9 ед. ярости при смене боевой стойки."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Tactical Mastery lets you retain up to an additional 12 Rage when you change stances.",
+                "ruRU": "\"Тактическое превосходство\" позволяет сохранять еще до 12 ед. ярости при смене боевой стойки."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Tactical Mastery lets you retain up to an additional 15 Rage when you change stances.",
+                "ruRU": "\"Тактическое превосходство\" позволяет сохранять еще до 15 ед. ярости при смене боевой стойки."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105952,
+          "spellId": 12290,
+          "definitionId": 135483,
+          "key": "improved-overpower",
+          "iconFileDataId": 135275,
+          "iconName": "inv_sword_05",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Overpower",
+            "ruRU": "Улучшенное превосходство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Overpower ability by 25%.",
+                "ruRU": "Повышает вероятность критического удара при применении \"Превосходства\" на 25%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Overpower ability by 50%.",
+                "ruRU": "Повышает вероятность критического удара при применении \"Превосходства\" на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105951,
+          "spellId": 12296,
+          "definitionId": 135482,
+          "key": "anger-management",
+          "iconFileDataId": 135881,
+          "iconName": "spell_holy_blessingofstamina",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Anger Management",
+            "ruRU": "Управление злостью"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Generates 1 Rage every 3 sec while in combat, and reduces Rage loss while out of combat by 30%.",
+                "ruRU": "Дает 1 ед. ярости раз в 3 сек. при нахождении в бою и снижает потерю ярости вне боя на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105954
+          ]
+        },
+        {
+          "nodeId": 105950,
+          "spellId": 12834,
+          "definitionId": 135481,
+          "key": "deep-wounds",
+          "iconFileDataId": 132090,
+          "iconName": "ability_backstab",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Deep Wounds",
+            "ruRU": "Глубокие раны"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your critical strikes cause your opponent to Bleed, dealing 20% of your melee weapon's average damage over 12 sec.",
+                "ruRU": "Критические удары вызывают у противника кровотечение, наносящее 20% среднего урона вашего оружия ближнего боя за 12 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your critical strikes cause your opponent to Bleed, dealing 40% of your melee weapon's average damage over 12 sec.",
+                "ruRU": "Критические удары вызывают у противника кровотечение, наносящее 40% среднего урона вашего оружия ближнего боя за 12 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your critical strikes cause your opponent to Bleed, dealing 60% of your melee weapon's average damage over 12 sec.",
+                "ruRU": "Критические удары вызывают у противника кровотечение, наносящее 60% среднего урона вашего оружия ближнего боя за 12 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105956
+          ]
+        },
+        {
+          "nodeId": 105949,
+          "spellId": 1310222,
+          "definitionId": 135480,
+          "key": "spearing-strike",
+          "iconFileDataId": 135124,
+          "iconName": "inv_spear_01",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Spearing Strike",
+            "ruRU": "Пробивающий удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "A brutal attack that deals 40% weapon damage. Deals an additional 80% weapon damage against Giants, Dragonkin, and mounted targets. Mounted targets are dismounted.",
+                "ruRU": "Совершает жестокий удар, наносящий 40% урона от оружия. Наносит еще 80% урона от оружия против великанов, драконов и целей на транспорте. Также спешивает противников."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105948,
+          "spellId": 12163,
+          "definitionId": 135479,
+          "key": "two-handed-weapon-specialization",
+          "iconFileDataId": 132400,
+          "iconName": "inv_axe_09",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Two-Handed Weapon Specialization",
+            "ruRU": "Специализация на двуручном оружии"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage you deal with two-handed melee weapons by 1%.",
+                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage you deal with two-handed melee weapons by 2%.",
+                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage you deal with two-handed melee weapons by 3%.",
+                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 3%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105947,
+          "spellId": 16493,
+          "definitionId": 135478,
+          "key": "impale",
+          "iconFileDataId": 132312,
+          "iconName": "ability_searingarrow",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Impale",
+            "ruRU": "Прокалывание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your abilities by 10%.",
+                "ruRU": "Увеличивает дополнительный урон от критических ударов, нанесенных способностями, на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your abilities by 20%.",
+                "ruRU": "Увеличивает дополнительный урон от критических ударов, нанесенных способностями, на 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110524,
+          "spellId": 1289682,
+          "definitionId": 141974,
+          "key": "bloodthrill",
+          "iconFileDataId": 135271,
+          "iconName": "inv_sword_01",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Bloodthrill",
+            "ruRU": "Кровавый восторг"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your melee attacks against targets afflicted by your Rend have a 2% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
+                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 2% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your melee attacks against targets afflicted by your Rend have a 4% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
+                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 4% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your melee attacks against targets afflicted by your Rend have a 6% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
+                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 6% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Your melee attacks against targets afflicted by your Rend have a 8% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
+                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 8% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Your melee attacks against targets afflicted by your Rend have a 10% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
+                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 10% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105945,
+          "spellId": 12292,
+          "definitionId": 135476,
+          "key": "sweeping-strikes",
+          "iconFileDataId": 132306,
+          "iconName": "ability_rogue_slicedice",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Sweeping Strikes",
+            "ruRU": "Размашистые удары"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your next 5 melee attacks strike an additional nearby opponent.",
+                "ruRU": "5 ваших следующих атаки ближнего боя попадают еще по одному находящемуся рядом врагу."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105944,
+          "spellId": 1290261,
+          "definitionId": 135475,
+          "key": "weaponmaster",
+          "iconFileDataId": 1085608,
+          "iconName": "garrison_weaponupgrade",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Weaponmaster",
+            "ruRU": "Мастер боя"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Polearm: Increases your critical strike chance by 1%. |CFFFFFFFFMace/Staff: Your attacks ignore 3% of your target's armor. |CFFFFFFFFSword: Your successful melee attacks have a 1% chance to trigger an extra attack on the target.",
+                "ruRU": "Усиливает атаки оружием ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/древковое: повышает вероятность критического удара на 1%. |CFFFFFFFFДробящее/посох: атаки игнорируют 3% брони цели. |CFFFFFFFFМеч: успешные атаки ближнего боя с вероятностью 1% позволяют совершить дополнительную атаку против цели."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Polearm: Increases your critical strike chance by 2%. |CFFFFFFFFMace/Staff: Your attacks ignore 6% of your target's armor. |CFFFFFFFFSword: Your successful melee attacks have a 2% chance to trigger an extra attack on the target.",
+                "ruRU": "Усиливает атаки оружием ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/древковое: повышает вероятность критического удара на 2%. |CFFFFFFFFДробящее/посох: атаки игнорируют 6% брони цели. |CFFFFFFFFМеч: успешные атаки ближнего боя с вероятностью 2% позволяют совершить дополнительную атаку против цели."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Polearm: Increases your critical strike chance by 3%. |CFFFFFFFFMace/Staff: Your attacks ignore 9% of your target's armor. |CFFFFFFFFSword: Your successful melee attacks have a 3% chance to trigger an extra attack on the target.",
+                "ruRU": "Усиливает атаки оружием ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/древковое: повышает вероятность критического удара на 3%. |CFFFFFFFFДробящее/посох: атаки игнорируют 9% брони цели. |CFFFFFFFFМеч: успешные атаки ближнего боя с вероятностью 3% позволяют совершить дополнительную атаку против цели."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Polearm: Increases your critical strike chance by 4%. |CFFFFFFFFMace/Staff: Your attacks ignore 12% of your target's armor. |CFFFFFFFFSword: Your successful melee attacks have a 4% chance to trigger an extra attack on the target.",
+                "ruRU": "Усиливает атаки оружием ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/древковое: повышает вероятность критического удара на 4%. |CFFFFFFFFДробящее/посох: атаки игнорируют 12% брони цели. |CFFFFFFFFМеч: успешные атаки ближнего боя с вероятностью 4% позволяют совершить дополнительную атаку против цели."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives your melee weapon attacks a benefit depending on the weapon. |CFFFFFFFFAxe/Polearm: Increases your critical strike chance by 5%. |CFFFFFFFFMace/Staff: Your attacks ignore 15% of your target's armor. |CFFFFFFFFSword: Your successful melee attacks have a 5% chance to trigger an extra attack on the target.",
+                "ruRU": "Усиливает атаки оружием ближнего боя в зависимости от типа оружия. |CFFFFFFFFТопор/древковое: повышает вероятность критического удара на 5%. |CFFFFFFFFДробящее/посох: атаки игнорируют 15% брони цели. |CFFFFFFFFМеч: успешные атаки ближнего боя с вероятностью 5% позволяют совершить дополнительную атаку против цели."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110858,
+          "spellId": 12862,
+          "definitionId": 142604,
+          "key": "improved-slam",
+          "iconFileDataId": 132340,
+          "iconName": "ability_warrior_decisivestrike",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Slam",
+            "ruRU": "Улучшенное сокрушение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the global cooldown and cast time of your Slam ability by 0.25 sec. In addition, Slam no longer interrupts your melee swing time.",
+                "ruRU": "Сокращает общее время восстановления и время применения \"Мощного удара\" на 0.25 сек. Кроме того, \"Мощный удар\" больше не прерывает другие атаки ближнего боя."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the global cooldown and cast time of your Slam ability by 0.50 sec. In addition, Slam no longer interrupts your melee swing time.",
+                "ruRU": "Сокращает общее время восстановления и время применения \"Мощного удара\" на 0.50 сек. Кроме того, \"Мощный удар\" больше не прерывает другие атаки ближнего боя."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105942,
+          "spellId": 12289,
+          "definitionId": 135473,
+          "key": "improved-hamstring",
+          "iconFileDataId": 132316,
+          "iconName": "ability_shockwave",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Hamstring",
+            "ruRU": "Улучшенный порез сухожилия"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Hamstring ability a 5% chance to immobilize the target for 5 sec.",
+                "ruRU": "Способность \"Подрезать сухожилия\" с вероятностью 5% обездвиживает цель на 5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Hamstring ability a 10% chance to immobilize the target for 5 sec.",
+                "ruRU": "Способность \"Подрезать сухожилия\" с вероятностью 10% обездвиживает цель на 5 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Hamstring ability a 15% chance to immobilize the target for 5 sec.",
+                "ruRU": "Способность \"Подрезать сухожилия\" с вероятностью 15% обездвиживает цель на 5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105941,
+          "spellId": 12294,
+          "definitionId": 135472,
+          "key": "mortal-strike",
+          "iconFileDataId": 132355,
+          "iconName": "ability_warrior_savageblow",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Mortal Strike",
+            "ruRU": "Смертельный удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "A vicious strike that deals weapon damage plus 85 and wounds the target, reducing the effectiveness of any healing by 50% for 10 sec.",
+                "ruRU": "Жестокий удар, наносящий урон от оружия и еще 85 ед., а также оставляющий серьезную рану, снижающую эффективность исцеления на 50% в течение 10 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105945
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fury",
+      "order": 1,
+      "name": {
+        "enUS": "Fury",
+        "ruRU": "Неистовство"
+      },
+      "talents": [
+        {
+          "nodeId": 105938,
+          "spellId": 12321,
+          "definitionId": 135469,
+          "key": "booming-voice",
+          "iconFileDataId": 136075,
+          "iconName": "spell_nature_purge",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Booming Voice",
+            "ruRU": "Луженая глотка"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the radius of your Battle Shout and Demoralizing Shout abilities by 10%.",
+                "ruRU": "Увеличивает область действия \"Боевого крика\" и \"Деморализующего крика\" на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the radius of your Battle Shout and Demoralizing Shout abilities by 20%.",
+                "ruRU": "Увеличивает область действия \"Боевого крика\" и \"Деморализующего крика\" на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the radius of your Battle Shout and Demoralizing Shout abilities by 30%.",
+                "ruRU": "Увеличивает область действия \"Боевого крика\" и \"Деморализующего крика\" на 30%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the radius of your Battle Shout and Demoralizing Shout abilities by 40%.",
+                "ruRU": "Увеличивает область действия \"Боевого крика\" и \"Деморализующего крика\" на 40%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the radius of your Battle Shout and Demoralizing Shout abilities by 50%.",
+                "ruRU": "Увеличивает область действия \"Боевого крика\" и \"Деморализующего крика\" на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105939,
+          "spellId": 12320,
+          "definitionId": 135470,
+          "key": "cruelty",
+          "iconFileDataId": 132292,
+          "iconName": "ability_rogue_eviscerate",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Cruelty",
+            "ruRU": "Безжалостность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 1%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 2%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 3%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 4%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with melee attacks by 5%.",
+                "ruRU": "Повышает вероятность критического удара атак в ближнем бою на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110857,
+          "spellId": 12962,
+          "definitionId": 142603,
+          "key": "iron-will",
+          "iconFileDataId": 135995,
+          "iconName": "spell_magic_magearmor",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Iron Will",
+            "ruRU": "Железная воля"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the duration of Stun and Fear effects inflicted on you by 3%.",
+                "ruRU": "Сокращает время действия применяемых к вам эффектов оглушения и страха на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the duration of Stun and Fear effects inflicted on you by 6%.",
+                "ruRU": "Сокращает время действия применяемых к вам эффектов оглушения и страха на 6%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the duration of Stun and Fear effects inflicted on you by 9%.",
+                "ruRU": "Сокращает время действия применяемых к вам эффектов оглушения и страха на 9%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the duration of Stun and Fear effects inflicted on you by 12%.",
+                "ruRU": "Сокращает время действия применяемых к вам эффектов оглушения и страха на 12%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the duration of Stun and Fear effects inflicted on you by 15%.",
+                "ruRU": "Сокращает время действия применяемых к вам эффектов оглушения и страха на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105937,
+          "spellId": 12322,
+          "definitionId": 135468,
+          "key": "unbridled-wrath",
+          "iconFileDataId": 136097,
+          "iconName": "spell_nature_stoneclawtotem",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Unbridled Wrath",
+            "ruRU": "Необузданный гнев"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 12% chance to generate 1 additional Rage when you deal melee damage with a weapon. This effect is increased to 2 Rage for two-handed weapons.",
+                "ruRU": "С вероятностью 12% вы получаете еще 1 ед. ярости при нанесении урона оружием в ближнем бою. Усиливается до 2 ед. ярости при использовании двуручного оружия."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 24% chance to generate 1 additional Rage when you deal melee damage with a weapon. This effect is increased to 2 Rage for two-handed weapons.",
+                "ruRU": "С вероятностью 24% вы получаете еще 1 ед. ярости при нанесении урона оружием в ближнем бою. Усиливается до 2 ед. ярости при использовании двуручного оружия."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 36% chance to generate 1 additional Rage when you deal melee damage with a weapon. This effect is increased to 2 Rage for two-handed weapons.",
+                "ruRU": "С вероятностью 36% вы получаете еще 1 ед. ярости при нанесении урона оружием в ближнем бою. Усиливается до 2 ед. ярости при использовании двуручного оружия."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives you a 48% chance to generate 1 additional Rage when you deal melee damage with a weapon. This effect is increased to 2 Rage for two-handed weapons.",
+                "ruRU": "С вероятностью 48% вы получаете еще 1 ед. ярости при нанесении урона оружием в ближнем бою. Усиливается до 2 ед. ярости при использовании двуручного оружия."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives you a 60% chance to generate 1 additional Rage when you deal melee damage with a weapon. This effect is increased to 2 Rage for two-handed weapons.",
+                "ruRU": "С вероятностью 60% вы получаете еще 1 ед. ярости при нанесении урона оружием в ближнем бою. Усиливается до 2 ед. ярости при использовании двуручного оружия."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105936,
+          "spellId": 12329,
+          "definitionId": 135467,
+          "key": "improved-cleave",
+          "iconFileDataId": 132338,
+          "iconName": "ability_warrior_cleave",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Cleave",
+            "ruRU": "Улучшенный рассекающий удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Cleave ability by 1.",
+                "ruRU": "Снижает затраты ярости на применение \"Рассекающего удара\" на 1 ед."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Cleave ability by 2.",
+                "ruRU": "Снижает затраты ярости на применение \"Рассекающего удара\" на 2 ед."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Cleave ability by 3.",
+                "ruRU": "Снижает затраты ярости на применение \"Рассекающего удара\" на 3 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105935,
+          "spellId": 12323,
+          "definitionId": 135466,
+          "key": "piercing-howl",
+          "iconFileDataId": 136147,
+          "iconName": "spell_shadow_deathscream",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Piercing Howl",
+            "ruRU": "Пронзительный вой"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Causes all nearby enemies to be Dazed, reducing movement speed by 50% for 6 sec.",
+                "ruRU": "Вызывает у ближайших противников головокружение, снижающее скорость передвижения на 50% на 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105934,
+          "spellId": 16487,
+          "definitionId": 135465,
+          "key": "blood-craze",
+          "iconFileDataId": 136218,
+          "iconName": "spell_shadow_summonimp",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Blood Craze",
+            "ruRU": "Мания крови"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Regenerates 1% of your total Health over 6 sec after being the victim of a critical strike, dealing damage with Bloodthirst, or suffering more than 20% of your maximum Health from a single attack.",
+                "ruRU": "Восполняет 1% запаса здоровья за 6 сек. после получения критического удара, нанесения урона \"Кровожадностью\" или когда вы теряете более 20% максимального запаса здоровья от одной атаки."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Regenerates 2% of your total Health over 6 sec after being the victim of a critical strike, dealing damage with Bloodthirst, or suffering more than 20% of your maximum Health from a single attack.",
+                "ruRU": "Восполняет 2% запаса здоровья за 6 сек. после получения критического удара, нанесения урона \"Кровожадностью\" или когда вы теряете более 20% максимального запаса здоровья от одной атаки."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Regenerates 3% of your total Health over 6 sec after being the victim of a critical strike, dealing damage with Bloodthirst, or suffering more than 20% of your maximum Health from a single attack.",
+                "ruRU": "Восполняет 3% запаса здоровья за 6 сек. после получения критического удара, нанесения урона \"Кровожадностью\" или когда вы теряете более 20% максимального запаса здоровья от одной атаки."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105953,
+          "spellId": 1310236,
+          "definitionId": 135484,
+          "key": "boundless-rage",
+          "iconFileDataId": 236310,
+          "iconName": "ability_warrior_intensifyrage",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Boundless Rage",
+            "ruRU": "Безграничная ярость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your maximum Rage by 10.",
+                "ruRU": "Увеличивает максимальное количество ярости на 10."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your maximum Rage by 20.",
+                "ruRU": "Увеличивает максимальное количество ярости на 20."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your maximum Rage by 30.",
+                "ruRU": "Увеличивает максимальное количество ярости на 30."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105933,
+          "spellId": 23584,
+          "definitionId": 135464,
+          "key": "dual-wield-specialization",
+          "iconFileDataId": 132147,
+          "iconName": "ability_dualwield",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Dual Wield Specialization",
+            "ruRU": "Специализация на бое двумя оружиями"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your off-hand weapon damage by 5%, off-hand Rage generation by 20%, and chance to hit with off-hand attacks by 2%.",
+                "ruRU": "Атаки оружием в левой руке наносят на 5% больше урона и дают на 20% больше ярости, а вероятность попадания этих атак повышается на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your off-hand weapon damage by 10%, off-hand Rage generation by 40%, and chance to hit with off-hand attacks by 4%.",
+                "ruRU": "Атаки оружием в левой руке наносят на 10% больше урона и дают на 40% больше ярости, а вероятность попадания этих атак повышается на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your off-hand weapon damage by 15%, off-hand Rage generation by 60%, and chance to hit with off-hand attacks by 6%.",
+                "ruRU": "Атаки оружием в левой руке наносят на 15% больше урона и дают на 60% больше ярости, а вероятность попадания этих атак повышается на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your off-hand weapon damage by 20%, off-hand Rage generation by 80%, and chance to hit with off-hand attacks by 8%.",
+                "ruRU": "Атаки оружием в левой руке наносят на 20% больше урона и дают на 80% больше ярости, а вероятность попадания этих атак повышается на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your off-hand weapon damage by 25%, off-hand Rage generation by 100%, and chance to hit with off-hand attacks by 10%.",
+                "ruRU": "Атаки оружием в левой руке наносят на 25% больше урона и дают на 100% больше ярости, а вероятность попадания этих атак повышается на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105977,
+          "spellId": 1310315,
+          "definitionId": 135508,
+          "key": "raging-blows",
+          "iconFileDataId": 132369,
+          "iconName": "ability_whirlwind",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Raging Blows",
+            "ruRU": "Яростные выпады"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Causes your Whirlwind to also strike with your off-hand weapon, and reduces the Rage cost of your Cleave ability by 2.",
+                "ruRU": "При применении \"Вихря\" вы также атакуете оружием в левой руке. Затраты ярости на применение \"Рассекающего удара\" снижаются на 2 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105931,
+          "spellId": 12317,
+          "definitionId": 135462,
+          "key": "enrage",
+          "iconFileDataId": 136224,
+          "iconName": "spell_shadow_unholyfrenzy",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Enrage",
+            "ruRU": "Исступление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 30% chance to deal 2% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+                "ruRU": "После получения урона в бою наносимый вами физический урон с вероятностью 30% увеличивается на 2% на 12 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 30% chance to deal 4% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+                "ruRU": "После получения урона в бою наносимый вами физический урон с вероятностью 30% увеличивается на 4% на 12 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 30% chance to deal 6% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+                "ruRU": "После получения урона в бою наносимый вами физический урон с вероятностью 30% увеличивается на 6% на 12 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives you a 30% chance to deal 8% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+                "ruRU": "После получения урона в бою наносимый вами физический урон с вероятностью 30% увеличивается на 8% на 12 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives you a 30% chance to deal 10% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+                "ruRU": "После получения урона в бою наносимый вами физический урон с вероятностью 30% увеличивается на 10% на 12 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105932,
+          "spellId": 20502,
+          "definitionId": 135463,
+          "key": "improved-execute",
+          "iconFileDataId": 135358,
+          "iconName": "inv_sword_48",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Execute",
+            "ruRU": "Улучшенная казнь"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Execute ability by 3.",
+                "ruRU": "Уменьшает расход ярости на способность \"Казнь\" на 3."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Execute ability by 5.",
+                "ruRU": "Уменьшает расход ярости на способность \"Казнь\" на 5."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105929,
+          "spellId": 1225295,
+          "definitionId": 135460,
+          "key": "precision",
+          "iconFileDataId": 132222,
+          "iconName": "ability_marksmanship",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Precision",
+            "ruRU": "Точность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to hit by 1%.",
+                "ruRU": "Повышает вероятность попадания на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to hit by 2%.",
+                "ruRU": "Повышает вероятность попадания на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to hit by 3%.",
+                "ruRU": "Повышает вероятность попадания на 3%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105927,
+          "spellId": 12328,
+          "definitionId": 135458,
+          "key": "death-wish",
+          "iconFileDataId": 136146,
+          "iconName": "spell_shadow_deathpact",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Death Wish",
+            "ruRU": "Инстинкт смерти"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, increases your Physical damage done by 20% and makes you immune to Fear effects, but increases all damage you take by 5%. Lasts 30 sec.",
+                "ruRU": "При использовании увеличивает наносимый физический урон на 20% и дает невосприимчивость к эффекту страха, но также увеличивает получаемый урон на 5%. Время действия – 30 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105926,
+          "spellId": 20504,
+          "definitionId": 135457,
+          "key": "improved-intercept",
+          "iconFileDataId": 132307,
+          "iconName": "ability_rogue_sprint",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Intercept",
+            "ruRU": "Улучшенный перехват"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Intercept ability by 5 sec.",
+                "ruRU": "Сокращение времени восстановления вашей способности \"Перехват\" на 5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Intercept ability by 10 sec.",
+                "ruRU": "Сокращение времени восстановления вашей способности \"Перехват\" на 10 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105978,
+          "spellId": 20500,
+          "definitionId": 135509,
+          "key": "improved-berserker-rage",
+          "iconFileDataId": 136009,
+          "iconName": "spell_nature_ancestralguardian",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Berserker Rage",
+            "ruRU": "Улучшенная ярость берсерка"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Berserker Rage ability will instantly generate 5 Rage and has a 50% chance to remove all movement impairing effects when activated.",
+                "ruRU": "При активации \"Ярость берсерка\" мгновенно дает 5 ед. ярости и с вероятностью 50% снимает все затрудняющие передвижение эффекты."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Berserker Rage ability will instantly generate 10 Rage and has a 100% chance to remove all movement impairing effects when activated.",
+                "ruRU": "При активации \"Ярость берсерка\" мгновенно дает 10 ед. ярости и с вероятностью 100% снимает все затрудняющие передвижение эффекты."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105928,
+          "spellId": 12319,
+          "definitionId": 135459,
+          "key": "flurry",
+          "iconFileDataId": 132152,
+          "iconName": "ability_ghoulfrenzy",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Flurry",
+            "ruRU": "Шквал"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your melee attack speed by 5% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки в ближнем бою повышается на 5%. Действует, пока вы не нанесете 3 удара."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your melee attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки в ближнем бою повышается на 10%. Действует, пока вы не нанесете 3 удара."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your melee attack speed by 15% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки в ближнем бою повышается на 15%. Действует, пока вы не нанесете 3 удара."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your melee attack speed by 20% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки в ближнем бою повышается на 20%. Действует, пока вы не нанесете 3 удара."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your melee attack speed by 25% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки в ближнем бою повышается на 25%. Действует, пока вы не нанесете 3 удара."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105931
+          ]
+        },
+        {
+          "nodeId": 105930,
+          "spellId": 23881,
+          "definitionId": 135461,
+          "key": "bloodthirst",
+          "iconFileDataId": 136012,
+          "iconName": "spell_nature_bloodlust",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Bloodthirst",
+            "ruRU": "Кровожадность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Instantly attack the target causing damage equal to 35% of your Attack Power plus 30 and increasing your movement speed by 10% for 10 sec.",
+                "ruRU": "Мгновенная атака, наносящая урон в размере 35% силы атаки и еще 30 ед., а также повышающая скорость передвижения на 10% на 10 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105927
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protection",
+      "order": 2,
+      "name": {
+        "enUS": "Protection",
+        "ruRU": "Защита"
+      },
+      "talents": [
+        {
+          "nodeId": 105976,
+          "spellId": 12298,
+          "definitionId": 135507,
+          "key": "shield-specialization",
+          "iconFileDataId": 134952,
+          "iconName": "inv_shield_06",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Shield Specialization",
+            "ruRU": "Специализация на щитах"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your chance to Block attacks with your shield by 1% and grants you a 20% chance to generate 5 Rage when you Block.",
+                "ruRU": "Повышает вероятность блокирования щитом на 1%. При успешном блокировании вы с вероятностью 20% накапливаете 5 ед. ярости."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your chance to Block attacks with your shield by 2% and grants you a 40% chance to generate 5 Rage when you Block.",
+                "ruRU": "Повышает вероятность блокирования щитом на 2%. При успешном блокировании вы с вероятностью 40% накапливаете 5 ед. ярости."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your chance to Block attacks with your shield by 3% and grants you a 60% chance to generate 5 Rage when you Block.",
+                "ruRU": "Повышает вероятность блокирования щитом на 3%. При успешном блокировании вы с вероятностью 60% накапливаете 5 ед. ярости."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your chance to Block attacks with your shield by 4% and grants you a 80% chance to generate 5 Rage when you Block.",
+                "ruRU": "Повышает вероятность блокирования щитом на 4%. При успешном блокировании вы с вероятностью 80% накапливаете 5 ед. ярости."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your chance to Block attacks with your shield by 5% and grants you a 100% chance to generate 5 Rage when you Block.",
+                "ruRU": "Повышает вероятность блокирования щитом на 5%. При успешном блокировании вы с вероятностью 100% накапливаете 5 ед. ярости."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105975,
+          "spellId": 12297,
+          "definitionId": 135506,
+          "key": "anticipation",
+          "iconFileDataId": 136056,
+          "iconName": "spell_nature_mirrorimage",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Anticipation",
+            "ruRU": "Предчувствие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Defense Skill by 4.",
+                "ruRU": "Повышает навык защиты на 4."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Defense Skill by 8.",
+                "ruRU": "Повышает навык защиты на 8."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Defense Skill by 12.",
+                "ruRU": "Повышает навык защиты на 12."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Defense Skill by 16.",
+                "ruRU": "Повышает навык защиты на 16."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Defense Skill by 20.",
+                "ruRU": "Повышает навык защиты на 20."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105974,
+          "spellId": 12301,
+          "definitionId": 135505,
+          "key": "improved-bloodrage",
+          "iconFileDataId": 132277,
+          "iconName": "ability_racial_bloodrage",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Bloodrage",
+            "ruRU": "Улучшенная кровавая ярость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases all the Rage generated by your Bloodrage ability by 25%.",
+                "ruRU": "\"Кровавая ярость\" дает на 25% больше ярости."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases all the Rage generated by your Bloodrage ability by 50%.",
+                "ruRU": "\"Кровавая ярость\" дает на 50% больше ярости."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105973,
+          "spellId": 12299,
+          "definitionId": 135504,
+          "key": "toughness",
+          "iconFileDataId": 135892,
+          "iconName": "spell_holy_devotion",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Toughness",
+            "ruRU": "Крепость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Armor value from items by 2%.",
+                "ruRU": "Увеличивает бонус к броне от предметов на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Armor value from items by 4%.",
+                "ruRU": "Увеличивает бонус к броне от предметов на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Armor value from items by 6%.",
+                "ruRU": "Увеличивает бонус к броне от предметов на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Armor value from items by 8%.",
+                "ruRU": "Увеличивает бонус к броне от предметов на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Armor value from items by 10%.",
+                "ruRU": "Увеличивает бонус к броне от предметов на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105972,
+          "spellId": 12287,
+          "definitionId": 135503,
+          "key": "improved-thunder-clap",
+          "iconFileDataId": 132326,
+          "iconName": "ability_thunderclap",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Thunder Clap",
+            "ruRU": "Улучшенный удар грома"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Thunder Clap ability by 2.",
+                "ruRU": "Снижает затраты ярости на \"Удар грома\" на 2 ед."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Thunder Clap ability by 4.",
+                "ruRU": "Снижает затраты ярости на \"Удар грома\" на 4 ед."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Thunder Clap ability by 6.",
+                "ruRU": "Снижает затраты ярости на \"Удар грома\" на 6 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105970,
+          "spellId": 12975,
+          "definitionId": 135501,
+          "key": "last-stand",
+          "iconFileDataId": 135871,
+          "iconName": "spell_holy_ashestoashes",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Last Stand",
+            "ruRU": "Ни шагу назад"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, this ability temporarily grants you 30% of your maximum health for 20 sec. After the effect expires, the health is lost.",
+                "ruRU": "При использовании временно увеличивает максимальный запас здоровья на 30% на 20 сек. По завершении действия лишнее здоровье теряется."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105974
+          ]
+        },
+        {
+          "nodeId": 105971,
+          "spellId": 1310316,
+          "definitionId": 135502,
+          "key": "master-of-defense",
+          "iconFileDataId": 132359,
+          "iconName": "ability_warrior_shieldguard",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Master of Defense",
+            "ruRU": "Мастер обороны"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Grants you a 50% chance to generate 5 Rage when you Dodge or Parry while a shield is equipped.",
+                "ruRU": "Когда вы уклоняетесь от атаки или парируете ее, держа в руке щит, вы с вероятностью 50% накапливаете 5 ед. ярости."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Grants you a 100% chance to generate 5 Rage when you Dodge or Parry while a shield is equipped.",
+                "ruRU": "Когда вы уклоняетесь от атаки или парируете ее, держа в руке щит, вы с вероятностью 100% накапливаете 5 ед. ярости."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105976
+          ]
+        },
+        {
+          "nodeId": 105969,
+          "spellId": 12797,
+          "definitionId": 135500,
+          "key": "improved-revenge",
+          "iconFileDataId": 132353,
+          "iconName": "ability_warrior_revenge",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Revenge",
+            "ruRU": "Улучшенный реванш"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases damage dealt by your Revenge ability by 20%.",
+                "ruRU": "Увеличивает наносимый \"Реваншем\" урон на 20%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases damage dealt by your Revenge ability by 40%.",
+                "ruRU": "Увеличивает наносимый \"Реваншем\" урон на 40%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases damage dealt by your Revenge ability by 60%.",
+                "ruRU": "Увеличивает наносимый \"Реваншем\" урон на 60%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110856,
+          "spellId": 12792,
+          "definitionId": 142602,
+          "key": "defiance",
+          "iconFileDataId": 132347,
+          "iconName": "ability_warrior_innerrage",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Defiance",
+            "ruRU": "Неукротимость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases all threat generated in Defensive stance by an additional 5% while a shield is equipped.",
+                "ruRU": "Уровень угрозы в защитной стойке увеличивается еще на 5%, когда вы держите в руке щит."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases all threat generated in Defensive stance by an additional 10% while a shield is equipped.",
+                "ruRU": "Уровень угрозы в защитной стойке увеличивается еще на 10%, когда вы держите в руке щит."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases all threat generated in Defensive stance by an additional 15% while a shield is equipped.",
+                "ruRU": "Уровень угрозы в защитной стойке увеличивается еще на 15%, когда вы держите в руке щит."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105968,
+          "spellId": 12308,
+          "definitionId": 135499,
+          "key": "improved-sunder-armor",
+          "iconFileDataId": 132363,
+          "iconName": "ability_warrior_sunder",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Sunder Armor",
+            "ruRU": "Улучшенный раскол брони"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Sunder Armor ability by 1.",
+                "ruRU": "Снижает затраты ярости на применение \"Раскола брони\" на 1 ед."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Sunder Armor ability by 2.",
+                "ruRU": "Снижает затраты ярости на применение \"Раскола брони\" на 2 ед."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Rage cost of your Sunder Armor ability by 3.",
+                "ruRU": "Снижает затраты ярости на применение \"Раскола брони\" на 3 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105967,
+          "spellId": 12313,
+          "definitionId": 135498,
+          "key": "improved-disarm",
+          "iconFileDataId": 132343,
+          "iconName": "ability_warrior_disarm",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Disarm",
+            "ruRU": "Улучшенное разоружение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Disarm ability by 7 secs.",
+                "ruRU": "Сокращает время восстановления \"Обезоруживания\" на 7 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Disarm ability by 13 secs.",
+                "ruRU": "Сокращает время восстановления \"Обезоруживания\" на 13 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cooldown of your Disarm ability by 20 secs.",
+                "ruRU": "Сокращает время восстановления \"Обезоруживания\" на 20 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105966,
+          "spellId": 1310317,
+          "definitionId": 135497,
+          "key": "vanguard",
+          "iconFileDataId": 4667427,
+          "iconName": "ability_warrior_shieldcharge",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Vanguard",
+            "ruRU": "Авангард"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Charge ability is now usable while in Defensive Stance.",
+                "ruRU": "\"Рывок\" теперь можно применять в оборонительной стойке."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105964,
+          "spellId": 12312,
+          "definitionId": 135495,
+          "key": "improved-shield-wall",
+          "iconFileDataId": 132362,
+          "iconName": "ability_warrior_shieldwall",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Shield Wall",
+            "ruRU": "Улучшенная глухая оборона"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Shield Wall ability by 5.5 min.",
+                "ruRU": "Сокращает время восстановления \"Глухой обороны\" на 5.5 мин."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Shield Wall ability by 11.0 min.",
+                "ruRU": "Сокращает время восстановления \"Глухой обороны\" на 11.0 мин."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105965,
+          "spellId": 12809,
+          "definitionId": 135496,
+          "key": "concussion-blow",
+          "iconFileDataId": 132325,
+          "iconName": "ability_thunderbolt",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Concussion Blow",
+            "ruRU": "Оглушающий удар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Stuns the target for 5 sec.",
+                "ruRU": "Оглушает цель на 5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105963,
+          "spellId": 12311,
+          "definitionId": 135494,
+          "key": "improved-shield-bash",
+          "iconFileDataId": 132357,
+          "iconName": "ability_warrior_shieldbash",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Shield Bash",
+            "ruRU": "Улучшенный удар щитом"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Shield Bash ability a 50% chance to Silence the target for 3 sec.",
+                "ruRU": "\"Удар щитом\" с вероятностью 50% поражает цель немотой на 3 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Shield Bash ability a 100% chance to Silence the target for 3 sec.",
+                "ruRU": "\"Удар щитом\" с вероятностью 100% поражает цель немотой на 3 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105962,
+          "spellId": 16538,
+          "definitionId": 135493,
+          "key": "bastion",
+          "iconFileDataId": 134950,
+          "iconName": "inv_shield_04",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 3,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Bastion",
+            "ruRU": "Бастион"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases all damage you deal by 2% while a shield is equipped.",
+                "ruRU": "Если вы держите в руке щит, наносимый урон увеличивается на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases all damage you deal by 4% while a shield is equipped.",
+                "ruRU": "Если вы держите в руке щит, наносимый урон увеличивается на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases all damage you deal by 6% while a shield is equipped.",
+                "ruRU": "Если вы держите в руке щит, наносимый урон увеличивается на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases all damage you deal by 8% while a shield is equipped.",
+                "ruRU": "Если вы держите в руке щит, наносимый урон увеличивается на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases all damage you deal by 10% while a shield is equipped.",
+                "ruRU": "Если вы держите в руке щит, наносимый урон увеличивается на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105961,
+          "spellId": 29787,
+          "definitionId": 135492,
+          "key": "focused-rage",
+          "iconFileDataId": 132345,
+          "iconName": "ability_warrior_focusedrage",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Focused Rage",
+            "ruRU": "Сосредоточенная ярость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Rage cost of your offensive abilities by 1.",
+                "ruRU": "Снижает затраты ярости на атакующие способности на 1 ед."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Rage cost of your offensive abilities by 2.",
+                "ruRU": "Снижает затраты ярости на атакующие способности на 2 ед."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Rage cost of your offensive abilities by 3.",
+                "ruRU": "Снижает затраты ярости на атакующие способности на 3 ед."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105959,
+          "spellId": 23922,
+          "definitionId": 135490,
+          "key": "shield-slam",
+          "iconFileDataId": 134951,
+          "iconName": "inv_shield_05",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Shield Slam",
+            "ruRU": "Сокрушение щитом"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Slam the target with your shield, causing 430 damage, increased by your Block Value, and has a 50% chance of dispelling 1 magic effect on the target. Causes a very high amount of threat.",
+                "ruRU": "Вы бьете цель щитом, нанося 430 ед. урона, увеличивающегося за счет показателя блока щита, и с вероятностью 50% снимаете с цели 1 магический эффект. Создает очень высокий уровень угрозы."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105965
+          ]
+        }
+      ]
+    }
+  ]
+}

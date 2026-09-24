@@ -1,0 +1,2325 @@
+{
+  "schemaVersion": 1,
+  "product": "wow_classic_beta",
+  "build": "1.60.1.69977",
+  "generatedAt": "2026-09-24T07:20:52.261Z",
+  "source": "Wago DB2 / WoW Forever beta client data",
+  "class": {
+    "id": "priest",
+    "classId": 5,
+    "name": {
+      "enUS": "Priest",
+      "ruRU": "Жрец"
+    }
+  },
+  "traitTreeId": 1114,
+  "rules": {
+    "maxLevel": 60,
+    "firstPointLevel": 10,
+    "maxPoints": 51,
+    "pointsPerRow": 5
+  },
+  "trees": [
+    {
+      "id": "discipline",
+      "order": 0,
+      "name": {
+        "enUS": "Discipline",
+        "ruRU": "Послушание"
+      },
+      "talents": [
+        {
+          "nodeId": 110853,
+          "spellId": 1309969,
+          "definitionId": 142599,
+          "key": "power-in-light",
+          "iconFileDataId": 135972,
+          "iconName": "spell_holy_searinglight",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Power in Light",
+            "ruRU": "Усиливающий Свет"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Smite and Penance spells deal 2% increased damage to targets afflicted with your Holy Fire.",
+                "ruRU": "\"Кара\" и \"Исповедь\" наносят на 2% больше урона целям, на которые действует ваш \"Священный огонь\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Smite and Penance spells deal 4% increased damage to targets afflicted with your Holy Fire.",
+                "ruRU": "\"Кара\" и \"Исповедь\" наносят на 4% больше урона целям, на которые действует ваш \"Священный огонь\"."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your Smite and Penance spells deal 6% increased damage to targets afflicted with your Holy Fire.",
+                "ruRU": "\"Кара\" и \"Исповедь\" наносят на 6% больше урона целям, на которые действует ваш \"Священный огонь\"."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Your Smite and Penance spells deal 8% increased damage to targets afflicted with your Holy Fire.",
+                "ruRU": "\"Кара\" и \"Исповедь\" наносят на 8% больше урона целям, на которые действует ваш \"Священный огонь\"."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Your Smite and Penance spells deal 10% increased damage to targets afflicted with your Holy Fire.",
+                "ruRU": "\"Кара\" и \"Исповедь\" наносят на 10% больше урона целям, на которые действует ваш \"Священный огонь\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105850,
+          "spellId": 14524,
+          "definitionId": 135380,
+          "key": "wand-specialization",
+          "iconFileDataId": 135463,
+          "iconName": "inv_wand_01",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Wand Specialization",
+            "ruRU": "Специализация на жезлах"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your damage with Wands by 13%.",
+                "ruRU": "Увеличение на 13% урона, наносимого при использовании магических жезлов."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your damage with Wands by 25%.",
+                "ruRU": "Увеличение на 25% урона, наносимого при использовании магических жезлов."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105849,
+          "spellId": 1225132,
+          "definitionId": 135379,
+          "key": "twin-disciplines",
+          "iconFileDataId": 135969,
+          "iconName": "spell_holy_sealofvengeance",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Twin Disciplines",
+            "ruRU": "Две дисциплины"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage and healing of your instant cast spells by 1%.",
+                "ruRU": "Увеличивает урон и силу исцеления ваших мгновенных заклинаний на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage and healing of your instant cast spells by 2%.",
+                "ruRU": "Увеличивает урон и силу исцеления ваших мгновенных заклинаний на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage and healing of your instant cast spells by 3%.",
+                "ruRU": "Увеличивает урон и силу исцеления ваших мгновенных заклинаний на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the damage and healing of your instant cast spells by 4%.",
+                "ruRU": "Увеличивает урон и силу исцеления ваших мгновенных заклинаний на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the damage and healing of your instant cast spells by 5%.",
+                "ruRU": "Увеличивает урон и силу исцеления ваших мгновенных заклинаний на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105848,
+          "spellId": 14523,
+          "definitionId": 135378,
+          "key": "silent-resolve",
+          "iconFileDataId": 136053,
+          "iconName": "spell_nature_manaregentotem",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Silent Resolve",
+            "ruRU": "Молчаливая решимость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the threat generated by your Holy spells by 10% and reduces the duration of Stun, Fear, and Silence effects inflicted on you by 5%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой заклинаниями Света, на 10% и сокращает время действия применяемых к вам эффектов оглушения, страха и немоты на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the threat generated by your Holy spells by 20% and reduces the duration of Stun, Fear, and Silence effects inflicted on you by 10%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой заклинаниями Света, на 20% и сокращает время действия применяемых к вам эффектов оглушения, страха и немоты на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the threat generated by your Holy spells by 30% and reduces the duration of Stun, Fear, and Silence effects inflicted on you by 15%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой заклинаниями Света, на 30% и сокращает время действия применяемых к вам эффектов оглушения, страха и немоты на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110852,
+          "spellId": 1309957,
+          "definitionId": 142598,
+          "key": "holy-precision",
+          "iconFileDataId": 135895,
+          "iconName": "spell_holy_divineillumination",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Holy Precision",
+            "ruRU": "Священная точность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to hit with Holy spells by 6%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями светлой магии на 6%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to hit with Holy spells by 12%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями светлой магии на 12%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to hit with Holy spells by 18%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями светлой магии на 18%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105846,
+          "spellId": 14748,
+          "definitionId": 135376,
+          "key": "improved-power-word-shield",
+          "iconFileDataId": 135940,
+          "iconName": "spell_holy_powerwordshield",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Power Word: Shield",
+            "ruRU": "Улучшенное Слово силы: Щит"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage absorbed by your Power Word: Shield by 7%.",
+                "ruRU": "Увеличение на 7% количества урона, поглощаемого при применении заклинания \"Слово силы: щит\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage absorbed by your Power Word: Shield by 14%.",
+                "ruRU": "Увеличение на 14% количества урона, поглощаемого при применении заклинания \"Слово силы: щит\"."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage absorbed by your Power Word: Shield by 20%.",
+                "ruRU": "Увеличение на 20% количества урона, поглощаемого при применении заклинания \"Слово силы: щит\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105845,
+          "spellId": 14531,
+          "definitionId": 135375,
+          "key": "martyrdom",
+          "iconFileDataId": 136107,
+          "iconName": "spell_nature_tranquility",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Martyrdom",
+            "ruRU": "Мученичество"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 50% chance to gain Focused Casting for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage and increases your resistance to Interrupt effects by 20%.",
+                "ruRU": "\"С вероятностью 50% при получении критического удара в ближнем или дальнем бою вы получаете эффект \"Средоточие заклинаний\" на 6 сек. Этот эффект предотвращает задержку применения заклинаний при получении урона и повышает сопротивление эффектам прерывания на 20%.\""
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 100% chance to gain Focused Casting for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage and increases your resistance to Interrupt effects by 20%.",
+                "ruRU": "\"С вероятностью 100% при получении критического удара в ближнем или дальнем бою вы получаете эффект \"Средоточие заклинаний\" на 6 сек. Этот эффект предотвращает задержку применения заклинаний при получении урона и повышает сопротивление эффектам прерывания на 20%.\""
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105842,
+          "spellId": 14520,
+          "definitionId": 135372,
+          "key": "mental-agility",
+          "iconFileDataId": 132156,
+          "iconName": "ability_hibernation",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Mental Agility",
+            "ruRU": "Подвижность мысли"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 3%.",
+                "ruRU": "Снижает затраты маны на применение \"Кары\", \"Священного огня\" и мгновенно применяемых заклинаний на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 7%.",
+                "ruRU": "Снижает затраты маны на применение \"Кары\", \"Священного огня\" и мгновенно применяемых заклинаний на 7%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 10%.",
+                "ruRU": "Снижает затраты маны на применение \"Кары\", \"Священного огня\" и мгновенно применяемых заклинаний на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105844,
+          "spellId": 14751,
+          "definitionId": 135374,
+          "key": "inner-focus",
+          "iconFileDataId": 135863,
+          "iconName": "spell_frost_windwalkon",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Inner Focus",
+            "ruRU": "Внутреннее сосредоточение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, reduces the Mana cost of your next spell by 100% and increases its critical effect chance by 25% if it is capable of a critical effect.",
+                "ruRU": "Понижение расхода маны на последующее заклинание на 100%, а также повышение вероятности критического эффекта на 25%, если такой эффект возможен."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105843,
+          "spellId": 14521,
+          "definitionId": 135373,
+          "key": "meditation",
+          "iconFileDataId": 136090,
+          "iconName": "spell_nature_sleep",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Meditation",
+            "ruRU": "Медитация"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Allows 17% of your Mana regeneration to continue while casting.",
+                "ruRU": "В процессе применения заклинаний продолжается 17% от восполнения маны."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Allows 33% of your Mana regeneration to continue while casting.",
+                "ruRU": "В процессе применения заклинаний продолжается 33% от восполнения маны."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Allows 50% of your Mana regeneration to continue while casting.",
+                "ruRU": "В процессе применения заклинаний продолжается 50% от восполнения маны."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105841,
+          "spellId": 14747,
+          "definitionId": 135371,
+          "key": "improved-inner-fire",
+          "iconFileDataId": 135926,
+          "iconName": "spell_holy_innerfire",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Inner Fire",
+            "ruRU": "Улучшенный внутренний огонь"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the Armor bonus of your Inner Fire spell by 15% and increases its total charges by 4.",
+                "ruRU": "\"Внутренний огонь\" укрепляет броню еще на 15% и получает 4 дополнительных заряда."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the Armor bonus of your Inner Fire spell by 30% and increases its total charges by 8.",
+                "ruRU": "\"Внутренний огонь\" укрепляет броню еще на 30% и получает 8 дополнительных зарядов."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the Armor bonus of your Inner Fire spell by 45% and increases its total charges by 12.",
+                "ruRU": "\"Внутренний огонь\" укрепляет броню еще на 45% и получает 12 дополнительных зарядов."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105837,
+          "spellId": 18551,
+          "definitionId": 135367,
+          "key": "mental-strength",
+          "iconFileDataId": 136031,
+          "iconName": "spell_nature_enchantarmor",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Mental Strength",
+            "ruRU": "Сила мысли"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your total Intellect by 3%.",
+                "ruRU": "Повышает интеллект на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your total Intellect by 6%.",
+                "ruRU": "Повышает интеллект на 6%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your total Intellect by 9%.",
+                "ruRU": "Повышает интеллект на 9%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your total Intellect by 12%.",
+                "ruRU": "Повышает интеллект на 12%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your total Intellect by 15%.",
+                "ruRU": "Повышает интеллект на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105839,
+          "spellId": 402000,
+          "definitionId": 135369,
+          "key": "soul-warding",
+          "iconFileDataId": 135948,
+          "iconName": "spell_holy_pureofheart",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Soul Warding",
+            "ruRU": "Оберег души"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown on your Power Word: Shield spell by 4 sec and reduces its mana cost by 15%.",
+                "ruRU": "Сокращает время восстановления \"Слова силы: Щит\" на 4 сек. и снижает затраты маны на его применение на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105846
+          ]
+        },
+        {
+          "nodeId": 105838,
+          "spellId": 14750,
+          "definitionId": 135368,
+          "key": "improved-mana-burn",
+          "iconFileDataId": 136170,
+          "iconName": "spell_shadow_manaburn",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Mana Burn",
+            "ruRU": "Улучшенное сожжение маны"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the casting time of your Mana Burn spell by 0.5 sec.",
+                "ruRU": "Сокращает время применения \"Сожжения маны\" на 0.5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the casting time of your Mana Burn spell by 1.0 sec.",
+                "ruRU": "Сокращает время применения \"Сожжения маны\" на 1.0 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105834,
+          "spellId": 402174,
+          "definitionId": 135364,
+          "key": "penance",
+          "iconFileDataId": 237545,
+          "iconName": "spell_holy_penance",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Penance",
+            "ruRU": "Исповедь"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Launches a volley of holy light at the target, causing 81 Holy damage to an enemy, or 184 healing to an ally, instantly and every 1 sec for 2 sec.",
+                "ruRU": "Выпускает в цель заряды священной энергии, наносящие противнику 81 ед. урона от светлой магии или восполняющие союзнику 184 ед. здоровья сразу и затем еще раз в 1 сек. в течение 2 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105835,
+          "spellId": 425280,
+          "definitionId": 135365,
+          "key": "renewed-hope",
+          "iconFileDataId": 135923,
+          "iconName": "spell_holy_holyprotection",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Renewed Hope",
+            "ruRU": "Новая надежда"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 2% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 1 sec.",
+                "ruRU": "Вероятность критического эффекта \"Быстрого исцеления\", \"Связующего исцеления\", \"Малого исцеления\", \"Исцеления\", \"Великого исцеления\" и \"Исповеди\" повышается на 2%, когда вы применяете их к целям под действием \"Ослабленной души\". Эти заклинания также сокращают оставшееся время действия \"Ослабленной души\" на цели на 1 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 4% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 2 sec.",
+                "ruRU": "Вероятность критического эффекта \"Быстрого исцеления\", \"Связующего исцеления\", \"Малого исцеления\", \"Исцеления\", \"Великого исцеления\" и \"Исповеди\" повышается на 4%, когда вы применяете их к целям под действием \"Ослабленной души\". Эти заклинания также сокращают оставшееся время действия \"Ослабленной души\" на цели на 2 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 6% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 3 sec.",
+                "ruRU": "Вероятность критического эффекта \"Быстрого исцеления\", \"Связующего исцеления\", \"Малого исцеления\", \"Исцеления\", \"Великого исцеления\" и \"Исповеди\" повышается на 6%, когда вы применяете их к целям под действием \"Ослабленной души\". Эти заклинания также сокращают оставшееся время действия \"Ослабленной души\" на цели на 3 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 8% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 4 sec.",
+                "ruRU": "Вероятность критического эффекта \"Быстрого исцеления\", \"Связующего исцеления\", \"Малого исцеления\", \"Исцеления\", \"Великого исцеления\" и \"Исповеди\" повышается на 8%, когда вы применяете их к целям под действием \"Ослабленной души\". Эти заклинания также сокращают оставшееся время действия \"Ослабленной души\" на цели на 4 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 10% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 5 sec.",
+                "ruRU": "Вероятность критического эффекта \"Быстрого исцеления\", \"Связующего исцеления\", \"Малого исцеления\", \"Исцеления\", \"Великого исцеления\" и \"Исповеди\" повышается на 10%, когда вы применяете их к целям под действием \"Ослабленной души\". Эти заклинания также сокращают оставшееся время действия \"Ослабленной души\" на цели на 5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105839
+          ]
+        },
+        {
+          "nodeId": 105840,
+          "spellId": 431622,
+          "definitionId": 135370,
+          "key": "divine-aegis",
+          "iconFileDataId": 237539,
+          "iconName": "spell_holy_devineaegis",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Divine Aegis",
+            "ruRU": "Божественное покровительство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your critical heals create a protective shield on the target, absorbing 5% of the amount healed. Lasts 12 sec.",
+                "ruRU": "Критические эффекты ваших исцеляющих заклинаний дают цели щит, поглощающий урон в размере 5% восстановленного здоровья. Время действия – 12 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your critical heals create a protective shield on the target, absorbing 10% of the amount healed. Lasts 12 sec.",
+                "ruRU": "Критические эффекты ваших исцеляющих заклинаний дают цели щит, поглощающий урон в размере 10% восстановленного здоровья. Время действия – 12 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your critical heals create a protective shield on the target, absorbing 15% of the amount healed. Lasts 12 sec.",
+                "ruRU": "Критические эффекты ваших исцеляющих заклинаний дают цели щит, поглощающий урон в размере 15% восстановленного здоровья. Время действия – 12 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105836,
+          "spellId": 10060,
+          "definitionId": 135366,
+          "key": "power-infusion",
+          "iconFileDataId": 135939,
+          "iconName": "spell_holy_powerinfusion",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Power Infusion",
+            "ruRU": "Придание сил"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Infuses the target with power, increasing their spell damage and healing done by 20% for 15 sec.",
+                "ruRU": "Наполняет цель силой, увеличивая урон и силу исцеления заклинаний на 20% на 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105834
+          ]
+        }
+      ]
+    },
+    {
+      "id": "holy",
+      "order": 1,
+      "name": {
+        "enUS": "Holy",
+        "ruRU": "Свет"
+      },
+      "talents": [
+        {
+          "nodeId": 105867,
+          "spellId": 14913,
+          "definitionId": 135397,
+          "key": "twilight-focus",
+          "iconFileDataId": 135918,
+          "iconName": "spell_holy_healingfocus",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Twilight Focus",
+            "ruRU": "Сумеречная концентрация"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 23% chance to avoid interruption caused by damage while casting any spell.",
+                "ruRU": "С вероятностью 23% позволяет избежать задержки при применении заклинания, когда вы получаете урон."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 47% chance to avoid interruption caused by damage while casting any spell.",
+                "ruRU": "С вероятностью 47% позволяет избежать задержки при применении заклинания, когда вы получаете урон."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 70% chance to avoid interruption caused by damage while casting any spell.",
+                "ruRU": "С вероятностью 70% позволяет избежать задержки при применении заклинания, когда вы получаете урон."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105866,
+          "spellId": 14908,
+          "definitionId": 135396,
+          "key": "improved-renew",
+          "iconFileDataId": 135953,
+          "iconName": "spell_holy_renew",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Renew",
+            "ruRU": "Улучшенное обновление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the amount healed by your Renew spell by 5%.",
+                "ruRU": "Увеличение на 5% количества здоровья, восполняемого при действии заклинания \"Обновление\"."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the amount healed by your Renew spell by 10%.",
+                "ruRU": "Увеличение на 10% количества здоровья, восполняемого при действии заклинания \"Обновление\"."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the amount healed by your Renew spell by 15%.",
+                "ruRU": "Увеличение на 15% количества здоровья, восполняемого при действии заклинания \"Обновление\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110855,
+          "spellId": 14889,
+          "definitionId": 142601,
+          "key": "holy-specialization",
+          "iconFileDataId": 135967,
+          "iconName": "spell_holy_sealofsalvation",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Holy Specialization",
+            "ruRU": "Cпециализация на магии Света"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Holy spells by 1%.",
+                "ruRU": "Повышает вероятность критического эффекта заклинаний светлой магии на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Holy spells by 2%.",
+                "ruRU": "Повышает вероятность критического эффекта заклинаний светлой магии на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Holy spells by 3%.",
+                "ruRU": "Повышает вероятность критического эффекта заклинаний светлой магии на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Holy spells by 4%.",
+                "ruRU": "Повышает вероятность критического эффекта заклинаний светлой магии на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical effect chance of your Holy spells by 5%.",
+                "ruRU": "Повышает вероятность критического эффекта заклинаний светлой магии на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105864,
+          "spellId": 27900,
+          "definitionId": 135394,
+          "key": "spell-warding",
+          "iconFileDataId": 135976,
+          "iconName": "spell_holy_spellwarding",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Spell Warding",
+            "ruRU": "Защита от заклинаний"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces all spell damage taken by 2%.",
+                "ruRU": "Снижение получаемого урона от заклинаний на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces all spell damage taken by 4%.",
+                "ruRU": "Снижение получаемого урона от заклинаний на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces all spell damage taken by 6%.",
+                "ruRU": "Снижение получаемого урона от заклинаний на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces all spell damage taken by 8%.",
+                "ruRU": "Снижение получаемого урона от заклинаний на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces all spell damage taken by 10%.",
+                "ruRU": "Снижение получаемого урона от заклинаний на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105863,
+          "spellId": 18530,
+          "definitionId": 135393,
+          "key": "divine-fury",
+          "iconFileDataId": 135971,
+          "iconName": "spell_holy_sealofwrath",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Divine Fury",
+            "ruRU": "Божественное неистовство"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.1 sec.",
+                "ruRU": "Сокращает время применения \"Кары\", \"Священного огня\", \"Исцеления\" и \"Большего исцеления\" на 0.1 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.2 sec.",
+                "ruRU": "Сокращает время применения \"Кары\", \"Священного огня\", \"Исцеления\" и \"Большего исцеления\" на 0.2 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.3 sec.",
+                "ruRU": "Сокращает время применения \"Кары\", \"Священного огня\", \"Исцеления\" и \"Большего исцеления\" на 0.3 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.4 sec.",
+                "ruRU": "Сокращает время применения \"Кары\", \"Священного огня\", \"Исцеления\" и \"Большего исцеления\" на 0.4 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.5 sec.",
+                "ruRU": "Сокращает время применения \"Кары\", \"Священного огня\", \"Исцеления\" и \"Большего исцеления\" на 0.5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105862,
+          "spellId": 15237,
+          "definitionId": 135392,
+          "key": "holy-nova",
+          "iconFileDataId": 135922,
+          "iconName": "spell_holy_holynova",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Holy Nova",
+            "ruRU": "Кольцо Света"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Causes an explosion of holy light around the caster, causing 27 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 47-55. These effects cause no threat.",
+                "ruRU": "Вспыхивает священным светом, нанося противникам в радиусе 10 м 27 ед. урона от светлой магии и восстанавливая участникам группы в радиусе 10 м 47-55 ед. здоровья. Не повышает уровень угрозы."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105861,
+          "spellId": 27811,
+          "definitionId": 135391,
+          "key": "blessed-recovery",
+          "iconFileDataId": 135877,
+          "iconName": "spell_holy_blessedrecovery",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Blessed Recovery",
+            "ruRU": "Благословленное восстановление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "After being struck by a melee or ranged critical hit, or suffering more than 30% of your maximum Health from a single attack, heal 8% of the damage taken over 6 sec. Refreshing this effect carries over any remaining healing.",
+                "ruRU": "После получения критического удара в ближнем или дальнем бою или единовременном получении урона, превышающего 30% максимального запаса здоровья, вы восполняете здоровье в объеме 8% полученного урона за 6 сек. При обновлении эффекта новое исцеление добавляется к оставшемуся."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "After being struck by a melee or ranged critical hit, or suffering more than 30% of your maximum Health from a single attack, heal 17% of the damage taken over 6 sec. Refreshing this effect carries over any remaining healing.",
+                "ruRU": "После получения критического удара в ближнем или дальнем бою или единовременном получении урона, превышающего 30% максимального запаса здоровья, вы восполняете здоровье в объеме 17% полученного урона за 6 сек. При обновлении эффекта новое исцеление добавляется к оставшемуся."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "After being struck by a melee or ranged critical hit, or suffering more than 30% of your maximum Health from a single attack, heal 25% of the damage taken over 6 sec. Refreshing this effect carries over any remaining healing.",
+                "ruRU": "После получения критического удара в ближнем или дальнем бою или единовременном получении урона, превышающего 30% максимального запаса здоровья, вы восполняете здоровье в объеме 25% полученного урона за 6 сек. При обновлении эффекта новое исцеление добавляется к оставшемуся."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105860,
+          "spellId": 14892,
+          "definitionId": 135390,
+          "key": "inspiration",
+          "iconFileDataId": 135928,
+          "iconName": "spell_holy_layonhands",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Inspiration",
+            "ruRU": "Вдохновение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your non-periodic critical heals increase your target's Armor by 8% for 15 sec.",
+                "ruRU": "Критические эффекты заклинаний прямого исцеления укрепляют броню вашей цели на 8% на 15 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your non-periodic critical heals increase your target's Armor by 17% for 15 sec.",
+                "ruRU": "Критические эффекты заклинаний прямого исцеления укрепляют броню вашей цели на 17% на 15 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your non-periodic critical heals increase your target's Armor by 25% for 15 sec.",
+                "ruRU": "Критические эффекты заклинаний прямого исцеления укрепляют броню вашей цели на 25% на 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105859,
+          "spellId": 27789,
+          "definitionId": 135389,
+          "key": "holy-reach",
+          "iconFileDataId": 135949,
+          "iconName": "spell_holy_purify",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Holy Reach",
+            "ruRU": "Предел сил Света"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 10%.",
+                "ruRU": "Увеличивает дальность действия \"Кары\" и \"Священного огня\", а также радиус действия \"Молитвы об исцелении\" и \"Кольца Света\" на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 20%.",
+                "ruRU": "Увеличивает дальность действия \"Кары\" и \"Священного огня\", а также радиус действия \"Молитвы об исцелении\" и \"Кольца Света\" на 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105858,
+          "spellId": 14912,
+          "definitionId": 135388,
+          "key": "improved-healing",
+          "iconFileDataId": 135916,
+          "iconName": "spell_holy_heal02",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Healing",
+            "ruRU": "Улучшенное исцеление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Mana cost of your Lesser Heal, Heal, Greater Heal, Penance, and Prayer of Mending spells by 5%.",
+                "ruRU": "Снижает затраты маны на \"Малое исцеление\", \"Исцеление\", \"Большее исцеление\", \"Исповедь\" и \"Молитву восстановления\" на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Mana cost of your Lesser Heal, Heal, Greater Heal, Penance, and Prayer of Mending spells by 10%.",
+                "ruRU": "Снижает затраты маны на \"Малое исцеление\", \"Исцеление\", \"Большее исцеление\", \"Исповедь\" и \"Молитву восстановления\" на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Mana cost of your Lesser Heal, Heal, Greater Heal, Penance, and Prayer of Mending spells by 15%.",
+                "ruRU": "Снижает затраты маны на \"Малое исцеление\", \"Исцеление\", \"Большее исцеление\", \"Исповедь\" и \"Молитву восстановления\" на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105857,
+          "spellId": 14909,
+          "definitionId": 135387,
+          "key": "searing-light",
+          "iconFileDataId": 135973,
+          "iconName": "spell_holy_searinglightpriest",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Searing Light",
+            "ruRU": "Опаляющий свет"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Holy damage done by 2%, and gives a 5% chance each time your Holy Fire spell deals periodic damage for your next Holy Nova to cost no Mana.",
+                "ruRU": "Увеличивает наносимый урон от светлой магии на 2%. Каждый раз, когда \"Священный огонь\" наносит периодический урон, следующее применение \"Кольца Света\" с вероятностью 5% не требует затрат маны."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Holy damage done by 5%, and gives a 10% chance each time your Holy Fire spell deals periodic damage for your next Holy Nova to cost no Mana.",
+                "ruRU": "Увеличивает наносимый урон от светлой магии на 5%. Каждый раз, когда \"Священный огонь\" наносит периодический урон, следующее применение \"Кольца Света\" с вероятностью 10% не требует затрат маны."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105863
+          ]
+        },
+        {
+          "nodeId": 105856,
+          "spellId": 401937,
+          "definitionId": 135386,
+          "key": "binding-heal",
+          "iconFileDataId": 135883,
+          "iconName": "spell_holy_blindingheal",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Binding Heal",
+            "ruRU": "Связующее исцеление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Heals a friendly target and the caster for 247. Low threat.",
+                "ruRU": "Восполняет вам и союзнику 247 ед. здоровья. Создает низкий уровень угрозы."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105855,
+          "spellId": 1317006,
+          "definitionId": 135385,
+          "key": "litany-of-light",
+          "iconFileDataId": 134943,
+          "iconName": "inv_scroll_07",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Litany of Light",
+            "ruRU": "Литания Света"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When you cast a healing spell, gain Mana equal to 5% of the base cost of the spell if your previous heal was a different spell.",
+                "ruRU": "Когда вы применяете исцеляющее заклинание, отличающееся от вашего предыдущего исцеляющего заклинания, вы восполняете ману в объеме 5% его базовой стоимости."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "When you cast a healing spell, gain Mana equal to 10% of the base cost of the spell if your previous heal was a different spell.",
+                "ruRU": "Когда вы применяете исцеляющее заклинание, отличающееся от вашего предыдущего исцеляющего заклинания, вы восполняете ману в объеме 10% его базовой стоимости."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105854,
+          "spellId": 20711,
+          "definitionId": 135384,
+          "key": "spirit-of-redemption",
+          "iconFileDataId": 132864,
+          "iconName": "inv_enchant_essenceeternallarge",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Spirit of Redemption",
+            "ruRU": "Дух воздаяния"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Upon death, the priest becomes the Spirit of Redemption for 15 sec. The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects. While in this form the priest can cast any healing spell free of cost. When the effect ends, the priest dies.",
+                "ruRU": "После смерти жрец превращается в Дух воздаяния на 15 сек. Дух воздаяния не может двигаться, атаковать, быть атакованным или стать целью любых заклинаний и воздействий. Находясь в этом облике, жрец может бесплатно воспользоваться любым исцеляющим заклинанием. По окончании действия эффекта жрец умирает."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105853,
+          "spellId": 14901,
+          "definitionId": 135383,
+          "key": "spiritual-guidance",
+          "iconFileDataId": 135977,
+          "iconName": "spell_holy_spiritualguidence",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Spiritual Guidance",
+            "ruRU": "Духовное направление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your spell healing by up to 5% of your total Spirit and your spell damage by up to 1% of your total Spirit.",
+                "ruRU": "Повышает силу исцеления заклинаний максимум на 5% вашего духа, а урон от заклинаний – максимум на 1% вашего духа."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your spell healing by up to 10% of your total Spirit and your spell damage by up to 3% of your total Spirit.",
+                "ruRU": "Повышает силу исцеления заклинаний максимум на 10% вашего духа, а урон от заклинаний – максимум на 3% вашего духа."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your spell healing by up to 15% of your total Spirit and your spell damage by up to 5% of your total Spirit.",
+                "ruRU": "Повышает силу исцеления заклинаний максимум на 15% вашего духа, а урон от заклинаний – максимум на 5% вашего духа."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your spell healing by up to 20% of your total Spirit and your spell damage by up to 6% of your total Spirit.",
+                "ruRU": "Повышает силу исцеления заклинаний максимум на 20% вашего духа, а урон от заклинаний – максимум на 6% вашего духа."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your spell healing by up to 25% of your total Spirit and your spell damage by up to 8% of your total Spirit.",
+                "ruRU": "Повышает силу исцеления заклинаний максимум на 25% вашего духа, а урон от заклинаний – максимум на 8% вашего духа."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105852,
+          "spellId": 14898,
+          "definitionId": 135382,
+          "key": "spiritual-healing",
+          "iconFileDataId": 136057,
+          "iconName": "spell_nature_moonglow",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Spiritual Healing",
+            "ruRU": "Духовное исцеление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the amount healed by your spells by 3%.",
+                "ruRU": "Усиливает исцеление от ваших заклинаний на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the amount healed by your spells by 7%.",
+                "ruRU": "Усиливает исцеление от ваших заклинаний на 7%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the amount healed by your spells by 10%.",
+                "ruRU": "Усиливает исцеление от ваших заклинаний на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105851,
+          "spellId": 401859,
+          "definitionId": 135381,
+          "key": "prayer-of-mending",
+          "iconFileDataId": 135944,
+          "iconName": "spell_holy_prayerofmendingtga",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Prayer of Mending",
+            "ruRU": "Молитва восстановления"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Places a spell on the target that heals them for a dynamic amount the next time they take damage or receive non-periodic healing. When the heal occurs, Prayer of Mending jumps to a party or raid member within 20 yards. Jumps up to 5 times and lasts 30 sec after each jump. This spell can only be placed on one target at a time per caster.",
+                "ruRU": "Применяет к цели заклинание, восполняющее ей динамическое количество ед. здоровья при следующем получении урона или исцеления прямого действия. После срабатывания \"Молитва восстановления\" переходит к другому участнику группы или рейда в радиусе 20 м. Максимум переходов – 5. Действует 30 сек. после каждого перехода. Можно применить только к одной цели одновременно."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105854
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadow",
+      "order": 2,
+      "name": {
+        "enUS": "Shadow",
+        "ruRU": "Темная магия"
+      },
+      "talents": [
+        {
+          "nodeId": 110851,
+          "spellId": 15260,
+          "definitionId": 142597,
+          "key": "shadow-focus",
+          "iconFileDataId": 136126,
+          "iconName": "spell_shadow_burningspirit",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Shadow Focus",
+            "ruRU": "Средоточие Тьмы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to hit with Shadow spells by 1%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями темной магии на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to hit with Shadow spells by 2%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями темной магии на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to hit with Shadow spells by 3%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями темной магии на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Improves your chance to hit with Shadow spells by 4%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями темной магии на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Improves your chance to hit with Shadow spells by 5%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями темной магии на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105832,
+          "spellId": 15326,
+          "definitionId": 135362,
+          "key": "blackout",
+          "iconFileDataId": 136160,
+          "iconName": "spell_shadow_gathershadows",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Blackout",
+            "ruRU": "Затмение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Shadow damage spells a 2% chance to stun the target for 3 sec.",
+                "ruRU": "Заклинания темной магии с вероятностью 2% оглушают цель на 3 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Shadow damage spells a 4% chance to stun the target for 3 sec.",
+                "ruRU": "Заклинания темной магии с вероятностью 4% оглушают цель на 3 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Shadow damage spells a 6% chance to stun the target for 3 sec.",
+                "ruRU": "Заклинания темной магии с вероятностью 6% оглушают цель на 3 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives your Shadow damage spells a 8% chance to stun the target for 3 sec.",
+                "ruRU": "Заклинания темной магии с вероятностью 8% оглушают цель на 3 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives your Shadow damage spells a 10% chance to stun the target for 3 sec.",
+                "ruRU": "Заклинания темной магии с вероятностью 10% оглушают цель на 3 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105833,
+          "spellId": 15270,
+          "definitionId": 135363,
+          "key": "spirit-tap",
+          "iconFileDataId": 136188,
+          "iconName": "spell_shadow_requiem",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Spirit Tap",
+            "ruRU": "Захват духа"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 20% chance to gain a 100% bonus to your Spirit for 15 sec after killing a non-trivial target. For the duration, your Mana will regenerate at a 50% of normal rate while casting.",
+                "ruRU": "С вероятностью 20% после убийства представляющего угрозу противника ваш дух повышается на 100% на 15 сек. При этом вы восполняете ману во время применения заклинаний со скоростью 50%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 40% chance to gain a 100% bonus to your Spirit for 15 sec after killing a non-trivial target. For the duration, your Mana will regenerate at a 50% of normal rate while casting.",
+                "ruRU": "С вероятностью 40% после убийства представляющего угрозу противника ваш дух повышается на 100% на 15 сек. При этом вы восполняете ману во время применения заклинаний со скоростью 50%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 60% chance to gain a 100% bonus to your Spirit for 15 sec after killing a non-trivial target. For the duration, your Mana will regenerate at a 50% of normal rate while casting.",
+                "ruRU": "С вероятностью 60% после убийства представляющего угрозу противника ваш дух повышается на 100% на 15 сек. При этом вы восполняете ману во время применения заклинаний со скоростью 50%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives you a 80% chance to gain a 100% bonus to your Spirit for 15 sec after killing a non-trivial target. For the duration, your Mana will regenerate at a 50% of normal rate while casting.",
+                "ruRU": "С вероятностью 80% после убийства представляющего угрозу противника ваш дух повышается на 100% на 15 сек. При этом вы восполняете ману во время применения заклинаний со скоростью 50%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives you a 100% chance to gain a 100% bonus to your Spirit for 15 sec after killing a non-trivial target. For the duration, your Mana will regenerate at a 50% of normal rate while casting.",
+                "ruRU": "С вероятностью 100% после убийства представляющего угрозу противника ваш дух повышается на 100% на 15 сек. При этом вы восполняете ману во время применения заклинаний со скоростью 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105831,
+          "spellId": 15318,
+          "definitionId": 135361,
+          "key": "shadow-affinity",
+          "iconFileDataId": 136205,
+          "iconName": "spell_shadow_shadowward",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Shadow Affinity",
+            "ruRU": "Единение с Тьмой"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the threat generated by your Shadow spells by 10%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой вашими заклинаниями категории \"Тьма\", на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the threat generated by your Shadow spells by 20%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой вашими заклинаниями категории \"Тьма\", на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the threat generated by your Shadow spells by 30%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой вашими заклинаниями категории \"Тьма\", на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105830,
+          "spellId": 15275,
+          "definitionId": 135360,
+          "key": "improved-shadow-word-pain",
+          "iconFileDataId": 136207,
+          "iconName": "spell_shadow_shadowwordpain",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Shadow Word: Pain",
+            "ruRU": "Улучшенное слово Тьмы: Боль"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the duration of your Shadow Word: Pain spell by 3 sec.",
+                "ruRU": "Продлевает время действия заклинания \"Слово Тьмы: Боль\" на 3 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the duration of your Shadow Word: Pain spell by 6 sec.",
+                "ruRU": "Продлевает время действия заклинания \"Слово Тьмы: Боль\" на 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105829,
+          "spellId": 17322,
+          "definitionId": 135359,
+          "key": "shadow-reach",
+          "iconFileDataId": 136130,
+          "iconName": "spell_shadow_chilltouch",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Shadow Reach",
+            "ruRU": "Предел Тьмы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the range of your offensive Shadow spells by 10%.",
+                "ruRU": "Увеличивает дальность действия атакующих заклинаний темной магии на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the range of your offensive Shadow spells by 20%.",
+                "ruRU": "Увеличивает дальность действия атакующих заклинаний темной магии на 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105827,
+          "spellId": 15273,
+          "definitionId": 135357,
+          "key": "improved-mind-blast",
+          "iconFileDataId": 136224,
+          "iconName": "spell_shadow_unholyfrenzy",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Mind Blast",
+            "ruRU": "Улучшенный взрыв разума"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Mind Blast spell by 0.5 sec.",
+                "ruRU": "Время восстановления заклинания \"Взрыв разума\" сокращено на 0.5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Mind Blast spell by 1 sec.",
+                "ruRU": "Время восстановления заклинания \"Взрыв разума\" сокращено на 1 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cooldown of your Mind Blast spell by 1.5 sec.",
+                "ruRU": "Время восстановления заклинания \"Взрыв разума\" сокращено на 1.5 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the cooldown of your Mind Blast spell by 2 sec.",
+                "ruRU": "Время восстановления заклинания \"Взрыв разума\" сокращено на 2 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the cooldown of your Mind Blast spell by 2.5 sec.",
+                "ruRU": "Время восстановления заклинания \"Взрыв разума\" сокращено на 2.5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105828,
+          "spellId": 15392,
+          "definitionId": 135358,
+          "key": "improved-psychic-scream",
+          "iconFileDataId": 136184,
+          "iconName": "spell_shadow_psychicscream",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Psychic Scream",
+            "ruRU": "Улучшенный ментальный крик"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Psychic Scream spell by 2 sec.",
+                "ruRU": "Сокращение времени восстановления заклинания \"Ментальный крик\" на 2 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Psychic Scream spell by 4 sec.",
+                "ruRU": "Сокращение времени восстановления заклинания \"Ментальный крик\" на 4 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105832
+          ]
+        },
+        {
+          "nodeId": 105826,
+          "spellId": 15407,
+          "definitionId": 135356,
+          "key": "mind-flay",
+          "iconFileDataId": 136208,
+          "iconName": "spell_shadow_siphonmana",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Mind Flay",
+            "ruRU": "Пытка разума"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Assault the target's mind with Shadow energy, causing 63 Shadow damage over 3 sec and slowing their movement speed by 50%.",
+                "ruRU": "Поражает разум противника энергией Тьмы, наносящей 63 ед. урона от темной магии за 3 сек. и снижающей скорость передвижения цели на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105825,
+          "spellId": 1225139,
+          "definitionId": 135355,
+          "key": "improved-mind-flay",
+          "iconFileDataId": 136213,
+          "iconName": "spell_shadow_soulleech_2",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Mind Flay",
+            "ruRU": "Улучшенная пытка разума"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Mind Flay now deals 10% more damage, gains 5 yards increased range, but slows the target's movement speed by 35%.",
+                "ruRU": "\"Пытка разума\" теперь наносит на 10% больше урона, а радиус ее действия увеличивается на 5 м. Кроме того, скорость передвижения цели снижается на 35%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Mind Flay now deals 20% more damage, gains 10 yards increased range, but slows the target's movement speed by 20%.",
+                "ruRU": "\"Пытка разума\" теперь наносит на 20% больше урона, а радиус ее действия увеличивается на 10 м. Кроме того, скорость передвижения цели снижается на 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105826
+          ]
+        },
+        {
+          "nodeId": 105823,
+          "spellId": 15274,
+          "definitionId": 135353,
+          "key": "improved-fade",
+          "iconFileDataId": 135994,
+          "iconName": "spell_magic_lesserinvisibilty",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Fade",
+            "ruRU": "Улучшенный \"Уход в тень\""
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Decreases the cooldown of your Fade ability by 3 sec.",
+                "ruRU": "Уменьшает время восстановления \"Ухода в тень\" на 3 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Decreases the cooldown of your Fade ability by 6 sec.",
+                "ruRU": "Уменьшает время восстановления \"Ухода в тень\" на 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105820,
+          "spellId": 15286,
+          "definitionId": 135350,
+          "key": "vampiric-embrace",
+          "iconFileDataId": 136230,
+          "iconName": "spell_shadow_unsummonbuilding",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Vampiric Embrace",
+            "ruRU": "Объятия вампира"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 30 sec. Vampiric Embrace also grants a chance for your Spirit Tap talent to trigger when enemies afflicted by it die.",
+                "ruRU": "Поражает цель энергией Тьмы, в результате чего участники группы восстанавливают здоровье в размере 20% урона, наносимого вашими заклинаниями темной магии. Время действия – 30 сек. Когда цель \"Объятий вампира\" погибает, с некоторой вероятностью срабатывает \"Захват духа\"."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105821,
+          "spellId": 15257,
+          "definitionId": 135351,
+          "key": "shadow-weaving",
+          "iconFileDataId": 136123,
+          "iconName": "spell_shadow_blackplague",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Shadow Weaving",
+            "ruRU": "Плетение Тьмы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Shadow damage spells have a 33% chance to increase the Shadow damage you deal by 2% for 15 sec, stacking up to 5 times.",
+                "ruRU": "Наносящие урон заклинания темной магии с вероятностью 33% увеличивают наносимый урон от темной магии на 2%. Эффект длится 15 сек. и суммируется до 5 раз."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Shadow damage spells have a 67% chance to increase the Shadow damage you deal by 2% for 15 sec, stacking up to 5 times.",
+                "ruRU": "Наносящие урон заклинания темной магии с вероятностью 67% увеличивают наносимый урон от темной магии на 2%. Эффект длится 15 сек. и суммируется до 5 раз."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your Shadow damage spells have a 100% chance to increase the Shadow damage you deal by 2% for 15 sec, stacking up to 5 times.",
+                "ruRU": "Наносящие урон заклинания темной магии с вероятностью 100% увеличивают наносимый урон от темной магии на 2%. Эффект длится 15 сек. и суммируется до 5 раз."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105824,
+          "spellId": 15487,
+          "definitionId": 135354,
+          "key": "silence",
+          "iconFileDataId": 136164,
+          "iconName": "spell_shadow_impphaseshift",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Silence",
+            "ruRU": "Молчание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Silences the target, preventing them from casting spells for 5 sec and interrupting their spellcasts for 3 sec.",
+                "ruRU": "Вызывает у цели немоту, предотвращая применение заклинаний в течение 5 сек. и прерывая применение заклинаний на 3 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105819,
+          "spellId": 1309950,
+          "definitionId": 135349,
+          "key": "devouring-contagion",
+          "iconFileDataId": 252996,
+          "iconName": "spell_shadow_devouringplague.",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Devouring Contagion",
+            "ruRU": "Всепожирающее заражение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of your Devouring Plague by 25%. Targets that die while Devouring Plague it is active spreads it, jumping to a nearby enemy within 5 yards for the remaining duration.",
+                "ruRU": "Снижает затраты маны на \"Всепожирающую чуму\" на 25%. Если цель погибает под действием \"Всепожирающей чумы\", болезнь распространяется, переходя к ближайшему противнику в радиусе 5 м на оставшееся время действия."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the mana cost of your Devouring Plague by 50%. Targets that die while Devouring Plague it is active spreads it, jumping to a nearby enemy within 10 yards for the remaining duration.",
+                "ruRU": "Снижает затраты маны на \"Всепожирающую чуму\" на 50%. Если цель погибает под действием \"Всепожирающей чумы\", болезнь распространяется, переходя к ближайшему противнику в радиусе 10 м на оставшееся время действия."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 110854,
+          "spellId": 1310076,
+          "definitionId": 142600,
+          "key": "early-demise",
+          "iconFileDataId": 136149,
+          "iconName": "spell_shadow_demonicfortitude",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Early Demise",
+            "ruRU": "Ранняя гибель"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases Shadow Word: Death's critical strike chance on targets at or below 20% health by 15%.",
+                "ruRU": "Вероятность критического удара \"Слова Тьмы: Смерть\" повышается на 15% против целей с уровнем здоровья ниже 20%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases Shadow Word: Death's critical strike chance on targets at or below 20% health by 30%.",
+                "ruRU": "Вероятность критического удара \"Слова Тьмы: Смерть\" повышается на 30% против целей с уровнем здоровья ниже 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105818,
+          "spellId": 15259,
+          "definitionId": 135348,
+          "key": "darkness",
+          "iconFileDataId": 136223,
+          "iconName": "spell_shadow_twilight",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Darkness",
+            "ruRU": "Мрак"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Shadow damage done by 2%.",
+                "ruRU": "Увеличивает наносимый вами урон от темной магии на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Shadow damage done by 4%.",
+                "ruRU": "Увеличивает наносимый вами урон от темной магии на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Shadow damage done by 6%.",
+                "ruRU": "Увеличивает наносимый вами урон от темной магии на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Shadow damage done by 8%.",
+                "ruRU": "Увеличивает наносимый вами урон от темной магии на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Shadow damage done by 10%.",
+                "ruRU": "Увеличивает наносимый вами урон от темной магии на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105817,
+          "spellId": 15473,
+          "definitionId": 135347,
+          "key": "shadowform",
+          "iconFileDataId": 136200,
+          "iconName": "spell_shadow_shadowform",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Shadowform",
+            "ruRU": "Облик Тьмы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Assume Shadowform, increasing your Shadow damage by 10%, reducing the Mana cost of all Shadow spells by 50%, increasing the critical strike damage bonus of your Shadow spells by 100%, and reducing Physical damage taken by you by 15%. However, you may not cast healing spells while in this form.",
+                "ruRU": "Вы принимаете облик Тьмы, увеличивающий урон от заклинаний темной магии на 10%, снижающий затраты маны на их применение на 50%, увеличивающий критический урон от темной магии на 100% и уменьшающий получаемый физический урон на 15%. В этом облике нельзя применять исцеляющие заклинания."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105820
+          ]
+        }
+      ]
+    }
+  ]
+}

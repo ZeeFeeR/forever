@@ -1,0 +1,2330 @@
+{
+  "schemaVersion": 1,
+  "product": "wow_classic_beta",
+  "build": "1.60.1.69977",
+  "generatedAt": "2026-09-24T07:20:49.905Z",
+  "source": "Wago DB2 / WoW Forever beta client data",
+  "class": {
+    "id": "mage",
+    "classId": 8,
+    "name": {
+      "enUS": "Mage",
+      "ruRU": "Маг"
+    }
+  },
+  "traitTreeId": 1112,
+  "rules": {
+    "maxLevel": 60,
+    "firstPointLevel": 10,
+    "maxPoints": 51,
+    "pointsPerRow": 5
+  },
+  "trees": [
+    {
+      "id": "arcane",
+      "order": 0,
+      "name": {
+        "enUS": "Arcane",
+        "ruRU": "Тайная магия"
+      },
+      "talents": [
+        {
+          "nodeId": 105815,
+          "spellId": 6057,
+          "definitionId": 135345,
+          "key": "wand-specialization",
+          "iconFileDataId": 135463,
+          "iconName": "inv_wand_01",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Wand Specialization",
+            "ruRU": "Специализация на жезлах"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your damage with Wands by 13%.",
+                "ruRU": "Увеличение на 13% урона, наносимого при использовании магических жезлов."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your damage with Wands by 25%.",
+                "ruRU": "Увеличение на 25% урона, наносимого при использовании магических жезлов."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105814,
+          "spellId": 11222,
+          "definitionId": 135344,
+          "key": "arcane-focus",
+          "iconFileDataId": 135892,
+          "iconName": "spell_holy_devotion",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Arcane Focus",
+            "ruRU": "Средоточие чар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to hit with Arcane spells by 1%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями тайной магии на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to hit with Arcane spells by 2%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями тайной магии на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to hit with Arcane spells by 3%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями тайной магии на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Improves your chance to hit with Arcane spells by 4%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями тайной магии на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Improves your chance to hit with Arcane spells by 5%.",
+                "ruRU": "Повышает вероятность попадания заклинаниями тайной магии на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105813,
+          "spellId": 11237,
+          "definitionId": 135343,
+          "key": "improved-channeling",
+          "iconFileDataId": 136096,
+          "iconName": "spell_nature_starfall",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Channeling",
+            "ruRU": "Улучшенное поддержание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast.",
+                "ruRU": "С вероятностью 20% поддержание \"Чародейских стрел\" не прерывается при получении урона. С вероятностью 14% применение \"Чародейской вспышки\" не прерывается при получении урона."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 40% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 28% chance while casting Arcane Blast.",
+                "ruRU": "С вероятностью 40% поддержание \"Чародейских стрел\" не прерывается при получении урона. С вероятностью 28% применение \"Чародейской вспышки\" не прерывается при получении урона."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 60% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 42% chance while casting Arcane Blast.",
+                "ruRU": "С вероятностью 60% поддержание \"Чародейских стрел\" не прерывается при получении урона. С вероятностью 42% применение \"Чародейской вспышки\" не прерывается при получении урона."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives you a 80% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 56% chance while casting Arcane Blast.",
+                "ruRU": "С вероятностью 80% поддержание \"Чародейских стрел\" не прерывается при получении урона. С вероятностью 56% применение \"Чародейской вспышки\" не прерывается при получении урона."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives you a 100% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 70% chance while casting Arcane Blast.",
+                "ruRU": "С вероятностью 100% поддержание \"Чародейских стрел\" не прерывается при получении урона. С вероятностью 70% применение \"Чародейской вспышки\" не прерывается при получении урона."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105812,
+          "spellId": 11210,
+          "definitionId": 135342,
+          "key": "arcane-subtlety",
+          "iconFileDataId": 135894,
+          "iconName": "spell_holy_dispelmagic",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Arcane Subtlety",
+            "ruRU": "Искусные чары"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces your target's resistance to all your spells by 8 and reduces the threat caused by your Arcane spells by 15%.",
+                "ruRU": "Снижение сопротивления цели всем вашим заклинаниям на 8 ед. и снижение угрозы от заклинаний тайной магии на 15%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces your target's resistance to all your spells by 15 and reduces the threat caused by your Arcane spells by 30%.",
+                "ruRU": "Снижение сопротивления цели всем вашим заклинаниям на 15 ед. и снижение угрозы от заклинаний тайной магии на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105811,
+          "spellId": 29441,
+          "definitionId": 135341,
+          "key": "magic-absorption",
+          "iconFileDataId": 136011,
+          "iconName": "spell_nature_astralrecalgroup",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Magic Absorption",
+            "ruRU": "Магическое поглощение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases all your resistances by 5 and causes all spells you fully resist to restore 1% of your total mana. Cannot trigger more often than 1 time per sec.",
+                "ruRU": "Повышает сопротивление всем видам магии на 5. Когда сопротивление полностью предотвращает эффект заклинания, вы восполняете 1% максимального запаса маны. Эффект срабатывает не чаще раза в сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases all your resistances by 10 and causes all spells you fully resist to restore 2% of your total mana. Cannot trigger more often than 1 time per sec.",
+                "ruRU": "Повышает сопротивление всем видам магии на 10. Когда сопротивление полностью предотвращает эффект заклинания, вы восполняете 2% максимального запаса маны. Эффект срабатывает не чаще раза в сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105810,
+          "spellId": 11213,
+          "definitionId": 135340,
+          "key": "arcane-concentration",
+          "iconFileDataId": 136170,
+          "iconName": "spell_shadow_manaburn",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Arcane Concentration",
+            "ruRU": "Чародейская сосредоточенность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 2% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by $/10;12536s1%.",
+                "ruRU": "Когда ваше заклинание наносит урон противнику, вы с вероятностью 2% переходите в состояние \"Ясность мысли\". \"Ясность мысли\" снижает затраты маны на следующее наносящее урон заклинание на $/10;12536s1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 4% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by $/10;12536s1%.",
+                "ruRU": "Когда ваше заклинание наносит урон противнику, вы с вероятностью 4% переходите в состояние \"Ясность мысли\". \"Ясность мысли\" снижает затраты маны на следующее наносящее урон заклинание на $/10;12536s1%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 6% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by $/10;12536s1%.",
+                "ruRU": "Когда ваше заклинание наносит урон противнику, вы с вероятностью 6% переходите в состояние \"Ясность мысли\". \"Ясность мысли\" снижает затраты маны на следующее наносящее урон заклинание на $/10;12536s1%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives you a 8% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by $/10;12536s1%.",
+                "ruRU": "Когда ваше заклинание наносит урон противнику, вы с вероятностью 8% переходите в состояние \"Ясность мысли\". \"Ясность мысли\" снижает затраты маны на следующее наносящее урон заклинание на $/10;12536s1%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by $/10;12536s1%.",
+                "ruRU": "Когда ваше заклинание наносит урон противнику, вы с вероятностью 10% переходите в состояние \"Ясность мысли\". \"Ясность мысли\" снижает затраты маны на следующее наносящее урон заклинание на $/10;12536s1%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105809,
+          "spellId": 28574,
+          "definitionId": 135339,
+          "key": "arcane-resilience",
+          "iconFileDataId": 135733,
+          "iconName": "spell_arcane_arcaneresilience",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Arcane Resilience",
+            "ruRU": "Чародейская стойкость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Armor by an amount equal to 25% of your Intellect.",
+                "ruRU": "Увеличивает показатель брони на 25% интеллекта."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Armor by an amount equal to 50% of your Intellect.",
+                "ruRU": "Увеличивает показатель брони на 50% интеллекта."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105808,
+          "spellId": 11247,
+          "definitionId": 135338,
+          "key": "arcane-geometry",
+          "iconFileDataId": 6035311,
+          "iconName": "inv_ability_mage_radiantspark",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Arcane Geometry",
+            "ruRU": "Чародейская геометрия"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the range of your Arcane spells by 3 yards.",
+                "ruRU": "Увеличивает дальность действия заклинаний тайной магии на 3 м."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the range of your Arcane spells by 6 yards.",
+                "ruRU": "Увеличивает дальность действия заклинаний тайной магии на 6 м."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105807,
+          "spellId": 11242,
+          "definitionId": 135337,
+          "key": "arcane-impact",
+          "iconFileDataId": 136116,
+          "iconName": "spell_nature_wispsplode",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Arcane Impact",
+            "ruRU": "Магическое действие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Arcane spells by 2%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний тайной магии на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Arcane spells by 4%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний тайной магии на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Arcane spells by 6%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний тайной магии на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105806,
+          "spellId": 400574,
+          "definitionId": 135336,
+          "key": "arcane-blast",
+          "iconFileDataId": 135735,
+          "iconName": "spell_arcane_blast",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Arcane Blast",
+            "ruRU": "Чародейская вспышка"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Blasts the target with energy, dealing 54 Arcane damage. Each time you cast Arcane Blast, the damage of all your other spells is increased by 10% and the mana cost of Arcane Blast is increased by 175%. Effect stacks up to 4 times and lasts 8 sec or until any other damage spell is cast.",
+                "ruRU": "Поражает противника зарядом энергии, наносящим 54 ед. урона от тайной магии. Каждый раз, когда вы применяете \"Чародейскую вспышку\", урон от всех остальных заклинаний увеличивается на 10%, но стоимость \"Чародейской вспышки\" повышается на 175%. Суммируется до 4 раз. Время действия – 8 сек. или до тех пор, пока вы не примените другое наносящее урон заклинание."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105805,
+          "spellId": 11252,
+          "definitionId": 135335,
+          "key": "arcane-shielding",
+          "iconFileDataId": 136153,
+          "iconName": "spell_shadow_detectlesserinvisibility",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Arcane Shielding",
+            "ruRU": "Чародейская защита"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Decreases the Mana lost per point of damage taken when your Mana Shield spell is active by 17% and increases the resistances granted by your Mage Armor spell by 25%.",
+                "ruRU": "Снижает потери маны при получении урона под действием \"Щита маны\" на 17% и увеличивает бонус к сопротивлению от \"Магического доспеха\" на 25%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Decreases the Mana lost per point of damage taken when your Mana Shield spell is active by 33% and increases the resistances granted by your Mage Armor spell by 50%.",
+                "ruRU": "Снижает потери маны при получении урона под действием \"Щита маны\" на 33% и увеличивает бонус к сопротивлению от \"Магического доспеха\" на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105804,
+          "spellId": 11255,
+          "definitionId": 135334,
+          "key": "improved-counterspell",
+          "iconFileDataId": 135856,
+          "iconName": "spell_frost_iceshock",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Counterspell",
+            "ruRU": "Улучшенная Антимагия"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Counterspell also Silences the target for 2 sec.",
+                "ruRU": "\"Антимагия\" также поражает цель немотой на 2 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Counterspell also Silences the target for 4 sec.",
+                "ruRU": "\"Антимагия\" также поражает цель немотой на 4 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105803,
+          "spellId": 18462,
+          "definitionId": 135333,
+          "key": "arcane-meditation",
+          "iconFileDataId": 136208,
+          "iconName": "spell_shadow_siphonmana",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Arcane Meditation",
+            "ruRU": "Чародейская медитация"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Allows 17% of your Mana regeneration to continue while casting.",
+                "ruRU": "В процессе применения заклинаний продолжается 17% от восполнения маны."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Allows 33% of your Mana regeneration to continue while casting.",
+                "ruRU": "В процессе применения заклинаний продолжается 33% от восполнения маны."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Allows 50% of your Mana regeneration to continue while casting.",
+                "ruRU": "В процессе применения заклинаний продолжается 50% от восполнения маны."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105810
+          ]
+        },
+        {
+          "nodeId": 105802,
+          "spellId": 400588,
+          "definitionId": 135332,
+          "key": "missile-barrage",
+          "iconFileDataId": 236221,
+          "iconName": "ability_mage_missilebarrage",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Missile Barrage",
+            "ruRU": "Заградительные стрелы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Arcane Blast spell a 40% chance, and your Fireball, Frostbolt, and Frostfire Bolt spells a 20% chance to reduce the channeled duration of your next Arcane Missiles spell by 50%, reduce the Mana cost by 100%, and missiles fire every 0.5 sec.",
+                "ruRU": "\"Чародейская вспышка\" с вероятностью 40%, а \"Огненный шар\", \"Ледяная стрела\" и \"Стрела ледяного огня\" – с вероятностью 20% усиливают следующие \"Чародейские стрелы\". При этом время поддержания \"Чародейских стрел\" сокращается на 50%, затраты маны снижаются на 100%, и вы выпускаете стрелы раз в 0.5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105801,
+          "spellId": 12043,
+          "definitionId": 135331,
+          "key": "presence-of-mind",
+          "iconFileDataId": 136031,
+          "iconName": "spell_nature_enchantarmor",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Presence of Mind",
+            "ruRU": "Присутствие разума"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, your next Mage spell with a casting time less than 10 sec becomes an instant cast spell.",
+                "ruRU": "Мгновенное применение следующего магического заклинания, обычное время применения которого ниже 10 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105800,
+          "spellId": 11232,
+          "definitionId": 135330,
+          "key": "arcane-mind",
+          "iconFileDataId": 136129,
+          "iconName": "spell_shadow_charm",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Arcane Mind",
+            "ruRU": "Чародейский ум"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Intellect by 2% and increases the critical strike damage bonus of your Arcane spells by 20%.",
+                "ruRU": "Повышает интеллект на 2% и увеличивает критический урон от заклинаний тайной магии на 20%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Intellect by 4% and increases the critical strike damage bonus of your Arcane spells by 40%.",
+                "ruRU": "Повышает интеллект на 4% и увеличивает критический урон от заклинаний тайной магии на 40%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Intellect by 6% and increases the critical strike damage bonus of your Arcane spells by 60%.",
+                "ruRU": "Повышает интеллект на 6% и увеличивает критический урон от заклинаний тайной магии на 60%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Intellect by 8% and increases the critical strike damage bonus of your Arcane spells by 80%.",
+                "ruRU": "Повышает интеллект на 8% и увеличивает критический урон от заклинаний тайной магии на 80%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Intellect by 10% and increases the critical strike damage bonus of your Arcane spells by 100%.",
+                "ruRU": "Повышает интеллект на 10% и увеличивает критический урон от заклинаний тайной магии на 100%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105799,
+          "spellId": 15058,
+          "definitionId": 135329,
+          "key": "arcane-instability",
+          "iconFileDataId": 136222,
+          "iconName": "spell_shadow_teleport",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Arcane Instability",
+            "ruRU": "Магическая нестабильность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your spells by 1% and your critical strike chance by 1%.",
+                "ruRU": "Increases the damage done by your spells by 1% and your critical strike chance by 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your spells by 2% and your critical strike chance by 2%.",
+                "ruRU": "Increases the damage done by your spells by 2% and your critical strike chance by 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your spells by 3% and your critical strike chance by 3%.",
+                "ruRU": "Increases the damage done by your spells by 3% and your critical strike chance by 3%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105798,
+          "spellId": 12042,
+          "definitionId": 135328,
+          "key": "arcane-power",
+          "iconFileDataId": 136048,
+          "iconName": "spell_nature_lightning",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Arcane Power",
+            "ruRU": "Мощь тайной магии"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "For the next 15 sec, your spells deal 30% more damage while costing 30% more mana to cast.",
+                "ruRU": "В течение 15 сек. заклинания наносят на 30% больше урона, но расходуют на 30% больше маны."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105801
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "order": 1,
+      "name": {
+        "enUS": "Fire",
+        "ruRU": "Огонь"
+      },
+      "talents": [
+        {
+          "nodeId": 105797,
+          "spellId": 11078,
+          "definitionId": 135327,
+          "key": "wake-of-fire",
+          "iconFileDataId": 135819,
+          "iconName": "spell_fire_lavaspawn",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Wake of Fire",
+            "ruRU": "Огненный след"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Fire Blast spell by 1 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 20 sec by 25%.",
+                "ruRU": "Сокращает время восстановления \"Огненного взрыва\" на 1 сек. Когда вы убиваете цель, за которую получаете опыт или честь, вероятность критического удара следующего \"Огненного взрыва\" повышается на 25% на 20 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Fire Blast spell by 2 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 20 sec by 50%.",
+                "ruRU": "Сокращает время восстановления \"Огненного взрыва\" на 2 сек. Когда вы убиваете цель, за которую получаете опыт или честь, вероятность критического удара следующего \"Огненного взрыва\" повышается на 50% на 20 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105796,
+          "spellId": 18459,
+          "definitionId": 135326,
+          "key": "incineration",
+          "iconFileDataId": 135813,
+          "iconName": "spell_fire_flameshock",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Incineration",
+            "ruRU": "Испепеление"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Fire Blast, Ice Lance, Arcane Blast, and Scorch spells by 2%.",
+                "ruRU": "Повышает вероятность критического удара \"Огненного взрыва\", \"Ледяного копья\", \"Чародейской вспышки\" и \"Ожога\" на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Fire Blast, Ice Lance, Arcane Blast, and Scorch spells by 4%.",
+                "ruRU": "Повышает вероятность критического удара \"Огненного взрыва\", \"Ледяного копья\", \"Чародейской вспышки\" и \"Ожога\" на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Fire Blast, Ice Lance, Arcane Blast, and Scorch spells by 6%.",
+                "ruRU": "Повышает вероятность критического удара \"Огненного взрыва\", \"Ледяного копья\", \"Чародейской вспышки\" и \"Ожога\" на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105795,
+          "spellId": 11069,
+          "definitionId": 135325,
+          "key": "improved-fireball",
+          "iconFileDataId": 135812,
+          "iconName": "spell_fire_flamebolt",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Fireball",
+            "ruRU": "Улучшенный огненный шар"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the casting time of your Fireball and Frostfire Bolt spells by 0.1 sec.",
+                "ruRU": "Сокращает время применения \"Огненного шара\" и \"Стрелы ледяного огня\" на 0.1 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the casting time of your Fireball and Frostfire Bolt spells by 0.2 sec.",
+                "ruRU": "Сокращает время применения \"Огненного шара\" и \"Стрелы ледяного огня\" на 0.2 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the casting time of your Fireball and Frostfire Bolt spells by 0.3 sec.",
+                "ruRU": "Сокращает время применения \"Огненного шара\" и \"Стрелы ледяного огня\" на 0.3 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the casting time of your Fireball and Frostfire Bolt spells by 0.4 sec.",
+                "ruRU": "Сокращает время применения \"Огненного шара\" и \"Стрелы ледяного огня\" на 0.4 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the casting time of your Fireball and Frostfire Bolt spells by 0.5 sec.",
+                "ruRU": "Сокращает время применения \"Огненного шара\" и \"Стрелы ледяного огня\" на 0.5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105794,
+          "spellId": 11119,
+          "definitionId": 135324,
+          "key": "ignite",
+          "iconFileDataId": 135818,
+          "iconName": "spell_fire_incinerate",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Ignite",
+            "ruRU": "Воспламенение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your critical strikes from Fire damage spells cause the target to burn for an additional 8% of your spell's damage over 4 sec.",
+                "ruRU": "Критические эффекты заклинаний огня поджигают цель, нанося еще 8% урона от примененного заклинания за 4 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your critical strikes from Fire damage spells cause the target to burn for an additional 16% of your spell's damage over 4 sec.",
+                "ruRU": "Критические эффекты заклинаний огня поджигают цель, нанося еще 16% урона от примененного заклинания за 4 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your critical strikes from Fire damage spells cause the target to burn for an additional 24% of your spell's damage over 4 sec.",
+                "ruRU": "Критические эффекты заклинаний огня поджигают цель, нанося еще 24% урона от примененного заклинания за 4 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Your critical strikes from Fire damage spells cause the target to burn for an additional 32% of your spell's damage over 4 sec.",
+                "ruRU": "Критические эффекты заклинаний огня поджигают цель, нанося еще 32% урона от примененного заклинания за 4 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Your critical strikes from Fire damage spells cause the target to burn for an additional 40% of your spell's damage over 4 sec.",
+                "ruRU": "Критические эффекты заклинаний огня поджигают цель, нанося еще 40% урона от примененного заклинания за 4 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105793,
+          "spellId": 11100,
+          "definitionId": 135323,
+          "key": "flame-throwing",
+          "iconFileDataId": 135815,
+          "iconName": "spell_fire_flare",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Flame Throwing",
+            "ruRU": "Метание пламени"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the range of your Fire spells by 3 yards.",
+                "ruRU": "Увеличивает дальность применения ваших заклинаний огня на 3 метра."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the range of your Fire spells by 6 yards.",
+                "ruRU": "Увеличивает дальность применения ваших заклинаний огня на 6 метров."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105792,
+          "spellId": 11103,
+          "definitionId": 135322,
+          "key": "impact",
+          "iconFileDataId": 135821,
+          "iconName": "spell_fire_meteorstorm",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Impact",
+            "ruRU": "Сотрясение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Fire spells a 3% chance to stun the target for 2 sec.",
+                "ruRU": "Заклинания огня с вероятностью 3% оглушают цель на 2 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Fire spells a 7% chance to stun the target for 2 sec.",
+                "ruRU": "Заклинания огня с вероятностью 7% оглушают цель на 2 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Fire spells a 10% chance to stun the target for 2 sec.",
+                "ruRU": "Заклинания огня с вероятностью 10% оглушают цель на 2 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105789,
+          "spellId": 11083,
+          "definitionId": 135319,
+          "key": "burning-soul",
+          "iconFileDataId": 135805,
+          "iconName": "spell_fire_fire",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Burning Soul",
+            "ruRU": "Пылающая душа"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Fire spells a 23% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 10%.",
+                "ruRU": "Прочтение заклинаний огня не будет замедлено при получении урона с вероятностью 23%. Угроза от ваших заклинаний огня уменьшается на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Fire spells a 47% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 20%.",
+                "ruRU": "Прочтение заклинаний огня не будет замедлено при получении урона с вероятностью 47%. Угроза от ваших заклинаний огня уменьшается на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Fire spells a 70% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 30%.",
+                "ruRU": "Прочтение заклинаний огня не будет замедлено при получении урона с вероятностью 70%. Угроза от ваших заклинаний огня уменьшается на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105791,
+          "spellId": 11108,
+          "definitionId": 135321,
+          "key": "improved-flamestrike",
+          "iconFileDataId": 135826,
+          "iconName": "spell_fire_selfdestruct",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Flamestrike",
+            "ruRU": "Улучшенный огненный столб"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Flamestrike spell by 5%.",
+                "ruRU": "Повышает вероятность критического удара при применении \"Огненного столба\" на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Flamestrike spell by 10%.",
+                "ruRU": "Повышает вероятность критического удара при применении \"Огненного столба\" на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Flamestrike spell by 15%.",
+                "ruRU": "Повышает вероятность критического удара при применении \"Огненного столба\" на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105790,
+          "spellId": 11366,
+          "definitionId": 135320,
+          "key": "pyroblast",
+          "iconFileDataId": 135808,
+          "iconName": "spell_fire_fireball02",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Pyroblast",
+            "ruRU": "Огненная глыба"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Hurls an immense fiery boulder that causes 110 Fire damage and an additional 44 Fire damage over 12 sec.",
+                "ruRU": "Бросок огромной огненной глыбы, которая наносит 110 ед. урона от огня единовременно и 44 ед. урона от огня в течение 12 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105788,
+          "spellId": 11095,
+          "definitionId": 135318,
+          "key": "improved-scorch",
+          "iconFileDataId": 135831,
+          "iconName": "spell_fire_windsofwoe",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Scorch",
+            "ruRU": "Улучшенный ожог"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Scorch spell has a 33% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases all Fire damage you deal to your target by 3% and lasts 30 sec, stacking up to 5 times.",
+                "ruRU": "\"Ожог\" с вероятностью 33% делает цель уязвимой к огню, в результате чего вы наносите этой цели на 3% больше урона от огня. Время действия – 30 сек. Суммируется до 5 раз."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Scorch spell has a 67% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases all Fire damage you deal to your target by 3% and lasts 30 sec, stacking up to 5 times.",
+                "ruRU": "\"Ожог\" с вероятностью 67% делает цель уязвимой к огню, в результате чего вы наносите этой цели на 3% больше урона от огня. Время действия – 30 сек. Суммируется до 5 раз."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your Scorch spell has a 100% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases all Fire damage you deal to your target by 3% and lasts 30 sec, stacking up to 5 times.",
+                "ruRU": "\"Ожог\" с вероятностью 100% делает цель уязвимой к огню, в результате чего вы наносите этой цели на 3% больше урона от огня. Время действия – 30 сек. Суммируется до 5 раз."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105787,
+          "spellId": 11094,
+          "definitionId": 135317,
+          "key": "improved-fire-ward",
+          "iconFileDataId": 135806,
+          "iconName": "spell_fire_firearmor",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Fire Ward",
+            "ruRU": "Улучшенная защита от огня"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Causes your Fire Ward to have a 10% chance to reflect Fire spells while active.",
+                "ruRU": "Защита от огня с вероятностью 10% отражает заклинания школы огня."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Causes your Fire Ward to have a 20% chance to reflect Fire spells while active.",
+                "ruRU": "Защита от огня с вероятностью 20% отражает заклинания школы огня."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105786,
+          "spellId": 400624,
+          "definitionId": 135316,
+          "key": "hot-streak",
+          "iconFileDataId": 236218,
+          "iconName": "ability_mage_hotstreak",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Hot Streak",
+            "ruRU": "Полоса везения"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your non-periodic critical strikes with Fireball, Frostfire Bolt, Fire Blast, and Scorch grant Hot Streak for 15 sec. Hot Streak reduces the cast time of Pyroblast by 25%, stacking up to 3 times.",
+                "ruRU": "Когда \"Огненный шар\", \"Стрела ледяного огня\", \"Огненный взрыв\" и \"Ожог\" наносят прямой критический урон, вы получаете эффект \"Полоса везения\" на 15 сек. \"Полоса везения\" сокращает время применения \"Огненной глыбы\" на 25% и суммируется до 3 раз."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105790
+          ]
+        },
+        {
+          "nodeId": 105785,
+          "spellId": 29074,
+          "definitionId": 135315,
+          "key": "master-of-elements",
+          "iconFileDataId": 135820,
+          "iconName": "spell_fire_masterofelements",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Master of Elements",
+            "ruRU": "Повелитель Стихий"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Fire and Frost critical strikes will refund 10% of their base mana cost.",
+                "ruRU": "Критические удары заклинаний огня и магии льда восполняют ману в объеме 10% их базовой стоимости."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your Fire and Frost critical strikes will refund 20% of their base mana cost.",
+                "ruRU": "Критические удары заклинаний огня и магии льда восполняют ману в объеме 20% их базовой стоимости."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your Fire and Frost critical strikes will refund 30% of their base mana cost.",
+                "ruRU": "Критические удары заклинаний огня и магии льда восполняют ману в объеме 30% их базовой стоимости."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105784,
+          "spellId": 11115,
+          "definitionId": 135314,
+          "key": "critical-mass",
+          "iconFileDataId": 136115,
+          "iconName": "spell_nature_wispheal",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Critical Mass",
+            "ruRU": "Критическая масса"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Fire spells by 2%.",
+                "ruRU": "Повышает вероятность критического удара при применении заклинаний огня на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Fire spells by 4%.",
+                "ruRU": "Повышает вероятность критического удара при применении заклинаний огня на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Fire spells by 6%.",
+                "ruRU": "Повышает вероятность критического удара при применении заклинаний огня на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105783,
+          "spellId": 11113,
+          "definitionId": 135313,
+          "key": "blast-wave",
+          "iconFileDataId": 135903,
+          "iconName": "spell_holy_excorcism_02",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Blast Wave",
+            "ruRU": "Взрывная волна"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 163 Fire damage, and Dazing them for 50% reduced movement speed for 6 sec.",
+                "ruRU": "Выпускает волну пламени, наносящую пораженным противникам 163 ед. урона от огня и вызывающую головокружение, которое снижает скорость передвижения на 50% на 6 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105782,
+          "spellId": 11124,
+          "definitionId": 135312,
+          "key": "fire-power",
+          "iconFileDataId": 135817,
+          "iconName": "spell_fire_immolation",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Fire Power",
+            "ruRU": "Сила огня"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Fire spells by 2%.",
+                "ruRU": "Увеличивает урон от ваших заклинаний огня на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Fire spells by 4%.",
+                "ruRU": "Увеличивает урон от ваших заклинаний огня на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Fire spells by 6%.",
+                "ruRU": "Увеличивает урон от ваших заклинаний огня на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the damage done by your Fire spells by 8%.",
+                "ruRU": "Увеличивает урон от ваших заклинаний огня на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the damage done by your Fire spells by 10%.",
+                "ruRU": "Увеличивает урон от ваших заклинаний огня на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105781,
+          "spellId": 11129,
+          "definitionId": 135311,
+          "key": "combustion",
+          "iconFileDataId": 135824,
+          "iconName": "spell_fire_sealoffire",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Combustion",
+            "ruRU": "Возгорание"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, this spell causes each of your Fire damage spell hits to increase your critical strike chance with Fire damage spells by 10%. This effect lasts until you have caused 4 non-periodic critical strikes with Fire spells.",
+                "ruRU": "После активации ваши наносящие урон заклинания огня, попавшие в цель, повышают вероятность критического удара заклинаний огня на 10%. Этот эффект длится, пока ваши заклинания огня прямого действия не нанесут критический урон 4 раза."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105784
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frost",
+      "order": 2,
+      "name": {
+        "enUS": "Frost",
+        "ruRU": "Лед"
+      },
+      "talents": [
+        {
+          "nodeId": 105780,
+          "spellId": 11189,
+          "definitionId": 135310,
+          "key": "frost-warding",
+          "iconFileDataId": 135850,
+          "iconName": "spell_frost_frostward",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Frost Warding",
+            "ruRU": "Защита от льда"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the Armor and resistance given by your Frost Armor and Ice Armor spells by 15%. In addition, gives your Frost Ward a 10% chance to reflect Frost spells and effects while active.",
+                "ruRU": "Бонусы к броне и сопротивлению от \"Морозного доспеха\" и \"Ледяного доспеха\" увеличиваются на 15%. Кроме того, \"Защита от магии льда\" с вероятностью 10% отражает заклинания и эффекты магии льда."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the Armor and resistance given by your Frost Armor and Ice Armor spells by 30%. In addition, gives your Frost Ward a 20% chance to reflect Frost spells and effects while active.",
+                "ruRU": "Бонусы к броне и сопротивлению от \"Морозного доспеха\" и \"Ледяного доспеха\" увеличиваются на 30%. Кроме того, \"Защита от магии льда\" с вероятностью 20% отражает заклинания и эффекты магии льда."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105779,
+          "spellId": 11070,
+          "definitionId": 135309,
+          "key": "improved-frostbolt",
+          "iconFileDataId": 135846,
+          "iconName": "spell_frost_frostbolt02",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Frostbolt",
+            "ruRU": "Улучшенная ледяная стрела"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the casting time of your Frostbolt spell by 0.1 sec.",
+                "ruRU": "Сокращает время применения \"Ледяной стрелы\" на 0.1 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the casting time of your Frostbolt spell by 0.2 sec.",
+                "ruRU": "Сокращает время применения \"Ледяной стрелы\" на 0.2 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the casting time of your Frostbolt spell by 0.3 sec.",
+                "ruRU": "Сокращает время применения \"Ледяной стрелы\" на 0.3 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the casting time of your Frostbolt spell by 0.4 sec.",
+                "ruRU": "Сокращает время применения \"Ледяной стрелы\" на 0.4 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the casting time of your Frostbolt spell by 0.5 sec.",
+                "ruRU": "Сокращает время применения \"Ледяной стрелы\" на 0.5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105778,
+          "spellId": 29438,
+          "definitionId": 135308,
+          "key": "elemental-precision",
+          "iconFileDataId": 135989,
+          "iconName": "spell_ice_magicdamage",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Elemental Precision",
+            "ruRU": "Точность стихии"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to hit with Frost and Fire spells by 1%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний магии льда и огня на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to hit with Frost and Fire spells by 2%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний магии льда и огня на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to hit with Frost and Fire spells by 3%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний магии льда и огня на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Improves your chance to hit with Frost and Fire spells by 4%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний магии льда и огня на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Improves your chance to hit with Frost and Fire spells by 5%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний магии льда и огня на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105777,
+          "spellId": 11207,
+          "definitionId": 135307,
+          "key": "ice-shards",
+          "iconFileDataId": 135855,
+          "iconName": "spell_frost_iceshard",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Ice Shards",
+            "ruRU": "Ледяные осколки"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Frost spells by 20%.",
+                "ruRU": "Увеличение урона от критического поражения вашими заклинаниями льда на 20%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Frost spells by 40%.",
+                "ruRU": "Увеличение урона от критического поражения вашими заклинаниями льда на 40%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Frost spells by 60%.",
+                "ruRU": "Увеличение урона от критического поражения вашими заклинаниями льда на 60%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Frost spells by 80%.",
+                "ruRU": "Увеличение урона от критического поражения вашими заклинаниями льда на 80%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Frost spells by 100%.",
+                "ruRU": "Увеличение урона от критического поражения вашими заклинаниями льда на 100%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105776,
+          "spellId": 11175,
+          "definitionId": 135306,
+          "key": "permafrost",
+          "iconFileDataId": 135864,
+          "iconName": "spell_frost_wisp",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Permafrost",
+            "ruRU": "Вечная мерзлота"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the duration of your Chill effects by 11% and reduces the target's speed by an additional 3%.",
+                "ruRU": "Продлевает время действия ваших эффектов окоченения на 11%, и эти эффекты снижают скорость передвижения еще на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the duration of your Chill effects by 22% and reduces the target's speed by an additional 7%.",
+                "ruRU": "Продлевает время действия ваших эффектов окоченения на 22%, и эти эффекты снижают скорость передвижения еще на 7%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the duration of your Chill effects by 33% and reduces the target's speed by an additional 10%.",
+                "ruRU": "Продлевает время действия ваших эффектов окоченения на 33%, и эти эффекты снижают скорость передвижения еще на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105775,
+          "spellId": 11165,
+          "definitionId": 135305,
+          "key": "improved-frost-nova",
+          "iconFileDataId": 135840,
+          "iconName": "spell_frost_freezingbreath",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Frost Nova",
+            "ruRU": "Улучшенное кольцо льда"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Frost Nova spell by 2 sec.",
+                "ruRU": "Уменьшает время восстановления \"Кольца льда\" на 2 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Frost Nova spell by 4 sec.",
+                "ruRU": "Уменьшает время восстановления \"Кольца льда\" на 4 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105774,
+          "spellId": 11071,
+          "definitionId": 135304,
+          "key": "frostbite",
+          "iconFileDataId": 135842,
+          "iconName": "spell_frost_frostarmor",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Frostbite",
+            "ruRU": "Обморожение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Chill effects a 5% chance to Freeze the target for 5 sec.",
+                "ruRU": "Ваши эффекты окоченения с вероятностью 5% замораживают цель на 5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Chill effects a 10% chance to Freeze the target for 5 sec.",
+                "ruRU": "Ваши эффекты окоченения с вероятностью 10% замораживают цель на 5 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Chill effects a 15% chance to Freeze the target for 5 sec.",
+                "ruRU": "Ваши эффекты окоченения с вероятностью 15% замораживают цель на 5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105773,
+          "spellId": 11151,
+          "definitionId": 135303,
+          "key": "piercing-ice",
+          "iconFileDataId": 135845,
+          "iconName": "spell_frost_frostbolt",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Piercing Ice",
+            "ruRU": "Пронзающий лед"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Frost spells by 2%.",
+                "ruRU": "Увеличение урона, наносимого вашими ледяными заклинаниями на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Frost spells by 4%.",
+                "ruRU": "Увеличение урона, наносимого вашими ледяными заклинаниями на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Frost spells by 6%.",
+                "ruRU": "Увеличение урона, наносимого вашими ледяными заклинаниями на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105772,
+          "spellId": 11160,
+          "definitionId": 135302,
+          "key": "frost-channeling",
+          "iconFileDataId": 135860,
+          "iconName": "spell_frost_stun",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Frost Channeling",
+            "ruRU": "Направленная сила льда"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of your Frost spells by 5% and reduces the threat caused by your Frost spells by 10%.",
+                "ruRU": "Снижение расхода маны на заклинания магии льда на 5% и снижение угрозы от них на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the mana cost of your Frost spells by 10% and reduces the threat caused by your Frost spells by 20%.",
+                "ruRU": "Снижение расхода маны на заклинания магии льда на 10% и снижение угрозы от них на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the mana cost of your Frost spells by 15% and reduces the threat caused by your Frost spells by 30%.",
+                "ruRU": "Снижение расхода маны на заклинания магии льда на 15% и снижение угрозы от них на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105767,
+          "spellId": 1312002,
+          "definitionId": 135297,
+          "key": "ice-lance",
+          "iconFileDataId": 135844,
+          "iconName": "spell_frost_frostblast",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Ice Lance",
+            "ruRU": "Ледяное копье"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Deals 28 Frost damage to an enemy target. Deals 300% increased damage to Frozen targets.",
+                "ruRU": "Наносит 28 ед. урона от магии льда. Если цель заморожена, урон увеличивается на 300%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105771,
+          "spellId": 11185,
+          "definitionId": 135301,
+          "key": "improved-blizzard",
+          "iconFileDataId": 135857,
+          "iconName": "spell_frost_icestorm",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Blizzard",
+            "ruRU": "Улучшенная снежная буря"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Adds a Chill effect to your Blizzard spell. This effect lowers the target's movement speed by 15% for 1.5 sec.",
+                "ruRU": "\"Снежная буря\" также применяет эффект окоченения, снижающий скорость передвижения цели на 15% на 1.5 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Adds a Chill effect to your Blizzard spell. This effect lowers the target's movement speed by 25% for 1.5 sec.",
+                "ruRU": "\"Снежная буря\" также применяет эффект окоченения, снижающий скорость передвижения цели на 25% на 1.5 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Adds a Chill effect to your Blizzard spell. This effect lowers the target's movement speed by 40% for 1.5 sec.",
+                "ruRU": "\"Снежная буря\" также применяет эффект окоченения, снижающий скорость передвижения цели на 40% на 1.5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105770,
+          "spellId": 16757,
+          "definitionId": 135300,
+          "key": "arctic-reach",
+          "iconFileDataId": 136141,
+          "iconName": "spell_shadow_darkritual",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Arctic Reach",
+            "ruRU": "Предел льда"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%.",
+                "ruRU": "Увеличивает дальность действия \"Ледяной стрелы\" и \"Снежной бури\", а также радиус действия \"Кольца льда\" и \"Конуса холода\" на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 20%.",
+                "ruRU": "Увеличивает дальность действия \"Ледяной стрелы\" и \"Снежной бури\", а также радиус действия \"Кольца льда\" и \"Конуса холода\" на 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105769,
+          "spellId": 11958,
+          "definitionId": 135299,
+          "key": "ice-block",
+          "iconFileDataId": 135841,
+          "iconName": "spell_frost_frost",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Ice Block",
+            "ruRU": "Ледяная глыба"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move, or cast spells.",
+                "ruRU": "Заключает вас в ледяную глыбу, которая защищает от атак и заклинаний в течение 10 сек., но в это время вы не можете атаковать, двигаться и применять заклинания."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105768,
+          "spellId": 11170,
+          "definitionId": 135298,
+          "key": "shatter",
+          "iconFileDataId": 135849,
+          "iconName": "spell_frost_frostshock",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Shatter",
+            "ruRU": "Обледенение"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of all your spells against Frozen targets by 17%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний против замороженных целей на 17%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike chance of all your spells against Frozen targets by 33%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний против замороженных целей на 33%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike chance of all your spells against Frozen targets by 50%.",
+                "ruRU": "Повышает вероятность критического удара заклинаний против замороженных целей на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105765,
+          "spellId": 11190,
+          "definitionId": 135295,
+          "key": "improved-cone-of-cold",
+          "iconFileDataId": 135852,
+          "iconName": "spell_frost_glacier",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Cone of Cold",
+            "ruRU": "Улучшенный конус холода"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage dealt by your Cone of Cold spell by 12%.",
+                "ruRU": "Увеличение урона, нанесенного заклинанием \"Конус холода\", на 12%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage dealt by your Cone of Cold spell by 23%.",
+                "ruRU": "Увеличение урона, нанесенного заклинанием \"Конус холода\", на 23%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage dealt by your Cone of Cold spell by 35%.",
+                "ruRU": "Увеличение урона, нанесенного заклинанием \"Конус холода\", на 35%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105766,
+          "spellId": 12472,
+          "definitionId": 135296,
+          "key": "cold-snap",
+          "iconFileDataId": 135865,
+          "iconName": "spell_frost_wizardmark",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Cold Snap",
+            "ruRU": "Холодная хватка"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Finishes the remaining cooldown on all your other Frost spells.",
+                "ruRU": "Мгновенно восстанавливает все остальные заклинания магии льда."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105764,
+          "spellId": 400647,
+          "definitionId": 135294,
+          "key": "fingers-of-frost",
+          "iconFileDataId": 236227,
+          "iconName": "ability_mage_wintersgrasp",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Fingers of Frost",
+            "ruRU": "Ледяные пальцы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 1 spell cast as if the target were Frozen. Lasts 15 sec.",
+                "ruRU": "\"Применяя эффекты окоченения, вы с вероятностью 15% получаете эффект \"Ледяные пальцы\", усиливающий 1 ваше следующее заклинание. Заклинания, усиленные \"Ледяными пальцами\", срабатывают так, словно цель заморожена. Время действия – 15 сек.\""
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 2 spells cast as if the target were Frozen. Lasts 15 sec.",
+                "ruRU": "\"Применяя эффекты окоченения, вы с вероятностью 15% получаете эффект \"Ледяные пальцы\", усиливающий 2 ваших следующих заклинания. Заклинания, усиленные \"Ледяными пальцами\", срабатывают так, словно цель заморожена. Время действия – 15 сек.\""
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105767
+          ]
+        },
+        {
+          "nodeId": 105763,
+          "spellId": 11180,
+          "definitionId": 135293,
+          "key": "winters-chill",
+          "iconFileDataId": 135836,
+          "iconName": "spell_frost_chillingblast",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Winter's Chill",
+            "ruRU": "Зимняя стужа"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Frost damage spells a 20% chance to apply the Winter's Chill effect, which increases the chance your Ice Lance and Frostbolt spells will critically hit the target by 2% for 15 sec. Stacks up to 1 times.",
+                "ruRU": "Заклинания магии льда с вероятностью 20% применяют эффект \"Зимняя стужа\", повышающий вероятность критического удара \"Ледяного копья\" и \"Ледяной стрелы\" против пораженной цели на 2%. Время действия – 15 сек. Суммируется до 1 раз."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Frost damage spells a 40% chance to apply the Winter's Chill effect, which increases the chance your Ice Lance and Frostbolt spells will critically hit the target by 2% for 15 sec. Stacks up to 2 times.",
+                "ruRU": "Заклинания магии льда с вероятностью 40% применяют эффект \"Зимняя стужа\", повышающий вероятность критического удара \"Ледяного копья\" и \"Ледяной стрелы\" против пораженной цели на 2%. Время действия – 15 сек. Суммируется до 2 раз."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Frost damage spells a 60% chance to apply the Winter's Chill effect, which increases the chance your Ice Lance and Frostbolt spells will critically hit the target by 2% for 15 sec. Stacks up to 3 times.",
+                "ruRU": "Заклинания магии льда с вероятностью 60% применяют эффект \"Зимняя стужа\", повышающий вероятность критического удара \"Ледяного копья\" и \"Ледяной стрелы\" против пораженной цели на 2%. Время действия – 15 сек. Суммируется до 3 раз."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Gives your Frost damage spells a 80% chance to apply the Winter's Chill effect, which increases the chance your Ice Lance and Frostbolt spells will critically hit the target by 2% for 15 sec. Stacks up to 4 times.",
+                "ruRU": "Заклинания магии льда с вероятностью 80% применяют эффект \"Зимняя стужа\", повышающий вероятность критического удара \"Ледяного копья\" и \"Ледяной стрелы\" против пораженной цели на 2%. Время действия – 15 сек. Суммируется до 4 раз."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Gives your Frost damage spells a 100% chance to apply the Winter's Chill effect, which increases the chance your Ice Lance and Frostbolt spells will critically hit the target by 2% for 15 sec. Stacks up to 5 times.",
+                "ruRU": "Заклинания магии льда с вероятностью 100% применяют эффект \"Зимняя стужа\", повышающий вероятность критического удара \"Ледяного копья\" и \"Ледяной стрелы\" против пораженной цели на 2%. Время действия – 15 сек. Суммируется до 5 раз."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 105762,
+          "spellId": 11426,
+          "definitionId": 135292,
+          "key": "ice-barrier",
+          "iconFileDataId": 135988,
+          "iconName": "spell_ice_lament",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Ice Barrier",
+            "ruRU": "Ледяная преграда"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Instantly shields you, absorbing 431 damage. Lasts 1 min. While the shield holds, your spellcasts will not be interrupted or delayed from taking damage.",
+                "ruRU": "Вас мгновенно окружает защитный барьер, поглощающий 431 ед. урона. Время действия – 1 мин. Все время действия щита ваши заклинания невозможно прервать, а получаемый урон не вызывает задержку при применении заклинаний."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            105766
+          ]
+        }
+      ]
+    }
+  ]
+}

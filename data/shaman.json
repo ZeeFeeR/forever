@@ -1,0 +1,2254 @@
+{
+  "schemaVersion": 1,
+  "product": "wow_classic_beta",
+  "build": "1.60.1.69977",
+  "generatedAt": "2026-09-24T07:21:04.040Z",
+  "source": "Wago DB2 / WoW Forever beta client data",
+  "class": {
+    "id": "shaman",
+    "classId": 7,
+    "name": {
+      "enUS": "Shaman",
+      "ruRU": "Шаман"
+    }
+  },
+  "traitTreeId": 1082,
+  "rules": {
+    "maxLevel": 60,
+    "firstPointLevel": 10,
+    "maxPoints": 51,
+    "pointsPerRow": 5
+  },
+  "trees": [
+    {
+      "id": "elemental",
+      "order": 0,
+      "name": {
+        "enUS": "Elemental",
+        "ruRU": "Стихии"
+      },
+      "talents": [
+        {
+          "nodeId": 104773,
+          "spellId": 16039,
+          "definitionId": 134234,
+          "key": "convection",
+          "iconFileDataId": 136116,
+          "iconName": "spell_nature_wispsplode",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Convection",
+            "ruRU": "Конвекция"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 2%.",
+                "ruRU": "Снижает затраты маны на заклинания категории \"Шок\", \"Молнию\", \"Выброс лавы\" и \"Цепную молнию\" на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 4%.",
+                "ruRU": "Снижает затраты маны на заклинания категории \"Шок\", \"Молнию\", \"Выброс лавы\" и \"Цепную молнию\" на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 6%.",
+                "ruRU": "Снижает затраты маны на заклинания категории \"Шок\", \"Молнию\", \"Выброс лавы\" и \"Цепную молнию\" на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 8%.",
+                "ruRU": "Снижает затраты маны на заклинания категории \"Шок\", \"Молнию\", \"Выброс лавы\" и \"Цепную молнию\" на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 10%.",
+                "ruRU": "Снижает затраты маны на заклинания категории \"Шок\", \"Молнию\", \"Выброс лавы\" и \"Цепную молнию\" на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104772,
+          "spellId": 16035,
+          "definitionId": 134233,
+          "key": "concussion",
+          "iconFileDataId": 136026,
+          "iconName": "spell_nature_earthshock",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Concussion",
+            "ruRU": "Сотрясение мозга"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 1%.",
+                "ruRU": "Увеличивает урон от \"Молнии\", \"Цепной молнии\" и \"Земного шока\" на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 2%.",
+                "ruRU": "Увеличивает урон от \"Молнии\", \"Цепной молнии\" и \"Земного шока\" на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 3%.",
+                "ruRU": "Увеличивает урон от \"Молнии\", \"Цепной молнии\" и \"Земного шока\" на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 4%.",
+                "ruRU": "Увеличивает урон от \"Молнии\", \"Цепной молнии\" и \"Земного шока\" на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 5%.",
+                "ruRU": "Увеличивает урон от \"Молнии\", \"Цепной молнии\" и \"Земного шока\" на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104771,
+          "spellId": 28996,
+          "definitionId": 134232,
+          "key": "elemental-warding",
+          "iconFileDataId": 136094,
+          "iconName": "spell_nature_spiritarmor",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Elemental Warding",
+            "ruRU": "Защита от стихий"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces damage taken from Fire, Frost, and Nature effects by 3%.",
+                "ruRU": "Уменьшает урон, получаемый от огня, магии льда и сил природы, на 3%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces damage taken from Fire, Frost, and Nature effects by 7%.",
+                "ruRU": "Уменьшает урон, получаемый от огня, магии льда и сил природы, на 7%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces damage taken from Fire, Frost, and Nature effects by 10%.",
+                "ruRU": "Уменьшает урон, получаемый от огня, магии льда и сил природы, на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104767,
+          "spellId": 16040,
+          "definitionId": 134228,
+          "key": "reverberation",
+          "iconFileDataId": 135850,
+          "iconName": "spell_frost_frostward",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Reverberation",
+            "ruRU": "Отзвук"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Shock spells by 0.2 sec.",
+                "ruRU": "Сокращает время восстановления заклинаний категории \"Шок\" на 0.2 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Shock spells by 0.4 sec.",
+                "ruRU": "Сокращает время восстановления заклинаний категории \"Шок\" на 0.4 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cooldown of your Shock spells by 0.6 sec.",
+                "ruRU": "Сокращает время восстановления заклинаний категории \"Шок\" на 0.6 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the cooldown of your Shock spells by 0.8 sec.",
+                "ruRU": "Сокращает время восстановления заклинаний категории \"Шок\" на 0.8 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the cooldown of your Shock spells by 1.0 sec.",
+                "ruRU": "Сокращает время восстановления заклинаний категории \"Шок\" на 1.0 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104770,
+          "spellId": 16038,
+          "definitionId": 134231,
+          "key": "call-of-flame",
+          "iconFileDataId": 135817,
+          "iconName": "spell_fire_immolation",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Call of Flame",
+            "ruRU": "Зов пламени"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 5%.",
+                "ruRU": "Увеличивает урон, наносимый вашими тотемами огня и заклинаниями \"Огненный шок\", \"Кольцо огня\" и \"Выброс лавы\", на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 10%.",
+                "ruRU": "Увеличивает урон, наносимый вашими тотемами огня и заклинаниями \"Огненный шок\", \"Кольцо огня\" и \"Выброс лавы\", на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 15%.",
+                "ruRU": "Увеличивает урон, наносимый вашими тотемами огня и заклинаниями \"Огненный шок\", \"Кольцо огня\" и \"Выброс лавы\", на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104769,
+          "spellId": 30160,
+          "definitionId": 134230,
+          "key": "elemental-devastation",
+          "iconFileDataId": 135791,
+          "iconName": "spell_fire_elementaldevastation",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Elemental Devastation",
+            "ruRU": "Опустошение Духов стихии"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 3% for 10 sec.",
+                "ruRU": "Если ваше атакующее заклинание наносит критический урон, вероятность критического удара в ближнем бою повышается на 3% на 10 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 6% for 10 sec.",
+                "ruRU": "Если ваше атакующее заклинание наносит критический урон, вероятность критического удара в ближнем бою повышается на 6% на 10 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 9% for 10 sec.",
+                "ruRU": "Если ваше атакующее заклинание наносит критический урон, вероятность критического удара в ближнем бою повышается на 9% на 10 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104768,
+          "spellId": 16164,
+          "definitionId": 134229,
+          "key": "elemental-focus",
+          "iconFileDataId": 136170,
+          "iconName": "spell_shadow_manaburn",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Elemental Focus",
+            "ruRU": "Концентрация стихий"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 10% chance to enter a Clearcasting state after casting any Fire, Frost, or Nature damage spell. The Clearcasting state reduces the mana cost of your next damage spell by 100%.",
+                "ruRU": "При применении заклинания огня, магии льда или сил природы вы с вероятностью 10% переходите в состояние \"Ясность мысли\". \"Ясность мысли\" снижает затраты маны на следующее наносящее урон заклинание на 100%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104766,
+          "spellId": 16089,
+          "definitionId": 134227,
+          "key": "elemental-fury",
+          "iconFileDataId": 135830,
+          "iconName": "spell_fire_volcano",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Elemental Fury",
+            "ruRU": "Неистовство стихий"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 20%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 20%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 40%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 40%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 60%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 60%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 80%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 80%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 100%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 100%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104764,
+          "spellId": 16086,
+          "definitionId": 134225,
+          "key": "improved-fire-nova",
+          "iconFileDataId": 135824,
+          "iconName": "spell_fire_sealoffire",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Fire Nova",
+            "ruRU": "Улучшенное кольцо огня"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Fire Nova spell by 10% and reduces its cooldown by 2 sec.",
+                "ruRU": "Увеличивает урон от \"Кольца огня\" на 10% и сокращает время его восстановления на 2 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Fire Nova spell by 20% and reduces its cooldown by 4 sec.",
+                "ruRU": "Увеличивает урон от \"Кольца огня\" на 20% и сокращает время его восстановления на 4 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104763,
+          "spellId": 29062,
+          "definitionId": 134224,
+          "key": "eye-of-the-storm",
+          "iconFileDataId": 136032,
+          "iconName": "spell_nature_eyeofthestorm",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Eye of the Storm",
+            "ruRU": "Око шторма"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, and Lava Burst by 23%.",
+                "ruRU": "Сокращает задержку при получении урона во время произнесения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 23%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, and Lava Burst by 47%.",
+                "ruRU": "Сокращает задержку при получении урона во время произнесения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 47%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, and Lava Burst by 70%.",
+                "ruRU": "Сокращает задержку при получении урона во время произнесения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 70%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104762,
+          "spellId": 16120,
+          "definitionId": 134223,
+          "key": "call-of-thunder",
+          "iconFileDataId": 136014,
+          "iconName": "spell_nature_callstorm",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Call of Thunder",
+            "ruRU": "Зов грома"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 3%.",
+                "ruRU": "Повышает вероятность критического удара \"Молнии\" и \"Цепной молнии\" на 3%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104766
+          ]
+        },
+        {
+          "nodeId": 104761,
+          "spellId": 28999,
+          "definitionId": 134222,
+          "key": "elemental-reach",
+          "iconFileDataId": 136099,
+          "iconName": "spell_nature_stormreach",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Elemental Reach",
+            "ruRU": "Предел стихии"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 3 yards, and increases the range of your Flame Shock spell by 8 yards.",
+                "ruRU": "Увеличивает дальность действия \"Молнии\", \"Цепной молнии\", \"Кольца огня\" и \"Выброса лавы\" на 3 м, а \"Огненного шока\" – на 8 м."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 6 yards, and increases the range of your Flame Shock spell by 15 yards.",
+                "ruRU": "Увеличивает дальность действия \"Молнии\", \"Цепной молнии\", \"Кольца огня\" и \"Выброса лавы\" на 6 м, а \"Огненного шока\" – на 15 м."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104759,
+          "spellId": 408438,
+          "definitionId": 134220,
+          "key": "lightning-overload",
+          "iconFileDataId": 136050,
+          "iconName": "spell_nature_lightningoverload",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Lightning Overload",
+            "ruRU": "Электрическая перегрузка"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives your Lightning Bolt and Chain Lightning spells a 3% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+                "ruRU": "\"Молния\" и \"Цепная молния\" с вероятностью 3% применяют второе такое же заклинание к той же цели без затрат ресурсов. Второе заклинание наносит вдвое меньше урона и не создает угрозы."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives your Lightning Bolt and Chain Lightning spells a 7% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+                "ruRU": "\"Молния\" и \"Цепная молния\" с вероятностью 7% применяют второе такое же заклинание к той же цели без затрат ресурсов. Второе заклинание наносит вдвое меньше урона и не создает угрозы."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives your Lightning Bolt and Chain Lightning spells a 10% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+                "ruRU": "\"Молния\" и \"Цепная молния\" с вероятностью 10% применяют второе такое же заклинание к той же цели без затрат ресурсов. Второе заклинание наносит вдвое меньше урона и не создает угрозы."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104760,
+          "spellId": 1222988,
+          "definitionId": 134221,
+          "key": "earthbound",
+          "iconFileDataId": 136100,
+          "iconName": "spell_nature_stranglevines",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 3,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Earthbound",
+            "ruRU": "Узы земли"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Your Earthbind Totem Immobilizes nearby targets for 5 sec when cast.",
+                "ruRU": "Тотем оков земли обездвиживает ближайшие цели на 5 сек. при применении."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104765,
+          "spellId": 16578,
+          "definitionId": 134226,
+          "key": "elemental-alacrity",
+          "iconFileDataId": 135990,
+          "iconName": "spell_lightning_lightningbolt01",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Elemental Alacrity",
+            "ruRU": "Стихийная стремительность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.17 sec.",
+                "ruRU": "Сокращает время применения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 0.17 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.33 sec.",
+                "ruRU": "Сокращает время применения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 0.33 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.50 sec.",
+                "ruRU": "Сокращает время применения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 0.50 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104762
+          ]
+        },
+        {
+          "nodeId": 104758,
+          "spellId": 408490,
+          "definitionId": 134219,
+          "key": "lava-burst",
+          "iconFileDataId": 237582,
+          "iconName": "spell_shaman_lavaburst",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Lava Burst",
+            "ruRU": "Выброс лавы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "You hurl molten lava at the target, dealing 113 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage.",
+                "ruRU": "Вы бросаете в противника раскаленную лаву, нанося 113 ед. урона от огня. Если цель находится под действием эффекта \"Огненный шок\", \"Выброс лавы\" наносит на 20% больше урона."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104759
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enhancement",
+      "order": 1,
+      "name": {
+        "enUS": "Enhancement",
+        "ruRU": "Совершенствование"
+      },
+      "talents": [
+        {
+          "nodeId": 104757,
+          "spellId": 16043,
+          "definitionId": 134218,
+          "key": "earths-grasp",
+          "iconFileDataId": 136097,
+          "iconName": "spell_nature_stoneclawtotem",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Earth's Grasp",
+            "ruRU": "Земной захват"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the health of your Stoneclaw Totem by 25% and the radius of your Earthbind Totem by 10%.",
+                "ruRU": "Увеличивает запас прочности тотема каменного когтя на 25%, а радиус действия тотема оков земли – на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the health of your Stoneclaw Totem by 50% and the radius of your Earthbind Totem by 20%.",
+                "ruRU": "Увеличивает запас прочности тотема каменного когтя на 50%, а радиус действия тотема оков земли – на 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104753,
+          "spellId": 16255,
+          "definitionId": 134214,
+          "key": "thundering-strikes",
+          "iconFileDataId": 132325,
+          "iconName": "ability_thunderbolt",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Thundering Strikes",
+            "ruRU": "Грохочущие удары"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with all spells and attacks by 1%.",
+                "ruRU": "Повышает вероятность критического удара атак и заклинаний на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with all spells and attacks by 2%.",
+                "ruRU": "Повышает вероятность критического удара атак и заклинаний на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with all spells and attacks by 3%.",
+                "ruRU": "Повышает вероятность критического удара атак и заклинаний на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with all spells and attacks by 4%.",
+                "ruRU": "Повышает вероятность критического удара атак и заклинаний на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Improves your chance to get a critical strike with all spells and attacks by 5%.",
+                "ruRU": "Повышает вероятность критического удара атак и заклинаний на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104756,
+          "spellId": 17485,
+          "definitionId": 134217,
+          "key": "ancestral-knowledge",
+          "iconFileDataId": 136162,
+          "iconName": "spell_shadow_grimward",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Ancestral Knowledge",
+            "ruRU": "Знания предков"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Intellect by 2%.",
+                "ruRU": "Повышает интеллект на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Intellect by 4%.",
+                "ruRU": "Повышает интеллект на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Intellect by 6%.",
+                "ruRU": "Повышает интеллект на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Intellect by 8%.",
+                "ruRU": "Повышает интеллект на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Intellect by 10%.",
+                "ruRU": "Повышает интеллект на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104754,
+          "spellId": 16258,
+          "definitionId": 134215,
+          "key": "guardian-totems",
+          "iconFileDataId": 136098,
+          "iconName": "spell_nature_stoneskintotem",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Guardian Totems",
+            "ruRU": "Сторожевые тотемы"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by 10% and reduces the cooldown of your Grounding Totem by 1 sec.",
+                "ruRU": "\"Тотем каменной кожи\" и \"Тотем стены ветра\" уменьшают урон еще на 10%, а \"Тотем заземления\" восстанавливается на 1 сек. быстрее."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by 20% and reduces the cooldown of your Grounding Totem by 2 sec.",
+                "ruRU": "\"Тотем каменной кожи\" и \"Тотем стены ветра\" уменьшают урон еще на 20%, а \"Тотем заземления\" восстанавливается на 2 сек. быстрее."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104755,
+          "spellId": 415140,
+          "definitionId": 134216,
+          "key": "mental-dexterity",
+          "iconFileDataId": 136055,
+          "iconName": "spell_nature_mentalquickness",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Mental Dexterity",
+            "ruRU": "Гибкость разума"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Attack Power by an amount equal to 33% of your Intellect.",
+                "ruRU": "Увеличивает вашу силу атаки на 33% интеллекта."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Attack Power by an amount equal to 67% of your Intellect.",
+                "ruRU": "Увеличивает вашу силу атаки на 67% интеллекта."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Attack Power by an amount equal to 100% of your Intellect.",
+                "ruRU": "Увеличивает вашу силу атаки на 100% интеллекта."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104752,
+          "spellId": 16262,
+          "definitionId": 134213,
+          "key": "improved-ghost-wolf",
+          "iconFileDataId": 136095,
+          "iconName": "spell_nature_spiritwolf",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Ghost Wolf",
+            "ruRU": "Улучшенный призрачный волк"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cast time of your Ghost Wolf spell by 1.0 sec, and Ghost Wolf may be used indoors.",
+                "ruRU": "Сокращает время применения \"Призрачного волка\" на 1.0 сек. и позволяет использовать его в помещениях."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cast time of your Ghost Wolf spell by 3.0 sec, and Ghost Wolf may be used indoors.",
+                "ruRU": "Сокращает время применения \"Призрачного волка\" на 3.0 сек. и позволяет использовать его в помещениях."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104751,
+          "spellId": 16261,
+          "definitionId": 134212,
+          "key": "improved-lightning-shield",
+          "iconFileDataId": 136051,
+          "iconName": "spell_nature_lightningshield",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Improved Lightning Shield",
+            "ruRU": "Улучшенный щит молний"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the damage done by your Lightning Shield orbs by 5%.",
+                "ruRU": "Увеличивает урон от сфер \"Щита молний\" на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the damage done by your Lightning Shield orbs by 10%.",
+                "ruRU": "Увеличивает урон от сфер \"Щита молний\" на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the damage done by your Lightning Shield orbs by 15%.",
+                "ruRU": "Увеличивает урон от сфер \"Щита молний\" на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104750,
+          "spellId": 16266,
+          "definitionId": 134211,
+          "key": "elemental-weapons",
+          "iconFileDataId": 135814,
+          "iconName": "spell_fire_flametounge",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Elemental Weapons",
+            "ruRU": "Оружие стихий"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the melee attack power bonus of your Rockbiter Weapon by 7%, your Windfury Weapon effect by 13% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 5%.",
+                "ruRU": "Увеличивает бонус к силе атаки ближнего боя от \"Оружия камнедробителя\" на 7%, эффект \"Оружия неистовства ветра\" – на 13%, а урон от \"Оружия языка пламени\" и \"Оружия ледяного клейма\" – на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the melee attack power bonus of your Rockbiter Weapon by 13%, your Windfury Weapon effect by 27% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%.",
+                "ruRU": "Увеличивает бонус к силе атаки ближнего боя от \"Оружия камнедробителя\" на 13%, эффект \"Оружия неистовства ветра\" – на 27%, а урон от \"Оружия языка пламени\" и \"Оружия ледяного клейма\" – на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the melee attack power bonus of your Rockbiter Weapon by 20%, your Windfury Weapon effect by 40% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 15%.",
+                "ruRU": "Увеличивает бонус к силе атаки ближнего боя от \"Оружия камнедробителя\" на 20%, эффект \"Оружия неистовства ветра\" – на 40%, а урон от \"Оружия языка пламени\" и \"Оружия ледяного клейма\" – на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104749,
+          "spellId": 1223030,
+          "definitionId": 134210,
+          "key": "shamanistic-focus",
+          "iconFileDataId": 136027,
+          "iconName": "spell_nature_elementalabsorption",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Shamanistic Focus",
+            "ruRU": "Концентрация шамана"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the mana cost of your Shock and Lightning Shield spells by 45%.",
+                "ruRU": "Снижает затраты маны на \"Щит молний\" и заклинания категории \"Шок\" на 45%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104748,
+          "spellId": 16254,
+          "definitionId": 134209,
+          "key": "anticipation",
+          "iconFileDataId": 136056,
+          "iconName": "spell_nature_mirrorimage",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 3,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Anticipation",
+            "ruRU": "Предчувствие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your chance to dodge by an additional 2%.",
+                "ruRU": "Повышает вероятность уклонения еще на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your chance to dodge by an additional 4%.",
+                "ruRU": "Повышает вероятность уклонения еще на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your chance to dodge by an additional 6%.",
+                "ruRU": "Повышает вероятность уклонения еще на 6%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104746,
+          "spellId": 16252,
+          "definitionId": 134207,
+          "key": "toughness",
+          "iconFileDataId": 135892,
+          "iconName": "spell_holy_devotion",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Toughness",
+            "ruRU": "Крепость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your Stamina by 2%.",
+                "ruRU": "Повышает вашу выносливость на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your Stamina by 4%.",
+                "ruRU": "Повышает вашу выносливость на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your Stamina by 6%.",
+                "ruRU": "Повышает вашу выносливость на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your Stamina by 8%.",
+                "ruRU": "Повышает вашу выносливость на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your Stamina by 10%.",
+                "ruRU": "Повышает вашу выносливость на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104747,
+          "spellId": 16256,
+          "definitionId": 134208,
+          "key": "flurry",
+          "iconFileDataId": 132152,
+          "iconName": "ability_ghoulfrenzy",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Flurry",
+            "ruRU": "Шквал"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your attack speed by 5% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки повышается на 5%. Действует, пока вы не нанесете 3 удара."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки повышается на 10%. Действует, пока вы не нанесете 3 удара."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your attack speed by 15% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки повышается на 15%. Действует, пока вы не нанесете 3 удара."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases your attack speed by 20% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки повышается на 20%. Действует, пока вы не нанесете 3 удара."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases your attack speed by 25% for your next 3 swings after dealing a melee critical strike.",
+                "ruRU": "После того как вы наносите критический удар в ближнем бою, скорость атаки повышается на 25%. Действует, пока вы не нанесете 3 удара."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104755
+          ]
+        },
+        {
+          "nodeId": 104743,
+          "spellId": 17364,
+          "definitionId": 134204,
+          "key": "stormstrike",
+          "iconFileDataId": 132314,
+          "iconName": "ability_shaman_stormstrike",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Stormstrike",
+            "ruRU": "Удар бури"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Instantly strike for normal weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec.",
+                "ruRU": "Мгновенно наносит цели урон от оружия и увеличивает урон, который ваше следующее заклинание \"Молния\", \"Цепная молния\" или \"Земной шок\" нанесет этой цели, на 20% на 12 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104745,
+          "spellId": 16268,
+          "definitionId": 134206,
+          "key": "spirit-weapons",
+          "iconFileDataId": 132269,
+          "iconName": "ability_parry",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 0,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Spirit Weapons",
+            "ruRU": "Духовное оружие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives a chance to parry enemy melee attacks, reduces all threat generated by your attacks by 30% while Rockbiter Weapon is not active, and increases all threat generated by 30% while Rockbiter Weapon is active.",
+                "ruRU": "Когда \"Оружие камнедробителя\" не активно, дает шанс парировать атаки противника в ближнем бою и снижает уровень создаваемой угрозы на 30%. Когда \"Оружие камнедробителя\" активно, повышает уровень создаваемой угрозы на 30%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104744,
+          "spellId": 30812,
+          "definitionId": 134205,
+          "key": "mental-quickness",
+          "iconFileDataId": 136090,
+          "iconName": "spell_nature_sleep",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Mental Quickness",
+            "ruRU": "Ментальная скорость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your spell damage and healing by up to 15% of your Intellect.",
+                "ruRU": "Увеличивает урон от заклинаний и силу исцеления максимум на 15% интеллекта."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your spell damage and healing by up to 30% of your Intellect.",
+                "ruRU": "Увеличивает урон от заклинаний и силу исцеления максимум на 30% интеллекта."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104742,
+          "spellId": 1223031,
+          "definitionId": 134203,
+          "key": "improved-stormstrike",
+          "iconFileDataId": 237581,
+          "iconName": "spell_shaman_improvedstormstrike",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Stormstrike",
+            "ruRU": "Улучшенный удар бури"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When you Stormstrike, you have a 50% chance to gain 50% mana regeneration while casting spells for 15 sec, and Stormstrike's cooldown has a 50% chance to reset each time you Dodge or Parry.",
+                "ruRU": "\"Удар бури\" с вероятностью 50% позволяет восстанавливать ману во время применения заклинаний со скоростью 50% от обычной в течение 15 сек. Когда вы уклоняетесь от атаки или парируете ее, \"Удар бури\" с вероятностью 50% мгновенно восстанавливается."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "When you Stormstrike, you have a 100% chance to gain 50% mana regeneration while casting spells for 15 sec, and Stormstrike's cooldown has a 100% chance to reset each time you Dodge or Parry.",
+                "ruRU": "\"Удар бури\" с вероятностью 100% позволяет восстанавливать ману во время применения заклинаний со скоростью 50% от обычной в течение 15 сек. Когда вы уклоняетесь от атаки или парируете ее, \"Удар бури\" с вероятностью 100% мгновенно восстанавливается."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104743
+          ]
+        },
+        {
+          "nodeId": 104741,
+          "spellId": 408498,
+          "definitionId": 134202,
+          "key": "maelstrom-weapon",
+          "iconFileDataId": 237584,
+          "iconName": "spell_shaman_maelstromweapon",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Maelstrom Weapon",
+            "ruRU": "Оружие Водоворота"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 4%. Stacks up to 5 times. Lasts 30 sec.",
+                "ruRU": "Когда вы наносите урон в ближнем бою, с некоторой вероятностью время применения следующей \"Молнии\" и затраты маны на нее сокращаются на 4%. Эффект суммируется до 5 раз. Время действия – 30 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 8%. Stacks up to 5 times. Lasts 30 sec.",
+                "ruRU": "Когда вы наносите урон в ближнем бою, с некоторой вероятностью время применения следующей \"Молнии\" и затраты маны на нее сокращаются на 8%. Эффект суммируется до 5 раз. Время действия – 30 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 12%. Stacks up to 5 times. Lasts 30 sec.",
+                "ruRU": "Когда вы наносите урон в ближнем бою, с некоторой вероятностью время применения следующей \"Молнии\" и затраты маны на нее сокращаются на 12%. Эффект суммируется до 5 раз. Время действия – 30 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 16%. Stacks up to 5 times. Lasts 30 sec.",
+                "ruRU": "Когда вы наносите урон в ближнем бою, с некоторой вероятностью время применения следующей \"Молнии\" и затраты маны на нее сокращаются на 16%. Эффект суммируется до 5 раз. Время действия – 30 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec.",
+                "ruRU": "Когда вы наносите урон в ближнем бою, с некоторой вероятностью время применения следующей \"Молнии\" и затраты маны на нее сокращаются на 20%. Эффект суммируется до 5 раз. Время действия – 30 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104740,
+          "spellId": 425336,
+          "definitionId": 134201,
+          "key": "rage-of-the-farseer",
+          "iconFileDataId": 136012,
+          "iconName": "spell_nature_bloodlust",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Rage of the Farseer",
+            "ruRU": "Ярость предсказателя"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your melee attack speed and spell casting speed by 30% for 25 sec.",
+                "ruRU": "Повышает скорость атаки в ближнем бою и скорость применения заклинаний на 30% на 25 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104744
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restoration",
+      "order": 2,
+      "name": {
+        "enUS": "Restoration",
+        "ruRU": "Исцеление"
+      },
+      "talents": [
+        {
+          "nodeId": 104739,
+          "spellId": 16182,
+          "definitionId": 134200,
+          "key": "improved-healing-wave",
+          "iconFileDataId": 136052,
+          "iconName": "spell_nature_magicimmunity",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Improved Healing Wave",
+            "ruRU": "Улучшенная волна исцеления"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the casting time of your Healing Wave spell by 0.1 sec.",
+                "ruRU": "Сокращает время применения \"Волны исцеления\" на 0.1 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the casting time of your Healing Wave spell by 0.2 sec.",
+                "ruRU": "Сокращает время применения \"Волны исцеления\" на 0.2 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the casting time of your Healing Wave spell by 0.3 sec.",
+                "ruRU": "Сокращает время применения \"Волны исцеления\" на 0.3 сек."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the casting time of your Healing Wave spell by 0.4 sec.",
+                "ruRU": "Сокращает время применения \"Волны исцеления\" на 0.4 сек."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the casting time of your Healing Wave spell by 0.5 sec.",
+                "ruRU": "Сокращает время применения \"Волны исцеления\" на 0.5 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104729,
+          "spellId": 16173,
+          "definitionId": 134190,
+          "key": "totemic-focus",
+          "iconFileDataId": 136057,
+          "iconName": "spell_nature_moonglow",
+          "iconSource": "spell-misc",
+          "row": 0,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Totemic Focus",
+            "ruRU": "Тотемное средоточие"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Mana cost of your totems and any spells that summon or move them by 5%.",
+                "ruRU": "Снижает затраты маны на создание тотемов, а также на заклинания их призыва и перемещения, на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Mana cost of your totems and any spells that summon or move them by 10%.",
+                "ruRU": "Снижает затраты маны на создание тотемов, а также на заклинания их призыва и перемещения, на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Mana cost of your totems and any spells that summon or move them by 15%.",
+                "ruRU": "Снижает затраты маны на создание тотемов, а также на заклинания их призыва и перемещения, на 15%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the Mana cost of your totems and any spells that summon or move them by 20%.",
+                "ruRU": "Снижает затраты маны на создание тотемов, а также на заклинания их призыва и перемещения, на 20%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the Mana cost of your totems and any spells that summon or move them by 25%.",
+                "ruRU": "Снижает затраты маны на создание тотемов, а также на заклинания их призыва и перемещения, на 25%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104734,
+          "spellId": 1223033,
+          "definitionId": 134195,
+          "key": "mindfulness",
+          "iconFileDataId": 136090,
+          "iconName": "spell_nature_sleep",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Mindfulness",
+            "ruRU": "Вдумчивость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Allows 17% of your Mana regeneration to continue while casting.",
+                "ruRU": "Во время применения заклинаний мана продолжает восполняться со скоростью 17%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Allows 33% of your Mana regeneration to continue while casting.",
+                "ruRU": "Во время применения заклинаний мана продолжает восполняться со скоростью 33%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Allows 50% of your Mana regeneration to continue while casting.",
+                "ruRU": "Во время применения заклинаний мана продолжает восполняться со скоростью 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104736,
+          "spellId": 29187,
+          "definitionId": 134197,
+          "key": "natural-grace",
+          "iconFileDataId": 136041,
+          "iconName": "spell_nature_healingtouch",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Natural Grace",
+            "ruRU": "Природная ловкость"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the threat generated by your spells by 5%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой вашими заклинаниями, на 5%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the threat generated by your spells by 10%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой вашими заклинаниями, на 10%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the threat generated by your spells by 15%.",
+                "ruRU": "Снижает уровень угрозы, создаваемой вашими заклинаниями, на 15%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104735,
+          "spellId": 16179,
+          "definitionId": 134196,
+          "key": "tidal-focus",
+          "iconFileDataId": 135859,
+          "iconName": "spell_frost_manarecharge",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Tidal Focus",
+            "ruRU": "Приливная концентрация"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the Mana cost of your healing spells by 1% and improves your chance to hit by 1%.",
+                "ruRU": "Снижает затраты маны на применение исцеляющих заклинаний на 1% и повышает вероятность попадания на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the Mana cost of your healing spells by 2% and improves your chance to hit by 2%.",
+                "ruRU": "Снижает затраты маны на применение исцеляющих заклинаний на 2% и повышает вероятность попадания на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Reduces the Mana cost of your healing spells by 3% and improves your chance to hit by 3%.",
+                "ruRU": "Снижает затраты маны на применение исцеляющих заклинаний на 3% и повышает вероятность попадания на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Reduces the Mana cost of your healing spells by 4% and improves your chance to hit by 4%.",
+                "ruRU": "Снижает затраты маны на применение исцеляющих заклинаний на 4% и повышает вероятность попадания на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Reduces the Mana cost of your healing spells by 5% and improves your chance to hit by 5%.",
+                "ruRU": "Снижает затраты маны на применение исцеляющих заклинаний на 5% и повышает вероятность попадания на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104737,
+          "spellId": 16184,
+          "definitionId": 134198,
+          "key": "improved-reincarnation",
+          "iconFileDataId": 136080,
+          "iconName": "spell_nature_reincarnation",
+          "iconSource": "spell-misc",
+          "row": 1,
+          "column": 3,
+          "maxRanks": 2,
+          "name": {
+            "enUS": "Improved Reincarnation",
+            "ruRU": "Улучшенное восстание из мертвых"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Reduces the cooldown of your Reincarnation spell by 10 min, increases your maximum health by 2%, and increases the amount of health and Mana you reincarnate with by an additional 10%.",
+                "ruRU": "Сокращает время восстановления \"Перерождения\" на 10 мин. и увеличивает максимальный запас здоровья на 2%, а также увеличивает количество здоровья и маны после возрождения еще на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Reduces the cooldown of your Reincarnation spell by 20 min, increases your maximum health by 4%, and increases the amount of health and Mana you reincarnate with by an additional 20%.",
+                "ruRU": "Сокращает время восстановления \"Перерождения\" на 20 мин. и увеличивает максимальный запас здоровья на 4%, а также увеличивает количество здоровья и маны после возрождения еще на 20%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104731,
+          "spellId": 16176,
+          "definitionId": 134192,
+          "key": "ancestral-healing",
+          "iconFileDataId": 136109,
+          "iconName": "spell_nature_undyingstrength",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 0,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Ancestral Healing",
+            "ruRU": "Исцеление предков"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases your target's armor value by 8% for 15 sec after getting a critical effect from one of your healing spells.",
+                "ruRU": "Критические эффекты ваших исцеляющих заклинаний усиливают броню цели на 8% на 15 сек."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases your target's armor value by 17% for 15 sec after getting a critical effect from one of your healing spells.",
+                "ruRU": "Критические эффекты ваших исцеляющих заклинаний усиливают броню цели на 17% на 15 сек."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases your target's armor value by 25% for 15 sec after getting a critical effect from one of your healing spells.",
+                "ruRU": "Критические эффекты ваших исцеляющих заклинаний усиливают броню цели на 25% на 15 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104733,
+          "spellId": 16181,
+          "definitionId": 134194,
+          "key": "healing-focus",
+          "iconFileDataId": 136043,
+          "iconName": "spell_nature_healingwavelesser",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Healing Focus",
+            "ruRU": "Средоточие исцеления"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Gives you a 23% chance to avoid interruption caused by damage while casting any healing spell.",
+                "ruRU": "С вероятностью 23% позволяет избежать задержки при применении исцеляющих заклинаний, когда вы получаете урон."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Gives you a 47% chance to avoid interruption caused by damage while casting any healing spell.",
+                "ruRU": "С вероятностью 47% позволяет избежать задержки при применении исцеляющих заклинаний, когда вы получаете урон."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Gives you a 70% chance to avoid interruption caused by damage while casting any healing spell.",
+                "ruRU": "С вероятностью 70% позволяет избежать задержки при применении исцеляющих заклинаний, когда вы получаете урон."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104732,
+          "spellId": 408510,
+          "definitionId": 134193,
+          "key": "water-shield",
+          "iconFileDataId": 132315,
+          "iconName": "ability_shaman_watershield",
+          "iconSource": "spell-misc",
+          "row": 2,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Water Shield",
+            "ruRU": "Водный щит"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "The caster is surrounded by 3 globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's healing spells gets a critical result, 2% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds. Lasts 10 min. Only one Elemental Shield can be active on the Shaman at any one time.",
+                "ruRU": "Создает щит из 3 водяных сфер. Каждый раз, когда вы получаете удар в ближнем или дальнем бою, когда вас поражает заклинание или срабатывает критический эффект вашего исцеляющего заклинания, щит восполняет 2% максимального запаса маны, теряя одну сферу. Срабатывает не чаще раза в несколько секунд. Время действия – 10 мин. Вас может защищать только одно заклинание категории \"Щит стихий\" одновременно."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104738,
+          "spellId": 16194,
+          "definitionId": 134199,
+          "key": "tidal-mastery",
+          "iconFileDataId": 136107,
+          "iconName": "spell_nature_tranquility",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 0,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Tidal Mastery",
+            "ruRU": "Мастерство владения приливами"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the critical effect chance of your healing spells by 1%.",
+                "ruRU": "Повышает вероятность критического эффекта исцеляющих заклинаний на 1%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the critical effect chance of your healing spells by 2%.",
+                "ruRU": "Повышает вероятность критического эффекта исцеляющих заклинаний на 2%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the critical effect chance of your healing spells by 3%.",
+                "ruRU": "Повышает вероятность критического эффекта исцеляющих заклинаний на 3%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical effect chance of your healing spells by 4%.",
+                "ruRU": "Повышает вероятность критического эффекта исцеляющих заклинаний на 4%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical effect chance of your healing spells by 5%.",
+                "ruRU": "Повышает вероятность критического эффекта исцеляющих заклинаний на 5%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104730,
+          "spellId": 16187,
+          "definitionId": 134191,
+          "key": "restorative-totems",
+          "iconFileDataId": 136053,
+          "iconName": "spell_nature_manaregentotem",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 1,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Restorative Totems",
+            "ruRU": "Восстанавливающий тотем"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the effect of your Mana Spring Totem by 5% and increases the effect of your Healing Stream Totem by 10%.",
+                "ruRU": "Повышает эффективность тотема источника маны на 5%, а тотема исцеляющего потока – на 10%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the effect of your Mana Spring Totem by 10% and increases the effect of your Healing Stream Totem by 20%.",
+                "ruRU": "Повышает эффективность тотема источника маны на 10%, а тотема исцеляющего потока – на 20%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the effect of your Mana Spring Totem by 15% and increases the effect of your Healing Stream Totem by 30%.",
+                "ruRU": "Повышает эффективность тотема источника маны на 15%, а тотема исцеляющего потока – на 30%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the effect of your Mana Spring Totem by 20% and increases the effect of your Healing Stream Totem by 40%.",
+                "ruRU": "Повышает эффективность тотема источника маны на 20%, а тотема исцеляющего потока – на 40%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the effect of your Mana Spring Totem by 25% and increases the effect of your Healing Stream Totem by 50%.",
+                "ruRU": "Повышает эффективность тотема источника маны на 25%, а тотема исцеляющего потока – на 50%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104728,
+          "spellId": 16190,
+          "definitionId": 134189,
+          "key": "mana-tide-totem",
+          "iconFileDataId": 135861,
+          "iconName": "spell_frost_summonwaterelemental",
+          "iconSource": "spell-misc",
+          "row": 3,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Mana Tide Totem",
+            "ruRU": "Тотем прилива маны"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 88 mana every 3 seconds to group members within 30 yards.",
+                "ruRU": "Создание рядом с заклинателем тотема прилива маны прочностью 5 ед., который в течение 12 сек. раз в 3 сек. восполняет 88 ед. маны всем участникам группы в радиусе 30 м."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104727,
+          "spellId": 29206,
+          "definitionId": 134188,
+          "key": "healing-way",
+          "iconFileDataId": 136044,
+          "iconName": "spell_nature_healingway",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 1,
+          "maxRanks": 3,
+          "name": {
+            "enUS": "Healing Way",
+            "ruRU": "Путь исцеления"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the amount healed by your Healing Wave spell by 8%.",
+                "ruRU": "\"Волна исцеления\" восполняет на 8% больше здоровья."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the amount healed by your Healing Wave spell by 17%.",
+                "ruRU": "\"Волна исцеления\" восполняет на 17% больше здоровья."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the amount healed by your Healing Wave spell by 25%.",
+                "ruRU": "\"Волна исцеления\" восполняет на 25% больше здоровья."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104726,
+          "spellId": 16188,
+          "definitionId": 134187,
+          "key": "natures-swiftness",
+          "iconFileDataId": 136076,
+          "iconName": "spell_nature_ravenform",
+          "iconSource": "spell-misc",
+          "row": 4,
+          "column": 2,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Nature's Swiftness",
+            "ruRU": "Природная стремительность"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "When activated, your next Nature spell with a casting time less than 10 sec. becomes an instant cast spell.",
+                "ruRU": "Мгновенное применение следующего заклинания сил природы, обычное время применения которого ниже 10 сек."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104725,
+          "spellId": 16178,
+          "definitionId": 134186,
+          "key": "purification",
+          "iconFileDataId": 135865,
+          "iconName": "spell_frost_wizardmark",
+          "iconSource": "spell-misc",
+          "row": 5,
+          "column": 2,
+          "maxRanks": 5,
+          "name": {
+            "enUS": "Purification",
+            "ruRU": "Чистота"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Increases the effectiveness of your healing spells by 2%.",
+                "ruRU": "Повышает эффективность ваших исцеляющих заклинаний на 2%."
+              }
+            },
+            {
+              "rank": 2,
+              "description": {
+                "enUS": "Increases the effectiveness of your healing spells by 4%.",
+                "ruRU": "Повышает эффективность ваших исцеляющих заклинаний на 4%."
+              }
+            },
+            {
+              "rank": 3,
+              "description": {
+                "enUS": "Increases the effectiveness of your healing spells by 6%.",
+                "ruRU": "Повышает эффективность ваших исцеляющих заклинаний на 6%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the effectiveness of your healing spells by 8%.",
+                "ruRU": "Повышает эффективность ваших исцеляющих заклинаний на 8%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the effectiveness of your healing spells by 10%.",
+                "ruRU": "Повышает эффективность ваших исцеляющих заклинаний на 10%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": []
+        },
+        {
+          "nodeId": 104724,
+          "spellId": 408521,
+          "definitionId": 134185,
+          "key": "riptide",
+          "iconFileDataId": 252995,
+          "iconName": "spell_nature_riptide",
+          "iconSource": "spell-misc",
+          "row": 6,
+          "column": 1,
+          "maxRanks": 1,
+          "name": {
+            "enUS": "Riptide",
+            "ruRU": "Быстрина"
+          },
+          "localization": {
+            "ruRUNameFallback": false,
+            "ruRUDescriptionFallback": false
+          },
+          "ranks": [
+            {
+              "rank": 1,
+              "description": {
+                "enUS": "Heals a friendly target for 480, an additional 445 over 15 sec, and increases the effectiveness of your Chain Heal casts directly on that target by 25%.",
+                "ruRU": "Восстанавливает союзнику 480 ед. здоровья сразу и еще 445 ед. здоровья за 15 сек. Повышает эффективность \"Цепного исцеления\", применяемого напрямую к этой цели, на 25%."
+              }
+            }
+          ],
+          "prerequisiteNodeIds": [
+            104727
+          ]
+        }
+      ]
+    }
+  ]
+}
