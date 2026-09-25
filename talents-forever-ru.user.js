@@ -349,13 +349,14 @@
     observer?.disconnect();
     observer = new MutationObserver((mutations) => {
       if (!enabled) return;
-      for (const mutation of mutations) {
-        if (mutation.type === 'characterData') {
-          scheduleTranslate(mutation.target);
-        } else {
-          for (const node of mutation.addedNodes) scheduleTranslate(node);
-        }
-      }
+
+      const hasRelevantMutation = mutations.some(
+        (mutation) =>
+          mutation.type === 'characterData' ||
+          (mutation.type === 'childList' && mutation.addedNodes.length > 0)
+      );
+
+      if (hasRelevantMutation) scheduleTranslate(document);
     });
 
     observer.observe(document.documentElement, {
