@@ -15,8 +15,7 @@
 (() => {
   'use strict';
 
-  const VERSION = '0.1.0';
-  const TF_DATA_URL = 'https://talentsforever.com/data.json';
+  const VERSION = '0.1.1';
   const RU_DATA_BASE = 'https://raw.githubusercontent.com/ZeeFeeR/forever/main/data';
   const STATUS_ID = 'tfru-status';
 
@@ -136,11 +135,16 @@
   }
 
   function extractSiteBuild(tfData, className) {
-    const source = tfData?.talents?.[className]?.source || '';
+    const source =
+      tfData?.talents?.source ||
+      tfData?.talents?.[className]?.source ||
+      '';
     const sourceMatch = String(source).match(/build\s+([0-9.]+)/i);
     if (sourceMatch) return sourceMatch[1];
 
-    const spellbookBuild = tfData?.spellbooks?.[className]?.build;
+    const spellbookBuild =
+      tfData?.spellbook?.build ||
+      tfData?.spellbooks?.[className]?.build;
     return spellbookBuild ? String(spellbookBuild) : null;
   }
 
@@ -164,7 +168,9 @@
   }
 
   function buildTalentTranslations(tfData, localData, className) {
-    const tfClass = tfData?.talents?.[className];
+    const tfClass = Array.isArray(tfData?.talents?.trees)
+      ? tfData.talents
+      : tfData?.talents?.[className];
     if (!tfClass || !Array.isArray(tfClass.trees)) {
       throw new Error(`Talents Forever has no talent data for ${className}`);
     }
@@ -350,13 +356,16 @@
     observer = new MutationObserver((mutations) => {
       if (!enabled) return;
 
-      const hasRelevantMutation = mutations.some(
-        (mutation) =>
-          mutation.type === 'characterData' ||
-          (mutation.type === 'childList' && mutation.addedNodes.length > 0)
-      );
+      for (const mutation of mutations) {
+        if (mutation.type === 'characterData') {
+          scheduleTranslate(mutation.target);
+          continue;
+        }
 
-      if (hasRelevantMutation) scheduleTranslate(document);
+        for (const node of mutation.addedNodes) {
+          scheduleTranslate(node);
+        }
+      }
     });
 
     observer.observe(document.documentElement, {
@@ -440,7 +449,7 @@
 
     try {
       const [tfData, localData] = await Promise.all([
-        requestJson(TF_DATA_URL),
+        requestJson(`https://talentsforever.com/export/${classSlug}.json`),
         requestJson(`${RU_DATA_BASE}/${classSlug}.json`)
       ]);
 
