@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "wow_classic_beta",
-  "build": "1.60.1.69977",
-  "generatedAt": "2026-09-24T07:21:06.396Z",
+  "build": "1.60.1.70009",
+  "generatedAt": "2026-09-25T08:23:52.360Z",
   "source": "Wago DB2 / WoW Forever beta client data",
   "class": {
     "id": "druid",
@@ -168,21 +168,21 @@
               "rank": 1,
               "description": {
                 "enUS": "Reduces the Mana cost of your damaging spells by 8%.",
-                "ruRU": "Reduces the Mana cost of your damaging spells by 8%."
+                "ruRU": "Снижает затраты маны на наносящие урон заклинания на 8%."
               }
             },
             {
               "rank": 2,
               "description": {
                 "enUS": "Reduces the Mana cost of your damaging spells by 17%.",
-                "ruRU": "Reduces the Mana cost of your damaging spells by 17%."
+                "ruRU": "Снижает затраты маны на наносящие урон заклинания на 17%."
               }
             },
             {
               "rank": 3,
               "description": {
                 "enUS": "Reduces the Mana cost of your damaging spells by 25%.",
-                "ruRU": "Reduces the Mana cost of your damaging spells by 25%."
+                "ruRU": "Снижает затраты маны на наносящие урон заклинания на 25%."
               }
             }
           ],
@@ -716,7 +716,7 @@
               "rank": 1,
               "description": {
                 "enUS": "Transforms the Druid into Moonkin Form. While in this form, the armor contribution from items is increased by 360%, Omen of Clarity gains 100% increased chance to trigger, and all party members within 45 yards have their critical strike chance increased by 3%, exclusive with Leader of the Pack. The Moonkin cannot cast healing spells while shapeshifted. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
-                "ruRU": "Transforms the Druid into Moonkin Form. While in this form, the armor contribution from items is increased by 360%, Omen of Clarity gains 100% increased chance to trigger, and all party members within 45 yards have their critical strike chance increased by 3%, exclusive with Leader of the Pack. The Moonkin cannot cast healing spells while shapeshifted. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
+                "ruRU": "Вы принимаете облик лунного совуха. В этом облике бонус к броне от снаряжения увеличивается на 360%, вероятность срабатывания \"Знамения ясности\" повышается на 100%, а вероятность критического удара участников группы в радиусе 45 м повышается на 3%. Не суммируется с эффектом \"Вожак стаи\". В облике лунного совуха нельзя применять исцеляющие заклинания. Когда вы меняете облик, вы освобождаетесь от эффектов превращения и затруднения передвижения."
               }
             }
           ],
@@ -755,36 +755,36 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 1 Rage or Energy.",
-                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 1 ед."
+                "enUS": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 1 Rage or Energy.",
+                "ruRU": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 1 Rage or Energy."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 2 Rage or Energy.",
-                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 2 ед."
+                "enUS": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 2 Rage or Energy.",
+                "ruRU": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 2 Rage or Energy."
               }
             },
             {
               "rank": 3,
               "description": {
-                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 3 Rage or Energy.",
-                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 3 ед."
+                "enUS": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 3 Rage or Energy.",
+                "ruRU": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 3 Rage or Energy."
               }
             },
             {
               "rank": 4,
               "description": {
-                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 4 Rage or Energy.",
-                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 4 ед."
+                "enUS": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 4 Rage or Energy.",
+                "ruRU": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 4 Rage or Energy."
               }
             },
             {
               "rank": 5,
               "description": {
-                "enUS": "Reduces the cost of your Maul, Mangle, Swipe, Claw, and Rake abilities by 5 Rage or Energy.",
-                "ruRU": "Снижает затраты ярости или энергии на применение способностей \"Трепка\", \"Увечье\", \"Размах\", \"Когти\" и \"Глубокая рана\" на 5 ед."
+                "enUS": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 5 Rage or Energy.",
+                "ruRU": "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 5 Rage or Energy."
               }
             }
           ],
@@ -1162,16 +1162,16 @@
           "nodeId": 104949,
           "spellId": 407995,
           "definitionId": 134410,
-          "key": "mangle",
-          "iconFileDataId": 132135,
-          "iconName": "ability_druid_mangle2",
+          "key": "primal-bite",
+          "iconFileDataId": 132278,
+          "iconName": "ability_racial_cannibalize",
           "iconSource": "spell-misc",
           "row": 3,
           "column": 1,
           "maxRanks": 1,
           "name": {
-            "enUS": "Mangle",
-            "ruRU": "Увечье"
+            "enUS": "Primal Bite",
+            "ruRU": "Primal Bite"
           },
           "localization": {
             "ruRUNameFallback": false,
@@ -1181,8 +1181,8 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Mangle the target for 100% normal damage plus 26.",
-                "ruRU": "Увечит цель, нанося 100% обычного урона и еще 26 ед."
+                "enUS": "Bite the target for 100% normal damage plus 26.",
+                "ruRU": "Bite the target for 100% normal damage plus 26."
               }
             }
           ],
@@ -1238,16 +1238,16 @@
           "nodeId": 104947,
           "spellId": 16958,
           "definitionId": 134408,
-          "key": "primal-fury",
-          "iconFileDataId": 132278,
-          "iconName": "ability_racial_cannibalize",
+          "key": "blood-frenzy",
+          "iconFileDataId": 132152,
+          "iconName": "ability_ghoulfrenzy",
           "iconSource": "spell-misc",
           "row": 3,
           "column": 3,
           "maxRanks": 2,
           "name": {
-            "enUS": "Primal Fury",
-            "ruRU": "Изначальное неистовство"
+            "enUS": "Blood Frenzy",
+            "ruRU": "Blood Frenzy"
           },
           "localization": {
             "ruRUNameFallback": false,
@@ -1525,8 +1525,8 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "$?a5487|a9634|a3025[|CFFFFFFFFReuires Cat Form, Bear Form, Dire Bear Form][|CFFFF2020Requires Cat Form, Bear Form, Dire Bear Form] Causes your Mangle ability to strike up to 3 targets, removes its cooldown, and increases the critical strike chance of your Combo Point-generating abilities by 100%. Clears and grants immunity to Fear effects for the duration. Lasts 15 sec.",
-                "ruRU": "$?a5487|a9634|a3025[|CFFFFFFFFТребуется облик кошки, медведя или лютого медведя][|CFFFF2020Требуется облик кошки, медведя или лютого медведя] В состоянии берсерка \"Увечье\" поражает до 3 противников, не требует времени на восстановления и повышает вероятность критического удара способностей, продлевающих серию приемов, на 100%. \"Берсерк\" снимает эффекты страха и дает невосприимчивость к ним. Время действия – 15 сек."
+                "enUS": "$?a5487|a9634|a3025[|CFFFFFFFFReuires Cat Form, Bear Form, Dire Bear Form][|CFFFF2020Requires Cat Form, Bear Form, Dire Bear Form] Causes your Primal Bite ability to strike up to 3 targets, removes its cooldown, and increases the critical strike chance of your Combo Point-generating abilities by 100%. Clears and grants immunity to Fear effects for the duration. Lasts 15 sec.",
+                "ruRU": "$?a5487|a9634|a3025[|CFFFFFFFFReuires Cat Form, Bear Form, Dire Bear Form][|CFFFF2020Requires Cat Form, Bear Form, Dire Bear Form] Causes your Primal Bite ability to strike up to 3 targets, removes its cooldown, and increases the critical strike chance of your Combo Point-generating abilities by 100%. Clears and grants immunity to Fear effects for the duration. Lasts 15 сек."
               }
             }
           ],

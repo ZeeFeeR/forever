@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "wow_classic_beta",
-  "build": "1.60.1.69977",
-  "generatedAt": "2026-09-24T07:21:01.662Z",
+  "build": "1.60.1.70009",
+  "generatedAt": "2026-09-25T08:23:47.444Z",
   "source": "Wago DB2 / WoW Forever beta client data",
   "class": {
     "id": "paladin",
@@ -28,43 +28,6 @@
         "ruRU": "Свет"
       },
       "talents": [
-        {
-          "nodeId": 105328,
-          "spellId": 1310902,
-          "definitionId": 134823,
-          "key": "improved-holy-strike",
-          "iconFileDataId": 626003,
-          "iconName": "classicon_paladin",
-          "iconSource": "spell-misc",
-          "row": 0,
-          "column": 0,
-          "maxRanks": 2,
-          "name": {
-            "enUS": "Improved Holy Strike",
-            "ruRU": "Улучшенный священный удар"
-          },
-          "localization": {
-            "ruRUNameFallback": false,
-            "ruRUDescriptionFallback": false
-          },
-          "ranks": [
-            {
-              "rank": 1,
-              "description": {
-                "enUS": "Reduces the cooldown of your Holy Strike ability by 1 sec.",
-                "ruRU": "Сокращает время восстановления \"Священного удара\" на 1 сек."
-              }
-            },
-            {
-              "rank": 2,
-              "description": {
-                "enUS": "Reduces the cooldown of your Holy Strike ability by 2 sec.",
-                "ruRU": "Сокращает время восстановления \"Священного удара\" на 2 сек."
-              }
-            }
-          ],
-          "prerequisiteNodeIds": []
-        },
         {
           "nodeId": 105639,
           "spellId": 20262,
@@ -717,36 +680,36 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Increases the critical strike chance of your Holy Shock spell by 3%, and all other spells by 1%.",
-                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 3%, а других ваших заклинаний – на 1%."
+                "enUS": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 3%, and all other spells by 1%.",
+                "ruRU": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 3%, and all other spells by 1%."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Increases the critical strike chance of your Holy Shock spell by 6%, and all other spells by 2%.",
-                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 6%, а других ваших заклинаний – на 2%."
+                "enUS": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 6%, and all other spells by 2%.",
+                "ruRU": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 6%, and all other spells by 2%."
               }
             },
             {
               "rank": 3,
               "description": {
-                "enUS": "Increases the critical strike chance of your Holy Shock spell by 9%, and all other spells by 3%.",
-                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 9%, а других ваших заклинаний – на 3%."
+                "enUS": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 9%, and all other spells by 3%.",
+                "ruRU": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 9%, and all other spells by 3%."
               }
             },
             {
               "rank": 4,
               "description": {
-                "enUS": "Increases the critical strike chance of your Holy Shock spell by 12%, and all other spells by 4%.",
-                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 12%, а других ваших заклинаний – на 4%."
+                "enUS": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 12%, and all other spells by 4%.",
+                "ruRU": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 12%, and all other spells by 4%."
               }
             },
             {
               "rank": 5,
               "description": {
-                "enUS": "Increases the critical strike chance of your Holy Shock spell by 15%, and all other spells by 5%.",
-                "ruRU": "Повышает вероятность критического эффекта \"Шока небес\" на 15%, а других ваших заклинаний – на 5%."
+                "enUS": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 15%, and all other spells by 5%.",
+                "ruRU": "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 15%, and all other spells by 5%."
               }
             }
           ],
@@ -775,8 +738,8 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Applies Light's Vigil to the target for 30 sec. Your next Holy Shock cast on them triggers no cooldown and causes friendly targets to heal their party for 315-333, or enemy targets to suffer 175-189 Holy damage and refund 75% of Light's Vigil's Mana cost. You may only have 1 Light's Vigil active per Paladin, per party.",
-                "ruRU": "Применяет к цели \"Дозор Света\" на 30 сек. Следующий \"Шок небес\", который вы примените к этой цели, не потребует времени на восстановление. Если цель – союзник, то \"Шок небес\" восстановит всем участникам ее группы 315-333 ед. здоровья. Если цель - противник, то \"Шок небес\" нанесет ему 175-189 ед. урона от светлой магии, а вы восполните 75% затрат маны на \"Дозор Света\". Каждый паладин в каждой группе может применить не больше 1 эффекта \"Дозор Света\" единовременно."
+                "enUS": "Applies Light's Vigil to the target for 30 sec. Your next Holy Shock cast on them triggers no cooldown and causes enemy targets to suffer 175-189 Holy damage and refund 75% of Light's Vigil's Mana cost, or allied targets to heal their party for 315-333. The Paladin may only have one Light's Vigil active per party.",
+                "ruRU": "Applies Light's Vigil to the target for 30 сек. Your next Holy Shock cast on them triggers no cooldown and causes enemy targets to suffer 175-189 Holy damage and refund 75% of Light's Vigil's Mana cost, or allied targets to heal their party for 315-333. The Paladin may only have one Light's Vigil active per party."
               }
             }
           ],
@@ -1977,45 +1940,8 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Increases the damage of your Holy Strike ability by 10% and causes it to refresh all Judgement effects on the target.",
-                "ruRU": "Увеличивает наносимый \"Священным ударом\" урон на 10% и обновляет время действия всех эффектов \"Правосудия\" на цели."
-              }
-            }
-          ],
-          "prerequisiteNodeIds": []
-        },
-        {
-          "nodeId": 110883,
-          "spellId": 1311083,
-          "definitionId": 142635,
-          "key": "crusade",
-          "iconFileDataId": 135889,
-          "iconName": "spell_holy_crusade",
-          "iconSource": "spell-misc",
-          "row": 3,
-          "column": 3,
-          "maxRanks": 2,
-          "name": {
-            "enUS": "Crusade",
-            "ruRU": "Священная война"
-          },
-          "localization": {
-            "ruRUNameFallback": false,
-            "ruRUDescriptionFallback": false
-          },
-          "ranks": [
-            {
-              "rank": 1,
-              "description": {
-                "enUS": "Increases all damage dealt by 1%. Increased by an additional 1% against Demon and Undead targets.",
-                "ruRU": "Увеличивает наносимый урон на 1%. Дополнительно увеличивает урон, наносимый демонам и нежити, на 1%."
-              }
-            },
-            {
-              "rank": 2,
-              "description": {
-                "enUS": "Increases all damage dealt by 2%. Increased by an additional 2% against Demon and Undead targets.",
-                "ruRU": "Увеличивает наносимый урон на 2%. Дополнительно увеличивает урон, наносимый демонам и нежити, на 2%."
+                "enUS": "Increases the damage of your Holy Strike ability by 20% and causes it to refresh all Judgement effects on the target.",
+                "ruRU": "Увеличивает наносимый \"Священным ударом\" урон на 20% и обновляет время действия всех эффектов \"Правосудия\" на цели."
               }
             }
           ],
@@ -2044,22 +1970,22 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Increases the damage you deal with two-handed melee weapons by 3%.",
-                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 3%."
+                "enUS": "Increases the damage you deal with two-handed melee weapons by 2%.",
+                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 2%."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Increases the damage you deal with two-handed melee weapons by 6%.",
-                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 6%."
+                "enUS": "Increases the damage you deal with two-handed melee weapons by 4%.",
+                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 4%."
               }
             },
             {
               "rank": 3,
               "description": {
-                "enUS": "Increases the damage you deal with two-handed melee weapons by 9%.",
-                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 9%."
+                "enUS": "Increases the damage you deal with two-handed melee weapons by 6%.",
+                "ruRU": "Увеличение урона от вашего двуручного оружия ближнего боя на 6%."
               }
             }
           ],
@@ -2088,22 +2014,22 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Increases your Physical and Holy damage dealt by 1% for 30 sec after landing a critical strike. Stacks up to 5 times.",
-                "ruRU": "Когда вы совершаете критический удар, наносимый вами физический урон и урон от светлой магии увеличиваются на 1% на 30 сек. Эффект суммируется до 5 раз."
+                "enUS": "Increases your Physical and Holy damage dealt by 1% for 30 sec after landing a non-periodic critical strike. Stacks up to 3 times.",
+                "ruRU": "Increases your Physical and Holy damage dealt by 1% for 30 сек after landing a non-periodic critical strike. Stacks up to 3 times."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Increases your Physical and Holy damage dealt by 2% for 30 sec after landing a critical strike. Stacks up to 5 times.",
-                "ruRU": "Когда вы совершаете критический удар, наносимый вами физический урон и урон от светлой магии увеличиваются на 2% на 30 сек. Эффект суммируется до 5 раз."
+                "enUS": "Increases your Physical and Holy damage dealt by 2% for 30 sec after landing a non-periodic critical strike. Stacks up to 3 times.",
+                "ruRU": "Increases your Physical and Holy damage dealt by 2% for 30 сек after landing a non-periodic critical strike. Stacks up to 3 times."
               }
             },
             {
               "rank": 3,
               "description": {
-                "enUS": "Increases your Physical and Holy damage dealt by 3% for 30 sec after landing a critical strike. Stacks up to 5 times.",
-                "ruRU": "Когда вы совершаете критический удар, наносимый вами физический урон и урон от светлой магии увеличиваются на 3% на 30 сек. Эффект суммируется до 5 раз."
+                "enUS": "Increases your Physical and Holy damage dealt by 3% for 30 sec after landing a non-periodic critical strike. Stacks up to 3 times.",
+                "ruRU": "Increases your Physical and Holy damage dealt by 3% for 30 сек after landing a non-periodic critical strike. Stacks up to 3 times."
               }
             }
           ],
@@ -2245,8 +2171,8 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "When you replace your Seal of Command, Seal of Righteousness, Seal of Fury, or Seal of Justice with a different Seal, gain an Echo. Your next melee attack applies the replaced Seal's effects, consuming the Echo.",
-                "ruRU": "Когда вы заменяете \"Печать повиновения\", \"Печать праведности\", \"Печать ярости\" или \"Печать справедливости\" другой печатью, то получаете отголосок. Следующая атака ближнего боя применяет эффект замененной печати и поглощает отголосок."
+                "enUS": "Reduces the Mana cost of your Seal spells by 20%, and when you replace your Seal of Command, Seal of Righteousness, Seal of Fury, or Seal of Justice with a different Seal, gain an Echo of that Seal. Your next melee attack applies the replaced Seal's effects, consuming the Echo.",
+                "ruRU": "Reduces the Mana cost of your Seal spells by 20%, and when you replace your Seal of Command, Seal of Righteousness, Seal of Fury, or Seal of Justice with a different Seal, gain an Echo of that Seal. Your next melee attack applies the replaced Seal's effects, consuming the Echo."
               }
             }
           ],

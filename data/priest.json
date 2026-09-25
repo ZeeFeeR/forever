@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "wow_classic_beta",
-  "build": "1.60.1.69977",
-  "generatedAt": "2026-09-24T07:20:52.261Z",
+  "build": "1.60.1.70009",
+  "generatedAt": "2026-09-25T08:23:37.304Z",
   "source": "Wago DB2 / WoW Forever beta client data",
   "class": {
     "id": "priest",
@@ -2178,15 +2178,15 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Reduces the mana cost of your Devouring Plague by 25%. Targets that die while Devouring Plague it is active spreads it, jumping to a nearby enemy within 5 yards for the remaining duration.",
-                "ruRU": "Снижает затраты маны на \"Всепожирающую чуму\" на 25%. Если цель погибает под действием \"Всепожирающей чумы\", болезнь распространяется, переходя к ближайшему противнику в радиусе 5 м на оставшееся время действия."
+                "enUS": "Reduces the mana cost of your Devouring Plague by 25%. Targets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 5 yards for the remaining duration.",
+                "ruRU": "Reduces the mana cost of your Devouring Plague by 25%. Targets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 5 yards for the remaining duration."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Reduces the mana cost of your Devouring Plague by 50%. Targets that die while Devouring Plague it is active spreads it, jumping to a nearby enemy within 10 yards for the remaining duration.",
-                "ruRU": "Снижает затраты маны на \"Всепожирающую чуму\" на 50%. Если цель погибает под действием \"Всепожирающей чумы\", болезнь распространяется, переходя к ближайшему противнику в радиусе 10 м на оставшееся время действия."
+                "enUS": "Reduces the mana cost of your Devouring Plague by 50%. Targets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 10 yards for the remaining duration.",
+                "ruRU": "Reduces the mana cost of your Devouring Plague by 50%. Targets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 10 yards for the remaining duration."
               }
             }
           ],

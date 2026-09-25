@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "wow_classic_beta",
-  "build": "1.60.1.69977",
-  "generatedAt": "2026-09-24T07:21:04.040Z",
+  "build": "1.60.1.70009",
+  "generatedAt": "2026-09-25T08:23:50.000Z",
   "source": "Wago DB2 / WoW Forever beta client data",
   "class": {
     "id": "shaman",
@@ -365,19 +365,19 @@
           "prerequisiteNodeIds": []
         },
         {
-          "nodeId": 104766,
-          "spellId": 16089,
-          "definitionId": 134227,
-          "key": "elemental-fury",
-          "iconFileDataId": 135830,
-          "iconName": "spell_fire_volcano",
+          "nodeId": 104765,
+          "spellId": 16578,
+          "definitionId": 134226,
+          "key": "elemental-alacrity",
+          "iconFileDataId": 135990,
+          "iconName": "spell_lightning_lightningbolt01",
           "iconSource": "spell-misc",
           "row": 2,
           "column": 2,
-          "maxRanks": 5,
+          "maxRanks": 3,
           "name": {
-            "enUS": "Elemental Fury",
-            "ruRU": "Неистовство стихий"
+            "enUS": "Elemental Alacrity",
+            "ruRU": "Стихийная стремительность"
           },
           "localization": {
             "ruRUNameFallback": false,
@@ -387,36 +387,22 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 20%.",
-                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 20%."
+                "enUS": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.17 sec.",
+                "ruRU": "Сокращает время применения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 0.17 сек."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 40%.",
-                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 40%."
+                "enUS": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.33 sec.",
+                "ruRU": "Сокращает время применения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 0.33 сек."
               }
             },
             {
               "rank": 3,
               "description": {
-                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 60%.",
-                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 60%."
-              }
-            },
-            {
-              "rank": 4,
-              "description": {
-                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 80%.",
-                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 80%."
-              }
-            },
-            {
-              "rank": 5,
-              "description": {
-                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 100%.",
-                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 100%."
+                "enUS": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.50 sec.",
+                "ruRU": "Сокращает время применения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 0.50 сек."
               }
             }
           ],
@@ -532,7 +518,7 @@
             }
           ],
           "prerequisiteNodeIds": [
-            104766
+            104765
           ]
         },
         {
@@ -647,19 +633,19 @@
           "prerequisiteNodeIds": []
         },
         {
-          "nodeId": 104765,
-          "spellId": 16578,
-          "definitionId": 134226,
-          "key": "elemental-alacrity",
-          "iconFileDataId": 135990,
-          "iconName": "spell_lightning_lightningbolt01",
+          "nodeId": 104766,
+          "spellId": 16089,
+          "definitionId": 134227,
+          "key": "elemental-fury",
+          "iconFileDataId": 135830,
+          "iconName": "spell_fire_volcano",
           "iconSource": "spell-misc",
           "row": 5,
           "column": 2,
-          "maxRanks": 3,
+          "maxRanks": 5,
           "name": {
-            "enUS": "Elemental Alacrity",
-            "ruRU": "Стихийная стремительность"
+            "enUS": "Elemental Fury",
+            "ruRU": "Неистовство стихий"
           },
           "localization": {
             "ruRUNameFallback": false,
@@ -669,22 +655,36 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.17 sec.",
-                "ruRU": "Сокращает время применения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 0.17 сек."
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 20%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 20%."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.33 sec.",
-                "ruRU": "Сокращает время применения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 0.33 сек."
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 40%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 40%."
               }
             },
             {
               "rank": 3,
               "description": {
-                "enUS": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.50 sec.",
-                "ruRU": "Сокращает время применения заклинаний \"Молния\", \"Цепная молния\" и \"Выброс лавы\" на 0.50 сек."
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 60%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 60%."
+              }
+            },
+            {
+              "rank": 4,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 80%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 80%."
+              }
+            },
+            {
+              "rank": 5,
+              "description": {
+                "enUS": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 100%.",
+                "ruRU": "Увеличивает критический урон от опаляющего тотема и тотема магмы, а также заклинаний огня, магии льда и сил природы на 100%."
               }
             }
           ],
@@ -715,8 +715,8 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "You hurl molten lava at the target, dealing 113 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage.",
-                "ruRU": "Вы бросаете в противника раскаленную лаву, нанося 113 ед. урона от огня. Если цель находится под действием эффекта \"Огненный шок\", \"Выброс лавы\" наносит на 20% больше урона."
+                "enUS": "You hurl molten lava at the target, dealing 164 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage.",
+                "ruRU": "Вы бросаете в противника раскаленную лаву, нанося 164 ед. урона от огня. Если цель находится под действием эффекта \"Огненный шок\", \"Выброс лавы\" наносит на 20% больше урона."
               }
             }
           ],
@@ -1502,8 +1502,8 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Increases your melee attack speed and spell casting speed by 30% for 25 sec.",
-                "ruRU": "Повышает скорость атаки в ближнем бою и скорость применения заклинаний на 30% на 25 сек."
+                "enUS": "Increases your attack speed by 30% for 25 sec.",
+                "ruRU": "Increases your attack speed by 30% for 25 сек."
               }
             }
           ],

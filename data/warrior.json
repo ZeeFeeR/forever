@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "wow_classic_beta",
-  "build": "1.60.1.69977",
-  "generatedAt": "2026-09-24T07:20:54.575Z",
+  "build": "1.60.1.70009",
+  "generatedAt": "2026-09-25T08:23:39.910Z",
   "source": "Wago DB2 / WoW Forever beta client data",
   "class": {
     "id": "warrior",
@@ -518,36 +518,36 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Your melee attacks against targets afflicted by your Rend have a 2% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
-                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 2% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+                "enUS": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 4% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
+                "ruRU": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 4% chance to allow the use of your Overpower ability on the target. Lasts 6 сек."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Your melee attacks against targets afflicted by your Rend have a 4% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
-                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 4% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+                "enUS": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 8% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
+                "ruRU": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 8% chance to allow the use of your Overpower ability on the target. Lasts 6 сек."
               }
             },
             {
               "rank": 3,
               "description": {
-                "enUS": "Your melee attacks against targets afflicted by your Rend have a 6% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
-                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 6% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+                "enUS": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 12% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
+                "ruRU": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 12% chance to allow the use of your Overpower ability on the target. Lasts 6 сек."
               }
             },
             {
               "rank": 4,
               "description": {
-                "enUS": "Your melee attacks against targets afflicted by your Rend have a 8% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
-                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 8% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+                "enUS": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 16% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
+                "ruRU": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 16% chance to allow the use of your Overpower ability on the target. Lasts 6 сек."
               }
             },
             {
               "rank": 5,
               "description": {
-                "enUS": "Your melee attacks against targets afflicted by your Rend have a 10% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec.",
-                "ruRU": "Когда вы атакуете в ближнем бою цель, на которую действует ваше \"Кровопускание\", вы с вероятностью 10% получаете возможность 1 раз применить \"Превосходство\" к текущей цели. Время действия – 6 сек."
+                "enUS": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 20% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
+                "ruRU": "Your Main Hand melee attacks against enemies afflicted by your Rend have a 20% chance to allow the use of your Overpower ability on the target. Lasts 6 сек."
               }
             }
           ],
@@ -664,15 +664,15 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Reduces the global cooldown and cast time of your Slam ability by 0.25 sec. In addition, Slam no longer interrupts your melee swing time.",
-                "ruRU": "Сокращает общее время восстановления и время применения \"Мощного удара\" на 0.25 сек. Кроме того, \"Мощный удар\" больше не прерывает другие атаки ближнего боя."
+                "enUS": "Reduces the global cooldown and cast time of your Slam ability by 0.25 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 1.5 sec.",
+                "ruRU": "Reduces the global cooldown and cast time of your Slam ability by 0.25 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 1.5 sec."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Reduces the global cooldown and cast time of your Slam ability by 0.50 sec. In addition, Slam no longer interrupts your melee swing time.",
-                "ruRU": "Сокращает общее время восстановления и время применения \"Мощного удара\" на 0.50 сек. Кроме того, \"Мощный удар\" больше не прерывает другие атаки ближнего боя."
+                "enUS": "Reduces the global cooldown and cast time of your Slam ability by 0.50 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 3.0 sec.",
+                "ruRU": "Reduces the global cooldown and cast time of your Slam ability by 0.50 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 3.0 sec."
               }
             }
           ],

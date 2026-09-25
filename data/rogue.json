@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "wow_classic_beta",
-  "build": "1.60.1.69977",
-  "generatedAt": "2026-09-24T07:20:56.946Z",
+  "build": "1.60.1.70009",
+  "generatedAt": "2026-09-25T08:23:42.502Z",
   "source": "Wago DB2 / WoW Forever beta client data",
   "class": {
     "id": "rogue",

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "wow_classic_beta",
-  "build": "1.60.1.69977",
-  "generatedAt": "2026-09-24T07:20:47.424Z",
+  "build": "1.60.1.70009",
+  "generatedAt": "2026-09-25T08:23:32.252Z",
   "source": "Wago DB2 / WoW Forever beta client data",
   "class": {
     "id": "warlock",
@@ -289,7 +289,7 @@
           "maxRanks": 3,
           "name": {
             "enUS": "Improved Drains",
-            "ruRU": "Improved Drains"
+            "ruRU": "Улучшенное похищение"
           },
           "localization": {
             "ruRUNameFallback": false,
@@ -300,21 +300,21 @@
               "rank": 1,
               "description": {
                 "enUS": "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 7%.",
-                "ruRU": "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 7%."
+                "ruRU": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Судороги\", увеличивая урон или количество похищаемого здоровья на 7%."
               }
             },
             {
               "rank": 2,
               "description": {
                 "enUS": "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 13%.",
-                "ruRU": "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 13%."
+                "ruRU": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Судороги\", увеличивая урон или количество похищаемого здоровья на 13%."
               }
             },
             {
               "rank": 3,
               "description": {
                 "enUS": "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 20%.",
-                "ruRU": "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 20%."
+                "ruRU": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Судороги\", увеличивая урон или количество похищаемого здоровья на 20%."
               }
             }
           ],
@@ -645,7 +645,7 @@
           "maxRanks": 3,
           "name": {
             "enUS": "Soul Siphon",
-            "ruRU": "Soul Siphon"
+            "ruRU": "Вытягивание души"
           },
           "localization": {
             "ruRUNameFallback": false,
@@ -656,21 +656,21 @@
               "rank": 1,
               "description": {
                 "enUS": "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 4% per each of your other Affliction effects active on the target, up to a maximum increase of 12%.",
-                "ruRU": "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 4% per each of your other Affliction effects active on the target, up to a maximum increase of 12%."
+                "ruRU": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Судороги\", увеличивая урон или количество похищаемого здоровья на 4% за каждый иной эффект категории \"Колдовство\" на цели. Максимальный бонус – 12%."
               }
             },
             {
               "rank": 2,
               "description": {
                 "enUS": "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 8% per each of your other Affliction effects active on the target, up to a maximum increase of 24%.",
-                "ruRU": "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 8% per each of your other Affliction effects active on the target, up to a maximum increase of 24%."
+                "ruRU": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Судороги\", увеличивая урон или количество похищаемого здоровья на 8% за каждый иной эффект категории \"Колдовство\" на цели. Максимальный бонус – 24%."
               }
             },
             {
               "rank": 3,
               "description": {
                 "enUS": "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 12% per each of your other Affliction effects active on the target, up to a maximum increase of 36%.",
-                "ruRU": "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 12% per each of your other Affliction effects active on the target, up to a maximum increase of 36%."
+                "ruRU": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Судороги\", увеличивая урон или количество похищаемого здоровья на 12% за каждый иной эффект категории \"Колдовство\" на цели. Максимальный бонус – 36%."
               }
             }
           ],

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "wow_classic_beta",
-  "build": "1.60.1.69977",
-  "generatedAt": "2026-09-24T07:20:49.905Z",
+  "build": "1.60.1.70009",
+  "generatedAt": "2026-09-25T08:23:34.828Z",
   "source": "Wago DB2 / WoW Forever beta client data",
   "class": {
     "id": "mage",
@@ -723,21 +723,21 @@
               "rank": 1,
               "description": {
                 "enUS": "Increases the damage done by your spells by 1% and your critical strike chance by 1%.",
-                "ruRU": "Increases the damage done by your spells by 1% and your critical strike chance by 1%."
+                "ruRU": "Увеличивает урон от заклинаний на 1% и повышает вероятность критического удара на 1%."
               }
             },
             {
               "rank": 2,
               "description": {
                 "enUS": "Increases the damage done by your spells by 2% and your critical strike chance by 2%.",
-                "ruRU": "Increases the damage done by your spells by 2% and your critical strike chance by 2%."
+                "ruRU": "Увеличивает урон от заклинаний на 2% и повышает вероятность критического удара на 2%."
               }
             },
             {
               "rank": 3,
               "description": {
                 "enUS": "Increases the damage done by your spells by 3% and your critical strike chance by 3%.",
-                "ruRU": "Increases the damage done by your spells by 3% and your critical strike chance by 3%."
+                "ruRU": "Увеличивает урон от заклинаний на 3% и повышает вероятность критического удара на 3%."
               }
             }
           ],
@@ -808,15 +808,15 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Reduces the cooldown of your Fire Blast spell by 1 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 20 sec by 25%.",
-                "ruRU": "Сокращает время восстановления \"Огненного взрыва\" на 1 сек. Когда вы убиваете цель, за которую получаете опыт или честь, вероятность критического удара следующего \"Огненного взрыва\" повышается на 25% на 20 сек."
+                "enUS": "Reduces the cooldown of your Fire Blast spell by 1 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 30 sec by 25%.",
+                "ruRU": "Сокращает время восстановления \"Огненного взрыва\" на 1 сек. Когда вы убиваете цель, за которую получаете опыт или честь, вероятность критического удара следующего \"Огненного взрыва\" повышается на 25% на 30 сек."
               }
             },
             {
               "rank": 2,
               "description": {
-                "enUS": "Reduces the cooldown of your Fire Blast spell by 2 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 20 sec by 50%.",
-                "ruRU": "Сокращает время восстановления \"Огненного взрыва\" на 2 сек. Когда вы убиваете цель, за которую получаете опыт или честь, вероятность критического удара следующего \"Огненного взрыва\" повышается на 50% на 20 сек."
+                "enUS": "Reduces the cooldown of your Fire Blast spell by 2 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 30 sec by 50%.",
+                "ruRU": "Сокращает время восстановления \"Огненного взрыва\" на 2 сек. Когда вы убиваете цель, за которую получаете опыт или честь, вероятность критического удара следующего \"Огненного взрыва\" повышается на 50% на 30 сек."
               }
             }
           ],
@@ -1285,8 +1285,8 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "Your non-periodic critical strikes with Fireball, Frostfire Bolt, Fire Blast, and Scorch grant Hot Streak for 15 sec. Hot Streak reduces the cast time of Pyroblast by 25%, stacking up to 3 times.",
-                "ruRU": "Когда \"Огненный шар\", \"Стрела ледяного огня\", \"Огненный взрыв\" и \"Ожог\" наносят прямой критический урон, вы получаете эффект \"Полоса везения\" на 15 сек. \"Полоса везения\" сокращает время применения \"Огненной глыбы\" на 25% и суммируется до 3 раз."
+                "enUS": "Your non-periodic critical strikes with Fireball, Frostfire Bolt, Fire Blast, and Scorch grant Hot Streak for 20 sec. Hot Streak reduces the cast time of Pyroblast by 25%, stacking up to 3 times.",
+                "ruRU": "Когда \"Огненный шар\", \"Стрела ледяного огня\", \"Огненный взрыв\" и \"Ожог\" наносят прямой критический урон, вы получаете эффект \"Полоса везения\" на 20 сек. \"Полоса везения\" сокращает время применения \"Огненной глыбы\" на 25% и суммируется до 3 раз."
               }
             }
           ],

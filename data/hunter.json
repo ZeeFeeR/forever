@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "wow_classic_beta",
-  "build": "1.60.1.69977",
-  "generatedAt": "2026-09-24T07:20:59.311Z",
+  "build": "1.60.1.70009",
+  "generatedAt": "2026-09-25T08:23:45.054Z",
   "source": "Wago DB2 / WoW Forever beta client data",
   "class": {
     "id": "hunter",
@@ -2211,8 +2211,8 @@
             {
               "rank": 1,
               "description": {
-                "enUS": "A powerful kick that deals 100% melee weapon damage.",
-                "ruRU": "Мощный удар ногой, наносящий 100% урона от оружия ближнего боя."
+                "enUS": "A powerful kick that deals 100% melee weapon damage and increases movement speed by 30% for 3 sec.",
+                "ruRU": "A powerful kick that deals 100% melee weapon damage and increases movement speed by 30% for 3 сек."
               }
             }
           ],
