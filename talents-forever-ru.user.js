@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talents Forever RU (DB2)
 // @namespace    https://github.com/ZeeFeeR/wow-builder
-// @version      0.1.0
+// @version      0.1.1
 // @description  Русская локализация talentsforever.com поверх оригинального сайта на основе ruRU DB2 WoW Forever.
 // @author       ZeeFeeR
 // @match        https://talentsforever.com/*
